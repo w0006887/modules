@@ -23,6 +23,10 @@ What does "revision-controlled" mean? It means a lot of things, including the fo
 * A version can be "forked." This creates multiple versions of the repository so that the changes made to each branch stays independent from each other.
 * Branches of a repository can be "merged", meaning that the changes converge to a single branch.
 
+In addition to providing a web-based method to manage repositories, `GitHub` also offers additional resources. For example, the "Issues" tab of a repository allows others to leave comment. This facilitates a great mechanism for readers/learners to provide feedback. However, "issues" is accessible only to signed in `GitHub` users. Considering `GitHub` is free, this should not deter a reader/learner from signing up and then reporting issues.
+
+If the readership of an OER item is tech-savvy enough, each reader/learner can "fork" the repository, make a suggested change, and then place a "pull request" to update the main branch of the repository where all browsers see. This is a great method for readers and others to contribute and improve the content of a repository.
+
 ## Granularity of a repository
 
 There is hard-and-fast rules. If the granularity is too fine, then the author ends up with many repositories. This can make projects difficult to maintain. On the other hand, if the granularity is too coarse, then it is difficult to another person to make only one change to s small part of the project. 
@@ -32,3 +36,27 @@ At the end of the day, text files are relatively small. If the OER is in book fo
 ## Naming of a repository
 
 In order for others to quickly locate content, it is best not to make the name of a repository too complex. The URL to a single file of a repository contains the author's account name as well as the name of the repository. Therefore, there is no need to duplicate these components in the name of a file in a repository.
+
+# Learn Markdown!
+
+[Markdown](https://www.markdownguide.org) is essentially a simple, text-only, and intuitive mark **up** language. Compared to HTML (hypertext markup language), Markdown is much easier to type, less prone to syntax issues, and far more effective as a language to create text (and beyond!) content.
+
+Markdown has many features that makes it suitable for text-based content in many domains. For example, it can handle equations like $E=mc^2$. It can also be used to generate simple graphs like the following:
+
+```mermaid
+Florchart LR
+id1[Node 1]
+id2[Node 2]
+id1 --> ie2
+```
+
+Markdown can also syntax highlight code blocks:
+
+```c
+int main()
+{
+  return 0;
+}
+```
+
+Because Markdown is a text-only markup language, any text editor can edit content! `GitHub` has a decent in-browser editor. It does not have all the fancy spell-check and grammar check features, however. That being said, it is fairly easy to copy-and-paste text-only content between fancy desktop editors and the web interface.
