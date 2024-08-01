@@ -44,10 +44,10 @@ In order for others to quickly locate content, it is best not to make the name o
 Markdown has many features that makes it suitable for text-based content in many domains. For example, it can handle equations like $E=mc^2$. It can also be used to generate simple graphs like the following:
 
 ```mermaid
-Flowchart LR
+flowchart LR
 id1[Node 1]
 id2[Node 2]
-id1 --> ie2
+id1 --> id2
 ```
 
 Markdown can also syntax highlight code blocks:
