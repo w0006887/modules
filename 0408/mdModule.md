@@ -61,7 +61,9 @@ int main()
 
 Because Markdown is a text-only markup language, any text editor can edit content! `GitHub` has a decent in-browser editor. It does not have all the fancy spell-check and grammar check features, however. That being said, it is fairly easy to copy-and-paste text-only content between fancy desktop editors and the web interface.
 
-You can also easily add "special sections" in the flow of the main text.
+Each section is automatically an anchor that an URL can reference. However, you can also additional <a href="#customsanchor">custom anchor</a> using a little bit of HTML code. The special anchor uses the HTML code `<a href="#customanchor">custom anchor</a>`.
+
+You can also easily add "special visual sections" in the flow of the main text.
 
 ---
 
@@ -88,7 +90,7 @@ You can also easily add "special sections" in the flow of the main text.
 > [!IMPORTANT]
 > Don't pour hot water on yourself!
 
---
+---
 
 # Other fancy but easy features
 
@@ -111,4 +113,3 @@ It is rendered, using GitHub's web interface, as follows:
 </details>
 
 
-Each section is automatically an anchor that an URL can reference. However, you can also additional <a href="#customsanchor">custom anchor</a> using a little bit of HTML code.
