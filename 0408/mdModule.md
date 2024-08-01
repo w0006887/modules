@@ -60,3 +60,9 @@ int main()
 ```
 
 Because Markdown is a text-only markup language, any text editor can edit content! `GitHub` has a decent in-browser editor. It does not have all the fancy spell-check and grammar check features, however. That being said, it is fairly easy to copy-and-paste text-only content between fancy desktop editors and the web interface.
+
+For those who are savvy with HTML, Markdown also accepts *most* of the HTML elements. For example, it is possible to create a box to the right hand side.
+
+<div style="position: static; float: right; boarder: thin solid; width: 40$; padding: 10px 10px 10px 10px">
+This is some content in a box to the right!
+</div>
