@@ -74,7 +74,7 @@ You can also easily add "notes" and "warnings."
 ---
 
 > [!NOTE]
-> This a note.
+> Salt desolves faster in hot water.
 
 ---
 
@@ -83,8 +83,8 @@ You can also easily add "notes" and "warnings."
 
 ---
 
-> [!TIP}
-> This is a tip.
+> [!TIP]
+> Use a microwave oven to quickly heat up water.
 
 ---
 
