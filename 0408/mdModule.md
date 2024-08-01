@@ -64,5 +64,7 @@ Because Markdown is a text-only markup language, any text editor can edit conten
 For those who are savvy with HTML, Markdown also accepts *most* of the HTML elements. For example, it is possible to create a box to the right hand side.
 
 <div style="position: static; float: right; border: thin solid; width: 40%; padding: 10px 10px 10px 10px">
-This is some content in a box to the right!
+
+  This is some content in a box to the right!
+
 </div>
