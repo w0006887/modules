@@ -68,3 +68,19 @@ For those who are savvy with HTML, Markdown also accepts *most* of the HTML elem
   This is some content in a box to the right!
 
 </div>
+
+You can also easily add "notes" and "warnings."
+
+---
+
+**Note**
+
+This a note.
+
+---
+
+**Warning**
+
+This is a warning.
+
+---
