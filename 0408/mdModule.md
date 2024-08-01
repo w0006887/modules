@@ -97,18 +97,18 @@ You can also easily add "special sections" in the flow of the main text.
 You can use the `<detail>` element in HTML. Let's take a look at the following Markdown/HTML code:
 
 ```html
-<detail>
+<details>
   <summary>Energy equation</summary>
   $E=mc^2$
-</detail>
+</details>
 ```
 
 It is rendered, using GitHub's web interface, as follows:
 
-<detail>
+<details>
   <summary>Energy equation</summary>
   $E=mc^2$
-</detail>
+</details>
 
 
 Each section is automatically an anchor that an URL can reference. However, you can also additional <a href="#customsanchor">custom anchor</a> using a little bit of HTML code.
