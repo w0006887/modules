@@ -63,7 +63,7 @@ Because Markdown is a text-only markup language, any text editor can edit conten
 
 Each section is automatically an anchor that an URL can reference. However, you can also additional <a href="#customsanchor">custom anchor</a> using a little bit of HTML code. The special anchor uses the HTML code `<a href="#customanchor">custom anchor</a>`.
 
-\(\begin{align*}x+y \\ &= 2x \\ &= z\end{align*}\)
+$$\begin{align*}x+y \\ &= 2x \\ &= z\end{align*}$$
 
 You can also easily add "special visual sections" in the flow of the main text.
 
