@@ -73,14 +73,14 @@ You can also easily add "notes" and "warnings."
 
 ---
 
-**Note**
-
-This a note.
+> **Note**
+>
+>This a note.
 
 ---
 
-**Warning**
-
-This is a warning.
+> **Warning**
+>
+> This is a warning.
 
 ---
