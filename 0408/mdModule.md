@@ -90,4 +90,25 @@ You can also easily add "special sections" in the flow of the main text.
 
 --
 
+# Other fancy but easy features
+
+## Flash cards
+
+You can use the `<detail>` element in HTML. Let's take a look at the following Markdown/HTML code:
+
+```html
+<detail>
+  <summary>Energy equation</summary>
+  $E=mc^2$
+</detail>
+```
+
+It is rendered, using GitHub's web interface, as follows:
+
+<detail>
+  <summary>Energy equation</summary>
+  $E=mc^2$
+</detail>
+
+
 Each section is automatically an anchor that an URL can reference. However, you can also additional <a href="#customsanchor">custom anchor</a> using a little bit of HTML code.
