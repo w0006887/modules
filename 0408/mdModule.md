@@ -73,12 +73,25 @@ You can also easily add "notes" and "warnings."
 
 ---
 
-> **Note**
+> [!NOTE]
 > This a note.
 
 ---
 
-> **Warning**
+> [!WARNING]
 > This is a warning.
 
 ---
+
+> [!TIP}
+> This is a tip.
+
+---
+
+> [!CAUTION]
+> The water is hot!
+
+---
+
+> [!IMPORTANT]
+> Don't pour hot water on yourself!
