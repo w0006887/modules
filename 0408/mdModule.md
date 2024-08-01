@@ -87,3 +87,7 @@ You can also easily add "special sections" in the flow of the main text.
 
 > [!IMPORTANT]
 > Don't pour hot water on yourself!
+
+--
+
+Each section is automatically an anchor that an URL can reference. However, you can also additional <a href="#customsanchor">custom anchor</a> using a little bit of HTML code.
