@@ -66,11 +66,11 @@ Each section is automatically an anchor that an URL can reference. However, you 
 You can also have multiline derivations:
 
 $$
-\begin{align*}
+\begin{align}
 &x+x+x\\ 
 =& 2x+x\\ 
 =& 3x
-\end{align*}$$
+\end{align}$$
 
 You can also easily add "special visual sections" in the flow of the main text.
 
