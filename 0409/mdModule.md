@@ -17,8 +17,20 @@ Each class has a start date indicated in the schedule. Legally, students should 
 
 When the first session ends (and hence the work is due) depends on the complexity of the activity. For example, a light activity may involve the student filing a form to indicate various information with only some of the fields mandatory. For such lighter activities, a due date of the end of the following Monday allows 3 days for a student to respond.
 
-# A suggested time table at the beginning of the semester
+Day 0 refers to the date when a class session starts according to the schedule. 
 
 |Day | What happens |
 |----|--------------|
-|0   |Send students the first email/notification. Release the first activity that is due at the end of day 3. |
+|-1 (Friday) |Send students a notification to let them know that the class starts in 24 hours. |
+|0  (Saturday) |Send students the first email/notification. Release the first activity that is due at the end of day 2. |
+|2  (Monday) |At the end of day 2 or beginning of day 3, grade the first activity. Drop anyone who did not submit anything without an excuse. |
+
+In order for this time frame to be reasonable, plan an activity that is relatively light, difficult for AI/bots to complete, and yet easy enough to grade. Here are some ideas.
+
+## Syllabus reading
+
+Each student should be reading the syllabus as soon as possible. If the syllabus is available as a multi-page PDF, then it is relatively easy to ask about the page number of specific topics. Or, if the topics are in numbered sections, ask about the section number. To defeat bots, it is best to prepare a bank of questions and randomly choose a few for each student.
+
+Canvas can grade this kind of activity. The only problem with this kind of activity is that any edit to the syllabus may necessitate revisions to the questions. The questions can be less brittle if they ask about quantifies and numbers mentioned in the syllabus.
+
+It may be necessary to set a threshold for "passing" to catch bots that randomly answer questions.
