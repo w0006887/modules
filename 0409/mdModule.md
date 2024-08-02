@@ -34,3 +34,10 @@ Each student should be reading the syllabus as soon as possible. If the syllabus
 Canvas can grade this kind of activity. The only problem with this kind of activity is that any edit to the syllabus may necessitate revisions to the questions. The questions can be less brittle if they ask about quantifies and numbers mentioned in the syllabus.
 
 It may be necessary to set a threshold for "passing" to catch bots that randomly answer questions.
+
+## Discussion board
+
+A typical discussion board activity for fully online classes involves answering the prompt and responding to at least two responses. Unfortunately, bots can now use ChatGPT and other GAI (generative AI) to automate the "participation."
+
+For a smaller class, the instructor can utilize [GPTZero](https://gptzero.me) to automatically detect AI generated text. Note that LRCFT members are automatically AFT members. AFT members can sign up for full access to GPTZero for free. Full access includes batch upload of text to potentially help improve efficiency.
+
