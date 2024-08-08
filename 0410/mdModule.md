@@ -49,4 +49,25 @@ A copy of the syllabus of each class should be submitted to the division office 
 
 Even for in-person classes, the [LRCFT contract](https://www.lrcft.org/what-we-do/contract/) section 11.2.5 specifies that online LMS course shells should be maintained. Please refer to the contract for a full description of the minimum usage of the LMS.
 
-# 
+# Using Canvas
+
+As an LMS, Canvas offer a variety of features. This section explores some of the main configuration options and features.
+
+## Activities
+
+* Quiz: a quiz consists of one or more questions, and each question can be of a variety of types. Depending on question types, grading can be autoatic or manual.
+* Assignment: an assignment has an associated due date and a score. There are options to how work is submitted. Grading is manual.
+* Discussion: a discussion is an activity that may, or may not be, graded. This is a method for the class to communicate in an asychonous way.
+
+# Content
+
+* File: an instructor can upload a file as content.
+* Page: an instructor can utilize the web-based editor of Canvas to create a web page in Canvas. Note that not all HTML features are supported in a Canvas page.
+* External URL: an instructor can create a link (URL) to any resource on the Internet.
+* Announcements: an announcement is a specific message that is broadcasted to all students.
+
+# Organization
+
+Canvas offers to main organization methods. Click "Home" of a course, then click "Choose Home Page." This provides a few options as the landing page of a course. The most common method is to use "Course Modules" as the landing page. 
+
+The organization of course modules is flexible. A module is the only level of containment in a Canvas course. Within a module, activities and contents can be included and ordered. 
