@@ -40,5 +40,13 @@ In a sense, it is a contract between the instructor and students. Let's get into
     * A class session, for the purposes of absences, can be defined as a scheduled activity that has a published due date.
     * At the beginning of a semester, an activity may be a quiz based on the syllabus.
   * It is helpful to identify students who are absent by the first Wednesday of a semester to curb fraudulent enrollment.
-* Assessment and grading: this section outlines the categories of assessments and how the final letter grade is computed. 
-* Topic schedule: this section outlines the topics and when each topic will be introduced.
+* Assessment and grading: this section outlines the categories of assessments and how the final letter grade is computed from the numerical scores.
+* Topic schedule: this section outlines the topics and when each topic will be introduced. A list of suggested topics and their durations is in the course curriculum. Sign in to [the Los Rios Intranet](https://inside.losrios.edu/~intranet/cgi-bin/intra/services.cgi), then select "SOCRATES Curriulum Services", then "Courses", then the discipline, then the individual course.
+
+A copy of the syllabus of each class should be submitted to the division office no later than the first class meeting. For 100% asynchronous online classes, the syllabus should be submitted prior to the first day of the semester session (full semester, 8W1, 8W2, 5W1, etc.). Please follow division-specific instructions to submit ayllabi.
+
+## Canvas shells (one for each section)
+
+Even for in-person classes, the [LRCFT contract](https://www.lrcft.org/what-we-do/contract/) section 11.2.5 specifies that online LMS course shells should be maintained. Please refer to the contract for a full description of the minimum usage of the LMS.
+
+# 
