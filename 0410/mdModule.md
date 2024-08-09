@@ -60,14 +60,14 @@ As an LMS, Canvas offer a variety of features. This section explores some of the
 * Assignment: an assignment has an associated due date and a score. There are options to how work is submitted. Grading is manual.
 * Discussion: a discussion is an activity that may, or may not be, graded. This is a method for the class to communicate in an asychonous way.
 
-# Content
+## Content
 
 * File: an instructor can upload a file as content.
 * Page: an instructor can utilize the web-based editor of Canvas to create a web page in Canvas. Note that not all HTML features are supported in a Canvas page.
 * External URL: an instructor can create a link (URL) to any resource on the Internet.
 * Announcements: an announcement is a specific message that is broadcasted to all students.
 
-# Organization
+## Organization
 
 Canvas offers to main organization methods. Click "Home" of a course, then click "Choose Home Page." This provides a few options as the landing page of a course. The most common method is to use "Course Modules" as the landing page. 
 
