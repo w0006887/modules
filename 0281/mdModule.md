@@ -295,10 +295,10 @@ this is disjunction (or). But it is not! You can see that the output is
 disjunction). As it turns out this logical operator is a seemingly weird
 one called a negated-and, often abbreviated to nand.
 
-If we denote the output as W, then $W=!(X \& \& Y)$ in C/C++ syntax, or
+If we denote the output as W, then `W=!(X && Y)` in C/C++ syntax, or
 $W=\neg(X \wedge Y)$ in math symbols, or $W=\overline{X\cdot Y}$ in
 computer engineering notation, or $W=\overline{XY}$ in abbreviated
-computer engineering notation, or simply W=not(X and Y) using plain
+computer engineering notation, or simply `W=not(X and Y)` using plain
 text.
 
 ## Nand is all we need!
