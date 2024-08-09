@@ -83,4 +83,4 @@ Canvas allows the tracking of (learning) outcomes. Outcomes can be hierarchicall
 
 The top-level outcomes should match the student learning outcomes (SLOs) that are included in the curriculum of a course. Sub-levels can be used to increase the granularity of an SLO.
 
-Each rubric can be associated with an objective. 
+Each rubric can be associated with an objective. In return, an assignment (quiz or assignment) optionally links to a rubric.
