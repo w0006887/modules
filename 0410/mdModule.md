@@ -52,8 +52,6 @@ A copy of the syllabus of each class should be submitted to the division office 
 
 Instructors who teach multiple sections can benefit from a more structured approach to organizing syllabi. Common portions of syllabi can be maintained as their documents and a master template document acts as the template to structure the components. The template can also factor in syllabus sections specific to each section.
 
-
-
 ## Canvas shells (one for each section)
 
 Even for in-person classes, the [LRCFT contract](https://www.lrcft.org/what-we-do/contract/) section 11.2.5 specifies that online LMS course shells should be maintained. Please refer to the contract for a full description of the minimum usage of the LMS.
@@ -87,7 +85,7 @@ The organization of course modules is flexible. A module is the only level of co
 
 Each activity (assignment or quiz) optionally has a mastery path. A mastery path is specified by thresholds in points and the next activity to unlock based on the score.
 
-### Outcomes, Rubrics and Mastery
+### Outcomes and Rubrics
 
 Canvas allows the tracking of (learning) outcomes. Outcomes can be hierarchically organized. This is an optional and complex feature to use in a Canvas shell.
 
