@@ -19,7 +19,7 @@ In the context of a class, a syllabus serves multiple purposes:
 In a sense, it is a contract between the instructor and students. Let's get into some of the required sections of a syllabus:
 
 * Course description: this section includes the course code (such as CISP 310), the course title, the course description, unit count, and course student learning outcomes (SLOs).
-* Section description: a section is an offering of a course. This part includes the modality, meeting days/time, meeting location, start/end dates of the session.
+* Section description: a section is an offering of a course. This part includes the modality, meeting days/time, meeting location, and start/end dates of the session.
 * Instructor information: This section includes information needed for students to find the instructor: name, email, office hour time and location, and other means to contact.
 * Communication policy: this section describes expectations related to communication, including, but not limited to, the following:
   * Expected frequency for students to check their email/messages from the learning management system (LMS). Every 24 hours for weekdays and 48 hours for weekends are reasonable expectations.
@@ -54,21 +54,25 @@ Even for in-person classes, the [LRCFT contract](https://www.lrcft.org/what-we-d
 
 As an LMS, Canvas offers a variety of features. This section explores some of the main configuration options and features.
 
-## Activities
+## Concepts
+
+### Activities
 
 * Quiz: a quiz consists of one or more questions, and each question can be of a variety of types. Depending on question types, grading can be automatic or manual.
 * Assignment: an assignment has an associated due date and a score. There are options for how work is submitted. Grading is manual.
 * Discussion: a discussion is an activity that may, or may not be, graded. This is a method for the class to communicate asynchronously.
 
-## Content
+### Content
 
 * File: an instructor can upload a file as content.
 * Page: an instructor can utilize the web-based editor of Canvas to create a web page in Canvas. Note that not all HTML features are supported on a Canvas page.
 * External URL: an instructor can create a link (URL) to any resource on the Internet.
 * Announcements: an announcement is a specific message that is broadcast to all students.
 
-## Organization
+### Organization
 
-Canvas offers to main organization methods. Click "Home" of a course, then click "Choose Home Page." This provides a few options as the landing page of a course. The most common method is to use "Course Modules" as the landing page. 
+Canvas offers two main organization methods. Click "Home" of a course, then click "Choose Home Page." This provides a few options as the landing page of a course. The most common method is to use "Course Modules" as the landing page. 
 
-The organization of course modules is flexible. A module is the only level of containment in a Canvas course. Within a module, activities and contents can be included and ordered. 
+### Mastery
+
+The organization of course modules is flexible. A module is the only level of containment in a Canvas course. Within a module, activities and contents can be included and ordered.
