@@ -77,6 +77,8 @@ Canvas offers two main organization methods. Click "Home" of a course, then clic
 
 The organization of course modules is flexible. A module is the only level of containment in a Canvas course. Within a module, activities and contents can be included and ordered.
 
+Each activity (assignment or quiz) optionally has a mastery path. A mastery path is specified by thresholds in points and the next activity to unlock based on the score.
+
 ### Outcomes, Rubrics and Mastery
 
 Canvas allows the tracking of (learning) outcomes. Outcomes can be hierarchically organized. This is an optional and complex feature to use in a Canvas shell.
