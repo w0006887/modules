@@ -25,7 +25,8 @@ In a sense, it is a contract between the instructor and students. Let's get into
   * Expected frequency for students to check their email/messages from the learning management system (LMS). Every 24 hours for weekdays and 48 hours for weekends are reasonable expectations.
   * Turn-around time: this is the maximum amount of time that the instructor may take to respond to a student's electronic message. 24 hours for weekdays and 48 hours for weekend are reasonable for in-person sections.
   * Office hour: this describes how to utilize office hours, especially if office hours are held online via Zoom.
-* Course material/resources: this section outlines what materials/resources are needed.  Textbook, YouTube channel, etc. go to this section. 
+* Course material/resources: this section outlines what materials/resources are needed.  Textbook, YouTube channel, etc. go to this section.
+* Accommodations: this section describes how a student can get accommodation from the [Disability Services and Programs for Students](https://arc.losrios.edu/dsps). Accommodations can vary for individuals.
 * Student conduct: this section describes conduct expectations. The college has its own [student conduct document](https://arc.losrios.edu/student-resources/office-of-student-conduct/student-standards-of-conduct-guide). Each instructor can include additional items as long as these items do not conflict with college policies.
   * Academic integrity/cheating: this section may be needed to clarify the expectations. It is best to define cheating in the broadest sense, such as "cheatng in the context of a class refers to deception that relates to assessments or classroom management."
   * Examples of what constitutes cheating can be helpful. For example, if a student is absent, but another student signs the roll sheet, does that constitute cheating?
