@@ -11,6 +11,8 @@ This section outlines what must be ready in the first week of class.
 
 ## Syllabus
 
+### Syllabus content
+
 In the context of a class, a syllabus serves multiple purposes:
 
 * An outline of topics,
@@ -45,6 +47,12 @@ In a sense, it is a contract between the instructor and students. Let's get into
 * Topic schedule: this section outlines the topics and when each subject will be introduced. A list of suggested topics and their durations is in the course curriculum. Sign in to [the Los Rios Intranet](https://inside.losrios.edu/~intranet/cgi-bin/intra/services.cgi), then select "SOCRATES Curriculum Services", then "Courses", then the discipline, then the individual course.
 
 A copy of the syllabus of each class should be submitted to the division office no later than the first class meeting. For 100% asynchronous online classes, the syllabus should be submitted prior to the first day of the semester session (full semester, 8W1, 8W2, 5W1, etc.). Please follow division-specific instructions to submit syllabi.
+
+### Organizing syllabi
+
+Instructors who teach multiple sections can benefit from a more structured approach to organizing syllabi. Common portions of syllabi can be maintained as their documents and a master template document acts as the template to structure the components. The template can also factor in syllabus sections specific to each section.
+
+
 
 ## Canvas shells (one for each section)
 
