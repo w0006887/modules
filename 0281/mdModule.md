@@ -242,7 +242,7 @@ In the second case, let X and Y both be ones. This turns off both Q1 and
 Q2 so that the output is no longer connected to the high voltage source.
 However, Q3 and Q4 are turned on, completing a path from the output pin
 to the low voltage source. This is illustrated by figure
-[3](#fig:2n2p11){reference-type="ref" reference="fig:2n2p11"}.
+[3](#fig:2n2p11).
 
 <figure id="fig:2n2p11">
 <p><img src="nand211.png" alt="image" /> <span id="fig:2n2p11"
@@ -260,7 +260,7 @@ Q4 are in series, both need to connect to complete a path to the low
 voltage source. Since only Q3 is connecting but Q4 is not connecting,
 there is no path to connect the output pin to the low voltage source. As
 a result, the output pin has a high voltage. This is illustrated in
-figure [4](#fig:2n2p10){reference-type="ref" reference="fig:2n2p10"}
+figure [4](#fig:2n2p10)
 
 <figure id="fig:2n2p10">
 <p><img src="nand210.png" alt="image" /> <span id="fig:2n2p10"
@@ -282,12 +282,12 @@ construct. But which logic operator is this?
 
 Let us first example the behavior of the circuit using a table.
 
-   X   Y   output
-  --- --- --------
-   0   0     1
-   1   1     0
-   1   0     1
-   0   1     1
+|X|Y| output|
+|-|-|-------|
+|0|0|     1|
+|1|1|     0|
+|1|0|     1|
+|0|1|     1|
 
 At first glance, because there are three 1's and one 0, we may think
 this is disjunction (or). But it is not! You can see that the output is
