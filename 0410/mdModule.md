@@ -94,3 +94,5 @@ The top-level outcome groups should match the student learning outcomes (SLOs) t
 An objective specifies a scoring scale. This numerical scale is fixed for each objective. 
 
 Each rubric can be associated with an objective. In return, a quiz optionally links to a rubric. A rubric can include objectives as criteria. An included objective does not need to be a part of the score.
+
+If any, the rubric of an assignment or quiz does not have to relate to the scoring of the assessment.
