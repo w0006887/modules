@@ -76,3 +76,11 @@ Canvas offers two main organization methods. Click "Home" of a course, then clic
 ### Mastery
 
 The organization of course modules is flexible. A module is the only level of containment in a Canvas course. Within a module, activities and contents can be included and ordered.
+
+### Outcomes, Rubrics and Mastery
+
+Canvas allows the tracking of (learning) outcomes. Outcomes can be hierarchically organized. This is an optional and complex feature to use in a Canvas shell.
+
+The top-level outcomes should match the student learning outcomes (SLOs) that are included in the curriculum of a course. Sub-levels can be used to increase the granularity of an SLO.
+
+Each rubric can be associated with an objective. 
