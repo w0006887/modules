@@ -11,6 +11,7 @@ The following are items that are universal to every semester, but a reminder doe
    4.  Require students to visit their LMS course.
    5.  Use the LMS gradebook consistent with the grading procedure outlined in the faculty member’s syllabus, ensuring compliance with 8.4.1.8. The LMS gradebook may be customized to reflect the faculty member’s approach to grading, such as contract grading, ungrading, or equity for grading, for example.
 * The syllabus of each class should be submitted to the division office before the first class meeting.
+* Curriculum updates. Please keep the curricula of the courses that you regularly teach updated as required by Title V.
 
 # Fall 2024
 
@@ -40,3 +41,7 @@ Full-time faculty members are required to attend convocation, the division meeti
 * Department Meeting: in the afternoon of 8/24 from 2 pm to 5 pm (at least on paper). Tak Auyeung will host this meeting. Zoom link to be sent by email.
   * For this meeting, we have invited a guest speaker to talk about the psychology of teaching and learning. The objective is to incorporate ideas to make instruction more effective without creating more work! This is also "equity and student-centered" because the objective is to help every student succeed.
   * A few part-time faculty members are joining the department in Fall 2024, this is a good opportunity to get to know them!
+ 
+## We are still hiring!
+
+There are two open full-time positions available: one [programming/web position](https://www.schooljobs.com/careers/losriosccd/Faculty/jobs/4566495/computer-information-science-assistant-professor-programming-and-web) and one [cybersecurity/networking](https://www.schooljobs.com/careers/losriosccd/Faculty/jobs/4566536/computer-information-science-assistant-professor-cybersecurity-networking-and-c). If you are interested, please click the links and submit your application before the deadline.
