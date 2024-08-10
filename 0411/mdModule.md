@@ -30,17 +30,19 @@ Despite the division change, most of what the department does remains the same.
 However, there are some changes.
 
 * Student petitions should be sent to the STEM-Math/CIS division office. A new Exchange email address is being requested for this purpose, but it is unknown at the time this document is written.
-* Stationary and supplies should come from the STEM-Math/CIS division.
+* Stationarys and supplies should come from the STEM-Math/CIS division.
 
 ## Convocation Day
 
 Full-time faculty members are required to attend convocation, the division meeting, and the department meeting. Part-time colleagues are welcomed and encouraged to participate but are not required nor paid to do so. At the time of writing this document, all three activities have online participation options.
 
 * Convocation: on the morning of 8/23 in the Student Center. Zoom link to be published.
-* Division Meeting: in the afternoon of 8/23 from 1 pm to 1:50 pm. Michelle Brock will host this meeting and share important matters for the division. Zoom link to be published.
+* Division Meeting: in the afternoon of 8/23 from 1 pm to 1:50 pm. Michelle Brock will host this meeting and share important matters for the division. Zoom link to be published. The physical meeting is held in Arts & Science 103, we will be joining faculty members of the Math department.
 * Department Meeting: in the afternoon of 8/24 from 2 pm to 5 pm (at least on paper). Tak Auyeung will host this meeting. Zoom link to be sent by email.
+  * The Hybrid (part in-person and part online) setup will be Tak's homebrew SyncFlex (same as prior semesters). We can talk about SyncFlex as an option for our classes if there is interest.
   * For this meeting, we have invited a guest speaker to talk about the psychology of teaching and learning. The objective is to incorporate ideas to make instruction more effective without creating more work! This is also "equity and student-centered" because the objective is to help every student succeed.
   * A few part-time faculty members are joining the department in Fall 2024, this is a good opportunity to get to know them!
+  * If there is interest, Tak can discuss using GitHub for OER (open education resource) purposes.
  
 ## We are still hiring!
 
