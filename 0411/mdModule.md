@@ -1,6 +1,4 @@
-<header>
-  # Starting Fall 2024 Semester
-</header>
+<font size="+12">Starting Fall 2024 Semester</font>
 
-# af adsof jadf
+# The usual suspects
 
