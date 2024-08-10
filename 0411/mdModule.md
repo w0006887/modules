@@ -2,6 +2,8 @@
 
 # The usual suspects
 
+The following are items that are universal to every semester, but a reminder does not hurt!
+
 * Each section (class) should have a **Los Rios** Canvas shell. As per [the current LRCFT contract](https://www.lrcft.org/what-we-do/contract/), section 11.2.5, "All faculty who teach classes shall have the following level of minimum usage of the mutually approved Learning Management System (LMS) for all classes irrespective of modality, except in instances where the use of an LMS is prohibited." The contract further specifies that:
    1.  Include instructor contact information and office hours when applicable.
    2.  Post the course syllabus.
@@ -9,3 +11,32 @@
    4.  Require students to visit their LMS course.
    5.  Use the LMS gradebook consistent with the grading procedure outlined in the faculty member’s syllabus, ensuring compliance with 8.4.1.8. The LMS gradebook may be customized to reflect the faculty member’s approach to grading, such as contract grading, ungrading, or equity for grading, for example.
 * The syllabus of each class should be submitted to the division office before the first class meeting.
+
+# Fall 2024
+
+This section is specific to Fall 2024.
+
+## Division change
+
+Computer Information Science (CIS) is officially a part of the STEM-Math/CIS division as of the end of the 2024 summer session. This means Kirsten Corbin is __not__ the dean of the department. Our new dean is Michelle Brock. 
+
+Despite the division change, most of what the department does remains the same.
+
+* Physical mail is still housed in the Business Division office.
+* STEM 301 is still the main lab for CIS students.
+* Keys and classroom assignments remain the same, there is no need to get new keys.
+
+However, there are some changes.
+
+* Student petitions should be sent to the STEM-Math/CIS division office. A new Exchange email address is being requested for this purpose, but it is unknown at the time this document is written.
+* Stationary and supplies should come from the STEM-Math/CIS division.
+
+## Convocation Day
+
+Full-time faculty members are required to attend convocation, the division meeting, and the department meeting. Part-time colleagues are welcomed and encouraged to participate but are not required nor paid to do so. At the time of writing this document, all three activities have online participation options.
+
+* Convocation: on the morning of 8/23 in the Student Center. Zoom link to be published.
+* Division Meeting: in the afternoon of 8/23 from 1 pm to 1:50 pm. Michelle Brock will host this meeting and share important matters for the division. Zoom link to be published.
+* Department Meeting: in the afternoon of 8/24 from 2 pm to 5 pm (at least on paper). Tak Auyeung will host this meeting. Zoom link to be sent by email.
+  * For this meeting, we have invited a guest speaker to talk about the psychology of teaching and learning. The objective is to incorporate ideas to make instruction more effective without creating more work! This is also "equity and student-centered" because the objective is to help every student succeed.
+  * A few part-time faculty members are joining the department in Fall 2024, this is a good opportunity to get to know them!
