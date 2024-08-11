@@ -1,6 +1,5 @@
-This is a directory of modules.
-./0281/mdModule.md:# _Transistor to logic gate_
-./0411/mdModule.md:# _Starting Fall 2024 Semester_
-./0409/mdModule.md:# _Module 0409: Defining a "session"_
-./0410/mdModule.md:# _Module 0410: Start of Semester Check-list for CIS instructors_
-./0408/mdModule.md:# _Module 0408: What's up with GitHub and Open Educational Resources?_
+[# _Transistor to logic gate_](./0281/mdModule.md)
+[# _Starting Fall 2024 Semester_](./0411/mdModule.md)
+[Defining a "session"_](./0409/mdModule.md:# _Module 0409)
+[Start of Semester Check-list for CIS instructors_](./0410/mdModule.md:# _Module 0410)
+[What's up with GitHub and Open Educational Resources?_](./0408/mdModule.md:# _Module 0408)
