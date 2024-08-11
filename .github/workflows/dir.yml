@@ -39,8 +39,10 @@ jobs:
           echo test, and deploy your project.
           echo `pwd`
           find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"
-          grep -e "# _.*_" `find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"` >> directory.md
+          grep -e "# _.*_" `find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"` > directory.txt
+          cat directory.txt | sed -e "^\(.*):\s*\(.*\)/[\2](\1)" > directory.md
           git add directory.md
+          git add directory.txt
           git commit -m "generated"
           git push
 
