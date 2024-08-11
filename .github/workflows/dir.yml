@@ -34,4 +34,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo `pwd`
-          grep -e "# _.*_" -R `find . -regex "\./[0-9]\{4\}"`
+          grep -e "# _.*_" `find . -regex "\./[0-9]\{4\}/mdModule.md"` >> directory.md
+          /usr/bin/git commit directory.md
+
+      # update repository
+      
