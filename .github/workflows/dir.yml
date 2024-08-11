@@ -35,8 +35,8 @@ jobs:
           echo test, and deploy your project.
           echo `pwd`
           grep -e "# _.*_" `find . -regex "\./[0-9]\{4\}/mdModule.md"` >> directory.md
-          cat directory.md
-          ls
+          git commit -m "generated"
+          git push
 
       # update repository
       
