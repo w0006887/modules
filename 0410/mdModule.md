@@ -1,5 +1,4 @@
-_Module 0410: Start of Semester Check-list for CIS instructors_
-=============================================================
+# _Module 0410: Start of Semester Check-list for CIS instructors_
 
 # What is this?
 
