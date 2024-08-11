@@ -40,8 +40,6 @@ jobs:
           echo `pwd`
           find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"
           grep -e "# _.*_" `find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"` >> directory.md
-          git config user.name "github-actions"
-          git config user.email "
           git commit -m "generated"
           git push
 
