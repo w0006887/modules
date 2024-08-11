@@ -1,4 +1,4 @@
-./0281/mdModule.md:# _Transistor to logic gate_
+./0281/mdModule.md:# _Module 0281: Transistor to logic gate_
 ./0411/mdModule.md:# _Starting Fall 2024 Semester_
 ./0409/mdModule.md:# _Module 0409: Defining a "session"_
 ./0410/mdModule.md:# _Module 0410: Start of Semester Check-list for CIS instructors_
