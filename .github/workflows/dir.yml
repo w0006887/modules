@@ -38,8 +38,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo `pwd`
-          find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"
-          grep "# _.*_" `find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"` > directory.txt
+          find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md" | sort
+          grep "# _.*_" `find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md" | sort` > directory.txt
           cat directory.txt | sed -e "s/^\(.*\):\s*#\s*_\(.*\)_/* [\2](\1)/" > directory.md
           git add directory.md
           git add directory.txt
