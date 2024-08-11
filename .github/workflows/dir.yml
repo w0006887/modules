@@ -34,8 +34,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo `pwd`
-          find . -regex "\./[0-9]\{4\}/mdModule.md"
-          grep -e "# _.*_" `find . -regex "\./[0-9]\{4\}/mdModule.md"`
+          find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"
+          grep -e "# _.*_" `find . -regextype sed -regex "\./[0-9]\{4\}/mdModule.md"` >> directory.md
           git commit -m "generated"
           git push
 
