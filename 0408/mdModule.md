@@ -131,4 +131,35 @@ First, go to [GitHub](https://github.com), click "Sign up" (upper right corner) 
 
 ## Reporting an issue
 
+An issue usually refers to a software bug for most GitHub repositories. However, in the context of OER, an issue can be a typo, mistake, inaccuracy, or other items that need to be fixed. Users with a "contributor" role of a GitHub repository can, then, investigate and potentially resolve the issue. When an issue is resolved, it will be marked as such, and the user who originates the issue will be notified. 
+
 1.  Go to any file of the project where an issue is to be reported.
+2.  Sign in to GitHub.
+3.  Click "Issues"
+4.  Click "New Issue"
+5.  Fill in the title and description
+    * Please be clear about which document is in question. The best way is to include either a "path" or the full URL to the document in question.
+    * The description of the issue also needs clarity.   
+7.  Click "Submit new issue"
+
+## Discussions
+
+A discussion differentiates from an issue because a discussion does not reflect something to be fixed. GitHub provides 5 built-in categories of discussions. In the context of OER, this is how each category can be utilized:
+
+* **General**: just chatting. Do not expect OER developers to check these discussions regularly.
+* **Ideas**: suggestions of new OER content, or extensions to current OER content.
+* **Polls**: this can be used to decide whether an idea should make it to the "Ideas" category. An OER developer may originate a poll to gauge whether a project is worth doing.
+* **Q&A**: this category is special because it allows other users to answer specific questions.
+* **Show and tell**: this category can be utilized in at least two ways. An OER developer may use this to announce new content or significant updates to existing content. However, a user can also showcase how the OER content is utilized in classes or other settings.
+
+## Forking
+
+Users who are comfortable with Markdown can use the edit (writing instrument icon) tool to change the OER content. Any user can fork a public GitHub repository. A fork creates a new branch in the repository, and there can be many revisions and even further forks along this branch.
+
+After each revision, click "Commit Change" so that the revision is tracked *along the forked branch*. This means the revision does not make it to the `MAIN` branch for everyone to see. While changes are being made to a forked branch, the `MAIN` branch can also have its own revisions.
+
+A forked branch can remain forked forever. Typically, however, a forked branch is *merged* with the main branch once the changes are finalized. This allows the contribution to be shared with the general user base.
+
+When a forked branch is ready to be merged to the `MAIN` branch, click "Create pull request". This notifies the owner of a repository about the availability of a forked branch to be merged. In a "pull request," be descriptive of what the fork is about.
+
+Forking and pull request are better than using "Issues." Forking and pull request only needs the owner of the repository to *verify* the changes before merging to the `MAIN` branch. This is the most effective way to contribute to OER content.
