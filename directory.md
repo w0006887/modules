@@ -1,5 +1,5 @@
 * [Module 0281: Transistor to logic gate](./0281/mdModule.md)
-* [Starting Fall 2024 Semester](./0411/mdModule.md)
+* [Module 0411: Starting Fall 2024 Semester](./0411/mdModule.md)
 * [Module 0409: Defining a "session"](./0409/mdModule.md)
 * [Module 0410: Start of Semester Check-list for CIS instructors](./0410/mdModule.md)
 * [Module 0408: What's up with GitHub and Open Educational Resources?](./0408/mdModule.md)
