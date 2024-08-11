@@ -121,4 +121,14 @@ It is rendered, using GitHub's web interface, as follows:
   $E=mc^2$
 </details>
 
+# To contribute
 
+There are multiple ways to contribute and/or utilize GitHub-hosted OER content.
+
+## Sign up for a GitHub account
+
+First, go to [GitHub](https://github.com), click "Sign up" (upper right corner) and create a GitHub account. This step is necessary for all the methods to contribute to the project. 
+
+## Reporting an issue
+
+1.  Go to any file of the project where an issue is to be reported.
