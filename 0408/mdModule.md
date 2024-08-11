@@ -174,7 +174,7 @@ A learner may want to create a fork permanently to incorporate the learner's own
 
 * The learner creates the initial fork.
 * The learner updates this forked branch with annotations and notes.
-* When the main branch is updated, the learner use "Sync fork" to incorporate non-conflicting updates from the main branch.
+* When the main branch is updated, the learner uses "Sync fork" to incorporate non-conflicting updates from the main branch.
 
 ## Cloning (importing)
 
