@@ -50,4 +50,3 @@ There are two open full-time positions available: one [programming/web position]
 
 Those who are interested can contact anyone to seek advice. However, once the memberships of hiring committees are determined, members of hiring committees should refrain from offering advice.
 
-@@include ../README.md
