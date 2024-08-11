@@ -162,12 +162,18 @@ A forked branch can remain forked forever. Typically, however, a forked branch i
 
 When a forked branch is ready to be merged to the `MAIN` branch, click "Create pull request". This notifies the owner of a repository about the availability of a forked branch to be merged. In a "pull request," be descriptive of what the fork is about.
 
+Forking and pull request are better than using "Issues." Forking and pull request only needs the owner of the repository to *verify* the changes before merging to the `MAIN` branch. This is the most effective way to contribute to OER content.
+
 ## Cloning (importing)
 
 A forked branch is still a part of the original repository. Cloning allows an entire repository to be cloned and has an entirely different team of managers and contributors. 
 
 Any GitHub user can import another public repository. To do this, click the `+` drop-down next to the search bar, then click "Import repository." Copy and paste the URL of the source repository, and fill in the rest of the form.
 
-* Note the URL
+* Note the URL is not the viewing URL. To get the URL for importing from the web interface of a GitHub project, navigate to the top level of a repository, then click `<> Code`, and then copy the HTTPS. For example, the URL of the repository containing this document is `https://github.com/proftak/modules.git`.
+* If a repository is public, you should not need to specify `username` or `access token`.
+* The clone of an OER project should remain public!
 
-Forking and pull request are better than using "Issues." Forking and pull request only needs the owner of the repository to *verify* the changes before merging to the `MAIN` branch. This is the most effective way to contribute to OER content.
+Cloning/importing differentiates from fork/pull because a new repository is created out of the original, and the new repository can belong to a different GitHub user. 
+
+
