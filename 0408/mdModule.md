@@ -1,4 +1,4 @@
-# Module 0408: What's up with GitHub and Open Educational Resources?
+# _Module 0408: What's up with GitHub and Open Educational Resources?_
 
 [GitHub](https://github.com) is a web-based repository for all kinds of projects. One of the original purposes of `GitHub` is for coding. However, it is also well suited to any text-based content. If OER (open educational resources) is created in a text-based format, `GitHub` is, potentially, a great place to host the content.
 
