@@ -152,6 +152,8 @@ A discussion differentiates from an issue because a discussion does not reflect 
 * **Q&A**: this category is special because it allows other users to answer specific questions.
 * **Show and tell**: this category can be utilized in at least two ways. An OER developer may use this to announce new content or significant updates to existing content. However, a user can also showcase how the OER content is utilized in classes or other settings.
 
+Discussions are a great way to contribute to an OER project by talking to the developers and other users of the OER content. Any user can participate.
+
 ## Forking
 
 Users who are comfortable with Markdown can use the edit (writing instrument icon) tool to change the OER content. Any user can fork a public GitHub repository. A fork creates a new branch in the repository, and there can be many revisions and even further forks along this branch.
@@ -162,7 +164,7 @@ A forked branch can remain forked forever. Typically, however, a forked branch i
 
 When a forked branch is ready to be merged to the `MAIN` branch, click "Create pull request". This notifies the owner of a repository about the availability of a forked branch to be merged. In a "pull request," be descriptive of what the fork is about.
 
-Forking and pull request are better than using "Issues." Forking and pull request only needs the owner of the repository to *verify* the changes before merging to the `MAIN` branch. This is the most effective way to contribute to OER content.
+Fork/pull is better than using "Issues." Fork/pull only needs the manager of the repository to *verify* the changes before merging to the `MAIN` branch. This is the most effective way to contribute to OER content. However, unlike the previous approaches, fork/pull does require the contributor to be comfortable editing content in Markdown (or whatever the source language is).
 
 ## Cloning (importing)
 
@@ -171,6 +173,8 @@ A forked branch is still a part of the original repository. Cloning allows an en
 Any GitHub user can import another public repository. To do this, click the `+` drop-down next to the search bar, then click "Import repository." Copy and paste the URL of the source repository, and fill in the rest of the form.
 
 * Note the URL is not the viewing URL. To get the URL for importing from the web interface of a GitHub project, navigate to the top level of a repository, then click `<> Code`, and then copy the HTTPS. For example, the URL of the repository containing this document is `https://github.com/proftak/modules.git`.
+
+Clone/import is the *ultimate* expression of "open" in OER. Like the content, but not so much the management of the content? Clone it and manage it yourself!
 * If a repository is public, you should not need to specify `username` or `access token`.
 * The clone of an OER project should remain public!
 
