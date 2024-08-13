@@ -65,9 +65,47 @@
 ## Big question
 
 * Are the SLOs applicable to G-AI or our students?
-* If a student meets the SLOs but only with G-AI tools, is this student success?
+* If a student meets the SLOs but only with G-AI tools, is this student successful?
 * *How* do we define student success?
 
 ---
 
+## Learning versus assessment
 
+* Use G-AI in the learning phase, not the assessment phase.
+
+---
+
+## G-AI explanation
+
+* G-AI can help explain many concepts, but can it be relied upon?
+  * If there is plenty of human-generated content that is correct, then the G-AI answer is more likely to be correct.
+  * Does not work as well for concepts that do not have plenty of human-generated explanations.
+* Can a student validate the G-AI explanation?
+* Neural-net-based G-AI are probabilistic, there is *always* a chance of error.
+
+---
+
+## G-AI Q&A
+
+* G-AI can generate questions for faculty and students.
+* Is the answer (key) correct?
+* Can a student validate the G-AI answer?
+
+---
+
+## A responsible way to use G-AI
+
+* Instructor originates G-AI Q&A.
+* Instructor validates and hides the answer.
+* Students work on the question.
+* Instructor discloses the answer and potentially evaluates the answers from each student.
+
+---
+
+## Practically no way to stop students from using G-AI
+
+* Especially for fully online (and asynchronous) classes.
+* Instructors need to point out and explain self-defeating ways of using G-AI.
+
+---
