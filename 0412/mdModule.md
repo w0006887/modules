@@ -107,5 +107,6 @@
 
 * Especially for fully online (and asynchronous) classes.
 * Instructors need to point out and explain self-defeating ways of using G-AI.
+* There are ways to "poison" prompting text, but it is defeatable.
 
 ---
