@@ -12,6 +12,7 @@ The following are items that are universal to every semester, but a reminder doe
    5.  Use the LMS gradebook consistent with the grading procedure outlined in the faculty member’s syllabus, ensuring compliance with 8.4.1.8. The LMS gradebook may be customized to reflect the faculty member’s approach to grading, such as contract grading, ungrading, or equity for grading, for example.
 * The syllabus of each class should be submitted to the division office before the first class meeting.
 * Curriculum updates. Please keep the curricula of the courses that you regularly teach updated as required by Title V.
+* Encourage students to utilize resources available to them, check the CIS Canvas shell for more details.
 
 # Fall 2024
 
