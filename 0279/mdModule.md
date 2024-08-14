@@ -28,12 +28,12 @@ These are also the ones that we tend to use in natural languages.
 Conjunction is known as the English word "and". This is a Boolean
 operator described by the following truth table:
 
-   |x|y|$x \wedge y$|
-  --- --- --------------
-   0   0        0
-   0   1        0
-   1   0        0
-   1   1        1
+|x|y|$x \wedge y$|
+|-|-|-|
+|0|0|0|
+|0|1|0|
+|1|0|0|
+|1|1|1|
 
 A few explanations is needed here. First, the symbol $0$ (normally known
 as zero) means false, and the symbol $1$ (normally known as one) means
@@ -70,12 +70,12 @@ in engineering documents.
 Disjunction is known as "or" in English (*not* exclusive or, either or).
 We will use the concise truth table to define it:
 
-   x   y   $x \vee y$
-  --- --- ------------
-   0   0       0
-   0   1       1
-   1   0       1
-   1   1       1
+|  x | y | $x \vee y$|
+|---|---|------------|
+|  0 | 0 |     0|
+|  0 | 1 |     1|
+|  1 | 0 |     1|
+|  1 | 1 |     1|
 
 Disjunction is often represented by the arithmetic addition operator for
 ease of entry in engineering applications. This means the following
@@ -99,10 +99,10 @@ Negation is known as "not" in English. Since it is a unary operator
 (unlike the previous two binary operators), it has a simple truth table
 as follows:
 
-   x   $\neg x$  
-  --- ---------- --
-   0      1      
-   1      0      
+| x | $\neg x$  |
+|---|----------|
+| 0 |    1     |
+| 1 |    0     |
 
 In engineering documents, negation is often represented by an overbar.
 But that is difficult to type. As a result, the forward slash symbol `/`
@@ -165,12 +165,12 @@ Mechanically, implication can be defined using other Boolean operators,
 $x \Rightarrow y = \neg x \vee y$. As such, it is easy to understand its
 truth table:
 
-   x   y   $x \Rightarrow y$
-  --- --- -------------------
-   0   0           1
-   0   1           1
-   1   0           0
-   1   1           1
+| x | y | $x \Rightarrow y$ |
+|---|---|-------------------|
+| 0 | 0 |         1 |
+| 0 | 1 |         1 |
+| 1 | 0 |         0 |
+| 1 | 1 |         1 |
 
 Semantically, however, it may be a little confusing. Normally, in just
 about any natural language, implication is not considered a Boolean
@@ -214,9 +214,10 @@ $x \Leftrightarrow y = (x \Rightarrow y) \wedge (y \Rightarrow x)$.
 
 The truth table of equivalence is as follows:
 
-   x   y   $x \Leftrightarrow y$
-  --- --- -----------------------
-   0   0             1
-   0   1             0
-   1   0             0
-   1   1             1
+| x | y | $x \Leftrightarrow y$ |
+|---|---|-----------------------|
+| 0 | 0 |           1 |
+| 0 | 1 |           0 |
+| 1 | 0 |           0 |
+| 1 | 1 |           1 |
+
