@@ -13,7 +13,7 @@ The following are items that are universal to every semester, but a reminder doe
 * The syllabus of each class should be submitted to the division office before the first class meeting.
 * Curriculum updates. Please keep the curricula of the courses that you regularly teach updated as required by Title V.
 * Encourage students to utilize the resources available to them, check the CIS Canvas shell for more details.
-* Work through the CIS department Canvas shell.
+* Work through [the CIS department Canvas shell](https://lrccd.instructure.com/courses/214762).
 
 # Fall 2024
 
