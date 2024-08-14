@@ -65,5 +65,9 @@ The "prereqImport" sheet should look like the following:
 >
 > Note that if you are *updating*, you should first delete all cell content of the "prereqImport" sheet before pasting the new content.
 
+With all the information imported and copied and pasted, select the "students" sheet, it should look similar to the following:
 
+![students sheet](students.png)
+
+If column C is empty for a student, that means there is no evidence from classes taken in Los Rios that the student has met one or more of the prerequisite requirements of a course.
 
