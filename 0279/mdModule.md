@@ -57,7 +57,7 @@ $`x \wedge y`$
 
 but it is often simplified to
 
-$$x \cdot y$$
+$x \cdot y$
 
 or even just
 
