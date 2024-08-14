@@ -9,21 +9,21 @@ While Tak has always used OER (Open Education Resource), the material is now bei
   * [https://github.com](https://github.com) This is the primary interface to interact with a repository. The main purpose of this interface is to manage the repository. This interface has limited capability to edit and preview Markdown files.
   * [https://github.dev](https://gibhub.dev) This is an experimental web-based VSCode interface. The editing and previewing abilities are more advanced. However, the Grammarly browser plug-in does not work in the editor.
   * [https://proftak.github.io/modules](https://proftak.github.io/modules) This is the *publication* interface. All Markdown documents are rendered as HTML documents. This interface is useful for publishing content. It is easy to print from this interface.
-* Revision control: depending on the repository, there are many actions associated with revision control. GitHub is the defacto standard of cloud-based revision control using the utility program `git`. As an overview, GitHub offers the following:
+* Revision control: depending on the repository, there are many actions associated with revision control. GitHub is the de facto standard of cloud-based revision control using the utility program `git`. As an overview, GitHub offers the following:
   * Automatic conversion from Markdown to HTML. This feature is utilized so that all the resources are viewable in a web browser.
   * Markdown files can be downloaded. This is because the repository is public.
-  * Any GitHub registered user can "edit in place." This automatically creates a new branch from the MAIN branch that everyone access by default.
+  * Any GitHub registered user can "edit in place." This automatically creates a new branch from the MAIN branch that everyone accesses by default.
   * A branch can remain independent permanently.
   * Revisions of the MAIN branch can be applied to a branch so that the branch incorporates the latest enhancements.
   * A branch can be merged to the MAIN branch, this makes it easy for any to contribute revisions and improvements.
-  * GitHub provides means to report issues and facilitate discussions. This allows people who do not wish to make changes to the repository to make suggestions.
+  * GitHub provides a means to report issues and facilitate discussions. This allows people who do not wish to make changes to the repository to make suggestions.
 
 # What does it mean to students?
 
 * Free, as in free beer. The content is free of charge.
   * You can download and/or print the content without worries of copyright infringement.
 * Free, as in freedom. Everyone has permission to make changes. However, please observe the Creative Commons licence as specified in the [LICENCE](../LICENCE) document.
-  * You can make changes, add your notes to the documents.
+  * You can make changes, and add your notes to the documents.
   * You can share the content with anyone, except for commercial purposes.
 
 # Suggestions
@@ -53,7 +53,7 @@ You can get your own copy of the content via different ways:
   * After you download the Markdown file, you can use a variety of tools to edit it:
     * [Obsidian](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
     * [Joplin](https://joplinapp.org/)
-* Sign in to GitHub and edit in-place, creating your own branch, but the original repository.
+* Sign in to GitHub and edit-in-place, creating your own branch, but the original repository.
 * Clone the entire repository and manage *your own* repository any way you want, as long as the Creative Commons licence is observed.
 
 Once you have your own copy of the content, you can add your own notes. To make your notes stand out, you can utilize GitHub Markdown [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts). 
