@@ -1,3 +1,4 @@
+./0279/mdModule.md:# _Module 0279: Boolean Operators_
 ./0281/mdModule.md:# _Module 0281: Transistor to logic gate_
 ./0408/mdModule.md:# _Module 0408: What's up with GitHub and Open Educational Resources?_
 ./0409/mdModule.md:# _Module 0409: Defining a "session"_
