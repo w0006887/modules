@@ -93,11 +93,6 @@ but it is often simplified to
 
 $x + y$
 
-\\(x+y\\)
-
-`$x+y$`
-
-$`x+y`$
 
 in engineering documents.
 
