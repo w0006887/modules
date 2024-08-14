@@ -28,7 +28,7 @@ These are also the ones that we tend to use in natural languages.
 Conjunction is known as the English word "and". This is a Boolean
 operator described by the following truth table:
 
-   x   y   $x \wedge y$
+   |x|y|$x \wedge y$|
   --- --- --------------
    0   0        0
    0   1        0
