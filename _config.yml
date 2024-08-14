@@ -1,7 +1,8 @@
 use_math: true
 
 markdown: kramdown
+mathjax: true
 kramdown:
-  math_engine: katex
+  math_engine: mathjax
   input: GFM
   auto_ids: true
