@@ -97,6 +97,8 @@ $x + y$
 
 `$x+y$`
 
+$`x+y`$
+
 in engineering documents.
 
 ## Negation
