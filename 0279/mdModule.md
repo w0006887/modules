@@ -63,6 +63,10 @@ or even just
 
 $xy$
 
+```math
+x \wedge y
+```
+
 in engineering documents.
 
 ## Disjunction
