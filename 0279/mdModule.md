@@ -1,5 +1,3 @@
-<script async='async' id='MathJax-script' src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js' type='text/javascript'></script>  
-
 # _Module 0279: Boolean Operators_
 
 # About this module
