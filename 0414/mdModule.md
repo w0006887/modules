@@ -42,6 +42,8 @@ You can get your own copy of the content via different ways:
 
 Once you have your own copy of the content, you can add your own notes. To make your notes stand out, you can utilize GitHub Markdown [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts). 
 
+Note that some formatting may only be effective in certain editors/previewers. 
+
 <span style="color: red">You can use colors.</span> This is created using the following HTML `span` tag.
 
 ```html
@@ -55,10 +57,16 @@ Once you have your own copy of the content, you can add your own notes. To make 
 <div style="color: blue">You can define an HTML `div` element and choose a color for it.</div>
 ```
 
-<div style="border: 5px solid green">You can define an HTML `div` element and choose a colored border for it.</div>
+<div style="border: 5px solid green">
+You can define an HTML `div` element and choose a colored border for it.
+</div>
 
 ```html
 <div style="border: 5px solid green">You can define an HTML `div` element and choose a colored border for it.</div>
 ```
 
 <div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and choose a colored border for it.</div>
+
+```html
+<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and choose a colored border for it.</div>
+```
