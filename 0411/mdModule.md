@@ -36,7 +36,7 @@ However, there are some changes.
 
 ## Convocation Day
 
-Full-time faculty members are required to attend convocation, the division meeting, and the department meeting. Part-time colleagues are welcomed and encouraged to participate but are not required nor paid to do so. At the time of writing this document, all three activities have online participation options.
+According to the LRCFT contract, section 4.6.1, faculty members are required to attend convocation, the division meeting, and the department meeting. At the time of writing this document, all three activities have online participation options.
 
 * Convocation: on the morning of 8/23 in the Student Center. Zoom link to be published.
 * Division Meeting: in the afternoon of 8/23 from 1 pm to 1:50 pm. Michelle Brock will host this meeting and share important matters for the division. Zoom link to be published. The physical meeting is held in Arts & Science 103, we will be joining faculty members of the Math department.
