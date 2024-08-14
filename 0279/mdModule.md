@@ -55,7 +55,7 @@ following C/C++ expression
 
 is officially represented in math as
 
-$`x \wedge y`$
+$x \wedge y$
 
 but it is often simplified to
 
@@ -92,6 +92,8 @@ $x \vee y$
 but it is often simplified to
 
 $x + y$
+
+\(x+y\)
 
 in engineering documents.
 
