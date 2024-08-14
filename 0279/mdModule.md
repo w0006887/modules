@@ -40,7 +40,7 @@ as zero) means false, and the symbol $1$ (normally known as one) means
 true.
 
 In this table, $x$ and $y$ are *independent* variables. This means that
-their values do not depend on each other. The right most column is the
+their values do not depend on each other. The rightmost column is the
 value of the conjunction $x \wedge y$ *given* that $x$ and $y$ have the
 respective values of the corresponding columns on the same row.
 
@@ -57,7 +57,7 @@ $x \wedge y$
 
 but it is often simplified to
 
-$x \cdot y$
+\(x \cdot y\)
 
 or even just
 
