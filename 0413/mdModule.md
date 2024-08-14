@@ -42,20 +42,20 @@ Tak Auyeung developed a Google Sheets that can save some time. To use this Googl
 
 1. Go to [the public folder of the CIS Department Shared Drive](https://drive.google.com/drive/folders/1ovfVdLY5A7sy3VInp90tqKkoYRlMU37Z?usp=drive_link).
 2. Open "class" Google Sheets, then use the "file" menu to select "Make a copy".
-     3. Select a destination folder that you have write access.
-     4. Navigate to your own copy of the "class" Google Sheets.
+    3. Select a destination folder that you have write access.
+    4. Navigate to your own copy of the "class" Google Sheets.
 1. Download the roster as a text CSV file. See the earlier part of this document for instructions.
 2. Import this CSV file into "rawImport" sheet.
-     3. Click "File" to access the file menu,
-     4. Click "Import", this leads to the import dialog. Click "Upload".
-     5. Use "Browse" to open a file browser, then navigate and select the CSV file saved earlier.
-     6. For "Import location", choose "Replace Current Sheet" (this assumes that "rawImport" is the sheet currently being viewed).
-     7. For "Separator Type", the default is fine.
-     8. Uncheck "Convert text to numbers, dates and formulas."
-     9. Click "Import data."
+    3. Click "File" to access the file menu,
+    4. Click "Import", this leads to the import dialog. Click "Upload".
+    5. Use "Browse" to open a file browser, then navigate and select the CSV file saved earlier.
+    6. For "Import location", choose "Replace Current Sheet" (this assumes that "rawImport" is the sheet currently being viewed).
+    7. For "Separator Type", the default is fine.
+    8. Uncheck "Convert text to numbers, dates and formulas."
+    9. Click "Import data."
 10. Navigate to the prereqImport sheet
 11. Copy-and-paste the Indirect Prereq Checker page.
-     12. Only copy and paste starting with the first course
+    12. Only copy and paste starting with the first course
 
 When this is done, the "rawImport" sheet should look similar to the following:
 
