@@ -61,7 +61,7 @@ The "prereqImport" sheet should look like the following:
 
 ![prereqImport sheet](prereqImport.png)
 
-> ![Important]
+> [!Important]
 >
 > Note that if you are *updating*, you should first delete all cell content of the "prereqImport" sheet before pasting the new content.
 
