@@ -1,1 +1,7 @@
-markdown: GFM
+use_math: true
+
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
