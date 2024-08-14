@@ -40,6 +40,10 @@ While useful, this approach is still very time-consuming because an instructor n
 
 Tak Auyeung developed a Google Sheets that can save some time. To use this Google Sheets:
 
+1.  Go to [the public folder of the CIS Department Shared Drive](https://drive.google.com/drive/folders/1ovfVdLY5A7sy3VInp90tqKkoYRlMU37Z?usp=drive_link).
+2.  Open "class" Google Sheets, then use the "file" menu to select "Make a copy".
+  3.  Select a destination folder that you have write access.
+  4.  Navigate to your own copy of the "class" Google Sheets.
 1.  Download the roster as a text CSV file. See the earlier part of this document for instructions.
 2.  Import this CSV file into "rawImport" sheet.
   3.  Click "File" to access the file menu,
