@@ -6,3 +6,4 @@
 * [Module 0411: Starting Fall 2024 Semester](./0411/mdModule.md)
 * [Module 0412: Student-centric generative AI](./0412/mdModule.md)
 * [Module 0413: Roster Management](./0413/mdModule.md)
+* [Module 0414: GitHub Markdown OER for students](./0414/mdModule.md)
