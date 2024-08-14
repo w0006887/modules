@@ -1,3 +1,6 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 # _Module 0279: Boolean Operators_
 
 # About this module
@@ -62,10 +65,6 @@ $x \cdot y$
 or even just
 
 $xy$
-
-```math
-x \wedge y
-```
 
 in engineering documents.
 
