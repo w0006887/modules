@@ -4,3 +4,4 @@
 ./0410/mdModule.md:# _Module 0410: Start of Semester Check-list for CIS instructors_
 ./0411/mdModule.md:# _Module 0411: Starting Fall 2024 Semester_
 ./0412/mdModule.md:# _Module 0412: Student-centric generative AI_
+./0413/mdModule.md:# _Module 0413: Roster Management_
