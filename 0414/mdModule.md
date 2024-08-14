@@ -65,8 +65,8 @@ You can define an HTML `div` element and choose a colored border for it.
 <div style="border: 5px solid green">You can define an HTML `div` element and choose a colored border for it.</div>
 ```
 
-<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and choose a colored border for it.</div>
+<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
 
 ```html
-<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and choose a colored border for it.</div>
+<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
 ```
