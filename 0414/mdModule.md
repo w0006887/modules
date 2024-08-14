@@ -5,7 +5,10 @@
 While Tak has always used OER (Open Education Resource), the material is now being converted to Markdown, managed as a GitHub repository.
 
 * Markdown: Markdown is a mark-up language. GitHub implements its dialet of [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). You can also reference the full [GitHub Markdown specification](https://github.github.com/gfm/). 
-* GitHub: GitHub is a cloud-based repository that is available for free with some conditions attached. A repository is a resource to store files with revision control.
+* GitHub: GitHub is a cloud-based repository that is available for free with some conditions attached. A repository is a resource to store files with revision control. There are several ways to access a repository.
+  * [https://github.com](https://github.com) This is the primary interface to interact with a repository. The main purpose of this interface is to manage the repository. This interface has limited capability to edit and preview Markdown files.
+  * [https://github.dev](https://gibhub.dev) This is an experimental web-based VSCode interface. The editing and previewing abilities are more advanced. However, the Grammarly browser plug-in does not work in the editor.
+  * [https://proftak.github.io/modules](https://proftak.github.io/modules) This is the *publication* interface. All Markdown documents are rendered as HTML documents. This interface is useful for publishing content. It is easy to print from this interface.
 * Revision control: depending on the repository, there are many actions associated with revision control. GitHub is the defacto standard of cloud-based revision control using the utility program `git`. As an overview, GitHub offers the following:
   * Automatic conversion from Markdown to HTML. This feature is utilized so that all the resources are viewable in a web browser.
   * Markdown files can be downloaded. This is because the repository is public.
@@ -28,6 +31,19 @@ While Tak has always used OER (Open Education Resource), the material is now bei
 ## Learn Markdown
 
 Markdown is an intuitive markup language. A paragraph looks like a paragraph without distracting HTML syntax.
+
+## Choose a Markdown editor
+
+### Web-based editors/previewers
+
+There are a few options. The default text editor of [https://github.com](https://github.com) is sufficient, but the built-in previewer does not render more advanced HTML code.
+
+The experimental [https://github.dev](https://github.dev) web-based VSCode interface is more advanced, and the previewer does render HTML elements.
+
+### Installed (free) editors/previewers
+
+* [Obsidian](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian)
+* [Joplin](https://joplinapp.org/)
 
 ## Annotate in your own "copy"
 
