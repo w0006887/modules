@@ -109,3 +109,8 @@ flowchart TD;
 flowchart TD;
   A[concept] --> B[another concept];
 ```
+
+```mermaid
+flowchart TD;
+  A["$$E=mc^2$$"] --> B[Einstein];
+```
