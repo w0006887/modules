@@ -112,5 +112,5 @@ flowchart TD;
 
 ```mermaid
 flowchart TD;
-  A["$E=mc^2$"] --> B[Einstein];
+  A["$$E=mc^2$$"] --> B[Einstein];
 ```
