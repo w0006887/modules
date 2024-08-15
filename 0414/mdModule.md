@@ -110,7 +110,16 @@ flowchart TD;
   A[concept] --> B[another concept];
 ```
 
+You can even get fancy and include equations in a graph. This feature is supported by Mermaid 10.9.0 and later, but earlier versions of Mermaid does not support this.
+
+````markdown
 ```mermaid
 flowchart TD;
-  A["$$E=mc^2$$"] --> B[Einstein];
+  A["$$E=mc^2$$"] --> B['$$E=mv, v=c$$'];
+```
+````
+
+```mermaid
+flowchart TD;
+  A["$$E=mc^2$$"] --> B['$$E=mv, v=c$$'];
 ```
