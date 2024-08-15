@@ -49,5 +49,9 @@ jobs:
             git push
           fi
       - uses: jeffreytse/jekyll-deploy-action@master
+        with:
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       # update repository
       
