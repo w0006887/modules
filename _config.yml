@@ -5,6 +5,7 @@ plugins:
 - jekyll-toc
 
 use_math: true
+toc: true
 
 markdown: kramdown
 mathjax: true
