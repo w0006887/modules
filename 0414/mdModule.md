@@ -115,11 +115,11 @@ You can even get fancy and include equations in a graph. This feature is support
 ````markdown
 ```mermaid
 flowchart TD;
-  A["$$E=mc^2$$"] --> B['$$E=mv, v=c$$'];
+  A["$$E=mc^2$$"] --> B["$$E=mv, v=c$$"];
 ```
 ````
 
 ```mermaid
 flowchart TD;
-  A["$$E=mc^2$$"] --> B['$$E=mv, v=c$$'];
+  A["$$E=mc^2$$"] --> B["$$E=mv, v=c$$"];
 ```
