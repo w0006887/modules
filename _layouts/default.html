@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en-US " }}">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js"></script>
@@ -24,14 +24,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     {% seo %}
-    <link rel="stylesheet" href="{{ " /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"> 
+    <link rel="stylesheet" href="{{ "assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}"> 
     {% include head-custom.html %}
 </head>
 
 <body>
     <div class="container-lg px-3 my-5 markdown-body">
         {% if site.title and site.title != page.title %}
-        <h1><a href="{{ " / " | absolute_url }}">{{ site.title }}</a></h1>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         {% endif %} 
         {% include toc.html html=content %} 
         {{ content }} 
