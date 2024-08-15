@@ -48,6 +48,6 @@ jobs:
             git commit -m "generated"
             git push
           fi
-
+      - uses: jeffreytse/jekyll-deploy-action@master
       # update repository
       
