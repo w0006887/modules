@@ -47,6 +47,8 @@ The experimental [https://github.dev](https://github.dev) web-based VSCode inter
 
 ## Annotate in your own "copy"
 
+### Getting your copy
+
 You can get your own copy of the content via different ways:
 
 * Download the "raw" file.
@@ -55,6 +57,8 @@ You can get your own copy of the content via different ways:
     * [Joplin](https://joplinapp.org/)
 * Sign in to GitHub and edit-in-place, creating your own branch, but the original repository.
 * Clone the entire repository and manage *your own* repository any way you want, as long as the Creative Commons licence is observed.
+
+### Formatting your annotations
 
 Once you have your own copy of the content, you can add your own notes. To make your notes stand out, you can utilize GitHub Markdown [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts). 
 
@@ -79,10 +83,27 @@ You can define an HTML `div` element and choose a colored border for it.
 
 ```html
 <div style="border: 5px solid green">You can define an HTML `div` element and choose a colored border for it.</div>
-```
-
-<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
 
 ```html
 <div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
 ```
+<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
+
+### Graphs
+
+Markdown often implements [Mermaid](https://mermaid.js.org/). Mermaid is a plain-text markup language to describe a variety of graphs, such as flowcharts. This can be a valuable tool for individuals who benefit from visual representation.
+
+To start, let's make a simple graph using the following markdown code
+
+```markdown
+\`\`\`mermaid
+flowchart LR
+  A[concept] --|depends on|-> B[nother concept]
+\`\`\`
+```
+```
+```mermaid
+flowchart LR
+  A[concept] --|depends on|-> B[another concept]
+```
+
