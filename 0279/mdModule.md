@@ -29,11 +29,11 @@ Conjunction is known as the English word "and". This is a Boolean
 operator described by the following truth table:
 
 |x|y|$x \wedge y$|
-|-|-|-|
-|0|0|0|
-|0|1|0|
-|1|0|0|
-|1|1|1|
+|-|-|------------|
+|0|0|       0|
+|0|1|       0|
+|1|0|       0|
+|1|1|       1|
 
 A few explanations is needed here. First, the symbol $0$ (normally known
 as zero) means false, and the symbol $1$ (normally known as one) means

@@ -83,11 +83,14 @@ You can define an HTML `div` element and choose a colored border for it.
 
 ```html
 <div style="border: 5px solid green">You can define an HTML `div` element and choose a colored border for it.</div>
+```
+
+<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
 
 ```html
 <div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
 ```
-<div style="border: 1px solid black; float: right; width: 50%">You can define an HTML `div` element and float it to the right.</div>
+
 
 ### Graphs
 
@@ -95,15 +98,14 @@ Markdown often implements [Mermaid](https://mermaid.js.org/). Mermaid is a plain
 
 To start, let's make a simple graph using the following markdown code
 
-```markdown
-\`\`\`mermaid
-flowchart LR
-  A[concept] --|depends on|-> B[nother concept]
-\`\`\`
-```
-```
+````markdown
 ```mermaid
-flowchart LR
-  A[concept] --|depends on|-> B[another concept]
+flowchart TD;
+  A[concept] --> B[nother concept];
 ```
+````
 
+```mermaid
+flowchart TD;
+  A[concept] --> B[another concept];
+```
