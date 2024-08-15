@@ -24,12 +24,8 @@
       {% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
-      <div id="table-of-contents">
-        {{ content | toc }}
-      </div>
-    <div id="markdown-content">
+      {% include toc.html html=content %}
       {{ content }}
-    </div>
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
