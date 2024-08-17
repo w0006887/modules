@@ -25,7 +25,7 @@ If you plan to project the desktop of a laptop computer, follow the instructions
 
 Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen.
 
-![Screen Control](screenControl.jpg)
+![Screen Control](projector.jpg)
 
 ## Video input
 
