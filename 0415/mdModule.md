@@ -25,13 +25,16 @@ If you plan to project the desktop of a laptop computer, follow the instructions
 
 ## Projection Screen operation
 
-Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen. In some classrooms, a screen may lower to the position of the person operating the panel, or the person operating the panel may end up behind a lowered screen.
+Click "Screen control" to get to the screen that operates the lowering and lifting of the projection screens.
 
 ![Screen control](screenControl.png)
 
+Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen. In some classrooms, a screen may lower to the position of the person operating the panel, or the person operating the panel may end up behind a lowered screen.
+
+
 ## Video input
 
-Most classrooms have two HDMI inputs and two projectors. The switching of video feed is specified by the "PROJECTOR1" and "PROJECT2" screens of the control panel. The positions of "PROJECTOR" and "PROJECTOR2" correspond to the button location.
+Most classrooms have two HDMI inputs and two projectors. The switching of video feed is specified by the "PROJECTOR1" and "PROJECT2" screens of the control panel. The positions of "PROJECTOR1" and "PROJECTOR2" correspond to the button location.
 
 The control panel of each projector has several connection options.
 
