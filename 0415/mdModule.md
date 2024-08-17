@@ -1,4 +1,4 @@
-# _Module 0415: Projector and Screens in STEM Classrooms_
+# _Module 0415: Basic Projector and Screens in STEM Classrooms_
 
 # Normal operation
 
