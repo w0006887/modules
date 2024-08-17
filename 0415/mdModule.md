@@ -40,11 +40,15 @@ The control panel of each projector has several connection options.
 * DVD Blu-ray: connected to the DVD player in the cabinet
 * DOC CAM: connected to the dedicated document camera
 
-Note that the projectors do not automatically turn off. At the end of a class, please remember to power off the projectors.
+Note that the projectors do not automatically turn off. At the end of a class, please remember to power off the projectors. Click "System Off" to turn of the projector(s) at the end of a class.
 
 ## Audio
 
 Most classrooms have amplifiers suitable for presentations. The amplifier can be connected to the audio of a HDMI connection.
+
+![Audio source](audioSource.jpg)
+
+
 
 # Trouble shooting
 
