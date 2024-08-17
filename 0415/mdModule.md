@@ -25,6 +25,8 @@ If you plan to project the desktop of a laptop computer, follow the instructions
 
 Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen.
 
+![Screen Control](screenControl.jpg)
+
 ## Video input
 
 Most classrooms have two HDMI inputs. "Wall plate 1" should be connected to the workstation desktop computer. "Wall plate 2" is available to connect to a notebook computer. In the control screen, each projector can be in one of these three states:
