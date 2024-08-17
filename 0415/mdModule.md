@@ -25,15 +25,20 @@ If you plan to project the desktop of a laptop computer, follow the instructions
 
 Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen.
 
-![Screen Control](projector.jpg)
 
 ## Video input
 
-Most classrooms have two HDMI inputs. "Wall plate 1" should be connected to the workstation desktop computer. "Wall plate 2" is available to connect to a notebook computer. In the control screen, each projector can be in one of these three states:
+Most classrooms have two HDMI inputs and two projectors. The switching of video feed is specified by the "PROJECTOR1" and "PROJECT2" screens of the control panel. The positions of "PROJECTOR" and "PROJECTOR2" correspond to the button location.
+
+The control panel of each projector has several connection options.
+
+![Screen Control](projector.jpg)
 
 * Off
-* Connected to wall plate 1 (workstation desktop computer)
-* Connected to wall plate 2 (HDMI cable on the workstation)
+* WALL PLATE 1: Connected to wall plate 1 (workstation desktop computer)
+* WALL PLATE 2: Connected to wall plate 2 (HDMI cable on the workstation)
+* DVD Blu-ray: connected to the DVD player in the cabinet
+* DOC CAM: connected to the dedicated document camera
 
 Note that the projectors do not automatically turn off. At the end of a class, please remember to power off the projectors.
 
