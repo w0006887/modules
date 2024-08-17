@@ -4,7 +4,9 @@
 
 The projection screens, projectors, and computer-connected audio are configured via the wall panel interface. The wall panel interface is typically found at the corner of a classroom on the side of the projection screens. In some classrooms, the wall panel may be behind one of the projection screens if the projection screens are extended.
 
-If you plan to project the screen of the workstation desktop computer, configure the projector(s) before signing in to your account. If you configure the projector(s) after signing in, then you need to configure cloning the monitor display to the projector [manually](https://support.microsoft.com/en-us/windows/connect-to-a-projector-or-pc-7e170c39-58dc-c866-7d55-be2372632892). Note that you can manually configure Windows so that the monitor and the projector display different portions of an **extended* desktop. However, in this configuration, you need to turn around to see what is projected on the projection screen.
+![Panel and cabinet](panelAndCabinet.png)
+
+If you plan to project the screen of the workstation desktop computer, configure the projector(s) before signing in to your account. If you configure the projector(s) after signing in, then you need to manually configure cloning the monitor display to the projector [manually](https://support.microsoft.com/en-us/windows/connect-to-a-projector-or-pc-7e170c39-58dc-c866-7d55-be2372632892). Note that you can manually configure Windows so that the monitor and the projector display different portions of an **extended* desktop. However, in this configuration, you need to turn around to see what is projected on the projection screen.
 
 If you plan to project the desktop of a laptop computer, follow the instructions that are specific to the operating system of the laptop computer. Only HDMI is supported. If your laptop computer has a Thunderbolt/USB 3 (or later), DisplayPort, VGA, or other connectors, you will need an adaptor so that the output is HDMI. The monitor on the workstation has a second HDMI port available. You have the following options to use your laptop computer:
 
@@ -21,10 +23,11 @@ If you plan to project the desktop of a laptop computer, follow the instructions
     * Connect one output of the duplicator to the available HDMI port of the monitor.
     * Connect the other output of the duplicator to the HDMI cable on the workstation.
 
-## Screen operation
+## Projection Screen operation
 
-Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen.
+Most classrooms have two screens. The position of the screen matches the location of the buttons on the control screen. In some classrooms, a screen may lower to the position of the person operating the panel, or the person operating the panel may end up behind a lowered screen.
 
+![Screen control](screenControl.png)
 
 ## Video input
 
@@ -32,7 +35,7 @@ Most classrooms have two HDMI inputs and two projectors. The switching of video 
 
 The control panel of each projector has several connection options.
 
-![Screen Control](projector.jpg)
+![Projector input control](projector.jpg)
 
 * Off
 * WALL PLATE 1: Connected to wall plate 1 (workstation desktop computer)
@@ -48,10 +51,10 @@ Most classrooms have amplifiers suitable for presentations. The amplifier can be
 
 ![Audio source](audioSource.jpg)
 
-
+The buttons in the audio source screen is similar to the projector screens. Because HDMI includes audio, "WALL PLATE1" and "WALL PLATE2" correspond to the HDMI wall plates as explained in the [Video Input](#Video-input) section. 
 
 # Trouble shooting
 
-* Hard reset: there is no easy way to reboot the control panel and the A/V switch. It is safe open the cabinet housing the A/V equipment, and cycle power using the power strip. There are occasions when the A/V switch stops working and requires power cycling.
-* If the video connection is changed after booting into Windows, Windows may not recognize the change and reconnects to one or two of the projectors. After reconfiguring the video connection, it is best to log out and log back into Windows.
+* Hard reset: there is no easy way to reboot the control panel and the A/V switch. It is safe to open the cabinet housing the A/V equipment, and cycle power using the power strip. There are occasions when the A/V switch stops working and requires power cycling.
+* If the video connection is changed after booting into Windows, Windows may not recognize the change and reconnect to one or two of the projectors. After reconfiguring the video connection, it is best to log out and log back into Windows.
 * The HDMI cable to wall plate connection can be physically loose. If the video is flaky or not working, check the physical connection of the cable-wallplate connections.
