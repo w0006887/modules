@@ -7,4 +7,4 @@
 ./0412/mdModule.md:# _Module 0412: Student-centric generative AI_
 ./0413/mdModule.md:# _Module 0413: Roster Management_
 ./0414/mdModule.md:# _Module 0414: GitHub Markdown OER for students_
-./0415/mdModule.md:# _Module 0415: Basic Projector and Screens in STEM Classrooms_
+./0415/mdModule.md:# _Module 0415: Basic Guide to Audio/Video use in STEM Classrooms_
