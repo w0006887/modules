@@ -12,6 +12,17 @@ Most career options related to CIS (also called ICT, Information and Communicati
 
 The Employment Development Department of California (EDD) has [a tool](https://labormarketinfo.edd.ca.gov/LMID/Self_Assessment_for_Career_Exploration.html) to assess the interests and strengths of an individual for the purpose of career exploration. This is an *excellent* starting point to explore or to validate a particular career choice. No tool is 100% accurate, it is also best to talk to a counselor, a professor, or a practitioner to gain more depth of understanding.
 
+## Time-frame
+
+High-salary jobs in ICT often require a bachelor's degree in computer science (B.Sc. in CS). The current trend is that a master's degree is increasingly helpful for career advancement. 
+
+So what good is a community college?
+
+A community college, such as American River College, offers degrees that transfer to a four-year university. *Typically*, a student acquires an Associate of Science (AS) degree in about two years, then transfers to a four-year university as a junior.
+
+
+
+
 What types of classes do you offer?
 
 What type of entry-level jobs can you get in the tech field?
