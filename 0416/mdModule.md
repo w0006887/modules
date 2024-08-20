@@ -51,11 +51,31 @@ For people who are not sure about which career path to pursue, it is best to tak
 
 These are some recommendations. Some courses have "advisory" suggestions. For individuals who are unsure, it is best to take advisory courses first.
 
+# How to be a successful college student
 
-What courses will help you become a better college student?
+Depending on the high school experience, transitioning to college-level classes can be challenging. [Human Career Development](https://arc.losrios.edu/#tab-3) courses are specifically designed to help students who are new to college-level education. 
+
+In addition, the [Reading Across the Discliplines](https://arc.losrios.edu/student-resources/campus-tutoring-programs/reading-across-the-disciplines-(rad)) program offers half-unit classes that start two weeks into a semester that specifically target reading comprehension, note-taking techniques, and other skills that help students succeed in their classes. This program is particularly helpful in the context of STEM (Science, Technology, Engineering and Math) classes because of the high level of reading comprehension needed.
+
+The [STEM HomeBase](https://arc.losrios.edu/academics/stem-homebase) is also a valuable resource. It is a one-stop resource that can help students in many ways, just ask the friendly Success Coach! The Success Coach is knowledgeable, understanding, and resourceful.
+
+The [MESA Center](https://arc.losrios.edu/student-resources/mathematics-engineering-science-achievement) is a resource that is specifically for students who are first-generation college students and/or receiving financial assistance. MESA offers walk-in or scheduled peer-to-peer tutoring, field trips to STEM employers, seminars with industry leaders, etc. The most valuable part of MESA is that it is a tight-knit community. Students find peer support in terms of studying, future planning, and emotional support.
+
+# How to stay competitive in the long run?
+
+There are many factors. Aligning the personal interest and aptitude to a career path is the first step. This is because with a personal interest and aptitude, continuing to learn and grow can be fun, exciting, and stimulating.
+
+Specific to computer-related technologies, curiosity is a strong ally. Technologies develop and evolve at a *fast* pace that is always accelerating. Keeping up with the latest and greatest can be a chore. However, curiosity makes keeping up with the latest developments fun and gratifying. Check out tech websites for the latest news, and then turn to Wikipedia to understand the specific terms. 
+
+One reader crowd-sourced tech news hub is [Slashdot](https://slashdot.org/).
+
+Another way to stay competitive is to take on personal projects. Do you want to grow tomatoes and need to control watering precisely? Learn to build your own controller! Do you want to curb advertisements, improve effective bandwidth, and enhance cybersecurity? Implement your own router (using a Raspberry Pi)! Do you want a local network mass store to sync with Google Drive? Write your own code to do it!
+
+As you work on your personal projects, you may find like-minded peers. These peers can also help expand your knowledge, hone your skills, and refine your techniques. 
+
+
 
 How technology is  integrating into all career fields and why you should learn technology?
 
 What are some of the newest things that are happening in the tech field that will impact a 20-year-old?  and what are some ways you are keeping up with these technological advances in your department?
 
-What should my students be doing now to ensure they can be competitive in the future job market?
