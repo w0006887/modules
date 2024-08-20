@@ -73,9 +73,16 @@ Another way to stay competitive is to take on personal projects. Do you want to 
 
 As you work on your personal projects, you may find like-minded peers. These peers can also help expand your knowledge, hone your skills, and refine your techniques. 
 
+One important theme to stay competitive is *rigor*. Understand concepts in depth, and follow those rabbit holes. Question assumptions, and validate claims. Ask "what", "why", and "how". If there is a problem to solve, spend some time to "reinvent the wheel", then check to see if others have already invented the wheel. The *process* of reinventing the wheel is a mental exercise to strengthen cognitive functions. This is one of the best ways to prepare for the occasions when there is no wheel already invented and a new trail needs to be blazed!
 
+# The ARC CIS department keeps up
 
-How technology is  integrating into all career fields and why you should learn technology?
+There are some *uber* geeks in the ARC CIS department!
 
-What are some of the newest things that are happening in the tech field that will impact a 20-year-old?  and what are some ways you are keeping up with these technological advances in your department?
+* The use of Linux since 2000?
+* The development of OER (open education resource) since 2000?
+* Integrating game programming to an otherwise boring programming class?
+* Ethical **hacking** as a class?
+* Experimenting with AI to answer final exam questions (in 2022)?
 
+The CIS faculty does not preach. Many faculty members simply teach what they practice and with a passion! 
