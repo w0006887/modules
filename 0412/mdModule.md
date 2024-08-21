@@ -99,7 +99,7 @@
 * Instructor originates G-AI Q&A.
 * Instructor validates and hides the answer.
 * Students work on the question.
-* Instructor discloses the answer and potentially evaluates the answers from each student.
+* The instructor discloses the answers and potentially evaluates the answers from each student.
 
 ---
 
@@ -108,5 +108,14 @@
 * Especially for fully online (and asynchronous) classes.
 * Instructors need to point out and explain self-defeating ways of using G-AI.
 * There are ways to "poison" prompting text, but it is defeatable.
+
+---
+
+## G-AI as a study tool
+
+* Practical in some classes.
+* ChatGPT accepts Markdown format as input.
+* Input text from reading material, then interact as a form of studying.
+* Is the result reliable?
 
 ---
