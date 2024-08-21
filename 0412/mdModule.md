@@ -146,6 +146,6 @@
 * Perhaps one of the *best* application of G-AI that is productive for students!
 * Need the licence of the source material to allow copy and paste as part of a prompt.
 * The source material can be in any format, but Markdown is the best format.
-* Shameless plug: check out Tak's OER workshop on 9/29!
+* Shameless plug: check out Tak's OER workshop on 8/29!
 
 ---
