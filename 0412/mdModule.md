@@ -115,7 +115,26 @@
 
 * Practical in some classes.
 * ChatGPT accepts Markdown format as input.
-* Input text from reading material, then interact as a form of studying.
+* Input text from reading material, then interact as a way of studying.
 * Is the result reliable?
+* [An example, from the beginning.](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9).
+ * Note how the prompt begins with "The following is some material that I want to understand. My questions will be in the following prompts."
+ * The material source format is in Markdown, all the mathematical equations are captured correctly.
+ * In this case, ChatGPT is correct in the subsequent interaction.
+* Q&A prompt: "How is a P-type transistor different from an N-type transistor?"
 
 ---
+
+## G-AI to generate a quick summary
+
+* [An example, prompt: Can you summarize the source material as a bullet list that includes all the important definitions and notations?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9).
+* This can be helpful to a student who has already studied the material and attended the corresponding lecture. The summary is easier to study and refresh memory.
+* This example is technically correct.
+
+---
+
+## G-AI as Q&A
+
+* [An example of answering a question correctly, prompt: I think I understand the material now. Just to be sure, can you ask me a question, let me answer it, then evaluate my answer?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9).
+* [An example of answering a question incorrectly, prompt: Can you ask me another question?]
+* [An example of asking for clarification in the explanation of an incorrect answer, prompt: Can you clarify that you mean by "The P-type transistors (Q1 and Q2) are turned on because they are controlled by a low voltage"? Specifically, what does a low-voltage at the gate of a P-type transistor do?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9)
