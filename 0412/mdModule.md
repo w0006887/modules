@@ -143,8 +143,9 @@
 
 ## G-AI for general study strategies
 
-* [Example: I still find this material difficult to understand, can you recommend a strategy that is specific to this material?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9)
+* [Study strategy that is specific to the context material: I still find this material difficult to understand, can you recommend a strategy that is specific to this material?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9)
 * Note how the response is specific to the context material.
+* [Modeling effective note-taking in a specific context: If I were to take notes while reading this material, what would that note look like? Assume that I am fairly new to this material, but otherwise have a basic understanding of programming.](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9)
 ---
 
 ## G-AI can be a patient teaching assistant
