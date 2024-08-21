@@ -138,3 +138,14 @@
 * [An example of answering a question correctly, prompt: I think I understand the material now. Just to be sure, can you ask me a question, let me answer it, then evaluate my answer?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9).
 * [An example of answering a question incorrectly, prompt: Can you ask me another question?]
 * [An example of asking for clarification in the explanation of an incorrect answer, prompt: Can you clarify that you mean by "The P-type transistors (Q1 and Q2) are turned on because they are controlled by a low voltage"? Specifically, what does a low-voltage at the gate of a P-type transistor do?](https://chatgpt.com/share/288c9457-22f8-4972-820a-331f3f91e3e9)
+
+---
+
+## G-AI can be a patient teaching assistant
+
+* Perhaps one of the *best* application of G-AI that is productive for students!
+* Need the licence of the source material to allow copy and paste as part of a prompt.
+* The source material can be in any format, but Markdown is the best format.
+* Shameless plug: check out Tak's OER workshop on 9/29!
+
+---
