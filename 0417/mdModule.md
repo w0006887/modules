@@ -113,5 +113,25 @@ This is just an example! Individuals may have vastly different, even contrasting
   * Open the task tracker for CISP 310.
   * Evaluate tasks.
   * Prioritize tasks with immediate or close due dates.
-* After the completion of a task or subtask, check it in the task tracker
+  * After the completion of a task or subtask, check it in the task tracker
+* Put everything on the calendar, including leisure activities, family obligations, etc. This helps to visualize time usage as well as time conflict.
+
+# Habitualization
+
+```mermaid
+flowchart LR
+  A[habit] --> B[-ual (noun to adjective)]
+  B --> C[-iz(to turn into)]
+  C --> D[-ation(the process of)]
+```
+
+Making a habit of checking the calendar and task tracking is the key to the consistent and effective application of time management. 
+
+An excellent book to read is ["The Power of Habit: Why We Do What We Do in Life and Business."](https://a.co/d/6GP9K8b). To summarize, a habit has the following components:
+
+* A cue. This is a sensation acting as a subconscious reminder. This can be the smell of coffee in the morning, the sight of the hallway after a class, etc.
+* A routine. This is the action. In the context of this module, it can be checking the calendar, opening the task tracker, etc.
+* A reward. This is the reinforcement of the habit. It can be the enjoyment of the coffee, visually seeing checkboxes checked in the task tracker, a small ritual to celebrate the completion of a task, etc.
+
+[ChatGPT has this say on this topic.](https://chatgpt.com/share/f0cd65ef-4acd-4fe7-afba-690d63325aba).
 
