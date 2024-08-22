@@ -9,3 +9,4 @@
 * [Module 0414: GitHub Markdown OER for students](./0414/mdModule.md)
 * [Module 0415: Basic Guide to Audio/Video use in STEM Classrooms](./0415/mdModule.md)
 * [Module 0416: Computer Information Science (CIS) as a prospect career choice](./0416/mdModule.md)
+* [Module 0417: Time Budgeting and Management for College Students](./0417/mdModule.md)
