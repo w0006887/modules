@@ -120,9 +120,9 @@ This is just an example! Individuals may have vastly different, even contrasting
 
 ```mermaid
 flowchart LR
-  A[habit] --> B[-ual (noun to adjective)]
-  B --> C[-iz(to turn into)]
-  C --> D[-ation(the process of)]
+  A["habit"] --> B["-ual (noun to adjective)"]
+  B --> C["-iz(to turn into)"]
+  C --> D["-ation(the process of)"]
 ```
 
 Making a habit of checking the calendar and task tracking is the key to the consistent and effective application of time management. 
