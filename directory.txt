@@ -11,3 +11,4 @@
 ./0415/mdModule.md:# _Module 0415: Basic Guide to Audio/Video use in STEM Classrooms_
 ./0416/mdModule.md:# _Module 0416: Computer Information Science (CIS) as a prospect career choice_
 ./0417/mdModule.md:# _Module 0417: Time Budgeting and Management for College Students_
+./0418/mdModule.md:# _Module 0418: A Student's Guide to Gen-AI_
