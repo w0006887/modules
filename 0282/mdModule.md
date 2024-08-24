@@ -73,7 +73,8 @@ In this example, $d_1=1, d_0=6, d_{-1}=3$, etc. With this notation, the
 value $v$ represented by a base-10 number with digits $d_i$ is as
 follows:
 
-$$\begin{aligned}v & = d_0 \cdot 10^{0} + d_1 \cdot 10^{1} + d_{-1}\cdot 10^{-1} + ... \\ & = \sum\limits_{i=-\infty}^{\infty} d_i \cdot 10^{i}\end{aligned}$$
+$$\begin{aligned}v & = d_0 \cdot 10^{0} + d_1 \cdot 10^{1} + d_{-1}\cdot 10^{-1} + ... \\ 
+& = \sum\limits_{i=-\infty}^{\infty} d_i \cdot 10^{i}\end{aligned}$$
 
 Obviously $i$ should be an integer. You can imagine an infinite amount
 of leading zeroes to the left, and the infinite amount of trailing zeros
