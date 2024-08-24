@@ -22,3 +22,6 @@
   * [Crisis Assessment and Support Team](https://inside.arc.losrios.edu/faculty-and-staff/cast)
 * General
   * [Counseling and Transfer Services](https://arc.losrios.edu/student-resources/counseling)
+* Career and employment
+  * [Educational Pathway, Career, and Employment Support](https://arc.losrios.edu/career-and-pathways)
+    * [Career-related assessment tools](https://arc.losrios.edu/student-resources/support-services/career-and-pathways/free-career-resources) 
