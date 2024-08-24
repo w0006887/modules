@@ -9,6 +9,7 @@
     * [English as a Second Language Center](https://arc.losrios.edu/student-resources/learning-resource-center/english-as-a-second-language-center)
     * [BEACON Supplemental Instruction](https://arc.losrios.edu/student-resources/campus-tutoring-programs/beacon-supplemental-instruction-(si)-program)
     * [Science Success Center](https://arc.losrios.edu/student-resources/campus-tutoring-programs/science-success-center)
+    * [Human Career Development courses](https://arc.losrios.edu/academics/programs-and-majors/human-career-development)
 * Academic and general support
   * [STEM HomeBase](https://arc.losrios.edu/academics/stem-homebase)
   * [Mathematics, Engineering, Science, Achievement (MESA)](https://arc.losrios.edu/student-resources/mathematics-engineering-science-achievement)
