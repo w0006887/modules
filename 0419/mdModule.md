@@ -20,7 +20,7 @@
     * [Physical wellbeing](https://arc.losrios.edu/campus-life/student-health-and-wellness/physical-health-services)
     * [Mental wellbeing](https://arc.losrios.edu/campus-life/student-health-and-wellness/mental-health-and-wellness-services)
   * [Crisis Assessment and Support Team](https://inside.arc.losrios.edu/faculty-and-staff/cast)
-* General
+* Counseling
   * [Counseling and Transfer Services](https://arc.losrios.edu/student-resources/counseling)
 * Career and employment
   * [Educational Pathway, Career, and Employment Support](https://arc.losrios.edu/career-and-pathways)
