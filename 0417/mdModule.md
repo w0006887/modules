@@ -64,7 +64,7 @@ Can an individual play board games with friends in a time slot allocated to stud
 
 Another benefit of using a calendar, especially an app, is the reminder feature. [Canvas events can be synced with Google Calendar](https://community.canvaslms.com/t5/Student-Guide/How-do-I-subscribe-to-the-Calendar-feed-using-Google-Calendar-as/ta-p/535). This is just an example of how to integrate school work into a calendar that also includes personal events. It is best to have a single view of all events in order to spot double-booking and time conflicts.
 
-# Short-time (week/day) planning
+# Short-term (week/day) planning
 
 Time management strategies are, well, strategic. Time budgeting is logistical. That leaves short-term planning "tactical." In other words, the budget makes sure there is enough time, the strategy contributes an effective use of the resource, but the short-term plan allocates the resources to accomplish specific tasks.
 
