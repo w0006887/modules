@@ -87,13 +87,12 @@ The set of all even integers is also a set of infinite elements. But how
 do we express it? Let's say we want to call this set $E$.
 
 First, we can try the "list by example" method:
-$E=\{\dots, -4, -2, 0, 2, 4, \dots\}$. While this notation is understood
-by most people, it is not a very precise way of stating a set of all
+$E=\\{\dots, -4, -2, 0, 2, 4, \dots\\}$. While most people understand this notation, it is not a very precise way of stating a set of all
 even numbers. In this case, someone can easily think that the next
 elements to the left and right are $-8$ and $8$.
 
 The following notation can be used as a precise method to describe a set
-of even numbers: $E=\{x|(x \in \mathbb{Z}) \wedge (x \mod 2 = 0)\}$.
+of even numbers: $E=\\{x|(x \in \mathbb{Z}) \wedge (x \mod 2 = 0)\\}$.
 This notation literally says "something $x$ is an element of set $E$ if
 and only if $x$ is an element of the set of integers and $x$ divided by
 2 has a remainder of 0." The use of "if and only if" instead of "if" or
@@ -108,7 +107,7 @@ means exactly the same as
 
 $x\in E \Leftrightarrow P(x)$
 
-Let us generalize this to the following example: $X=\{e|P(e)\}$. In this
+Let us generalize this to the following example: $X=\\{e|P(e)\\}$. In this
 notation, $P(e)$ is called a predicate on $e$, it is some kind of
 Boolean expression parametrized by $e$. Given that $P$ is a predicate,
 this notation says the following: $P(x) \Leftrightarrow x \in X$.
@@ -122,7 +121,7 @@ and every value that is not an element of $X$ must make $P$ false.
 
 A set with no elements is called, no surprisingly, an empty set. While
 there are many representations of an empty set, we will use the one that
-is the most intuitive: $\{\}$.
+is the most intuitive: $\\{\\}$.
 
 # Set operators
 
@@ -132,7 +131,7 @@ The first operator we will define is the intersection operator. Given
 that $A$ and $B$ are both sets, the intersection is $A \cap B$. The
 definition of an intersection is as follows:
 
-$A \cap B = \{e|(e \in A) \wedge (e \in B)\}$
+$A \cap B = \\{e|(e \in A) \wedge (e \in B)\\}$
 
 Recall that this notation means exactly the same as follows:
 
@@ -146,7 +145,7 @@ equivalent to."
 The next operator is the union operator. We will go straight to the
 definition:
 
-$A \cup B = \{e | (e \in A) \vee (e \in B)\}$
+$A \cup B = \\{e | (e \in A) \vee (e \in B)\\}$
 
 In other words, an element is in the union of two sets if it is in at
 least one of the two sets. Note that we are simply using "or", but not
@@ -154,7 +153,7 @@ least one of the two sets. Note that we are simply using "or", but not
 
 A less commonly use but also important operator is difference.
 
-$A-B = \{e | (e \in A) \wedge \neg(e \in B)\}$
+$A-B = \\{e | (e \in A) \wedge \neg(e \in B)\\}$
 
 This means an element is in the difference between two sets if it is in
 the first set and not in the second. This operator, unlike union and
@@ -163,7 +162,7 @@ intersection, is not commutative.
 An apparently not-too-useful operator is the Cartesian product operator.
 This operator is defined as follows (assuming $A$ and $B$ are sets):
 
-$A \times B = \{(x,y)|(x \in A) \wedge (y \in B)\}$
+$A \times B = \\{(x,y)|(x \in A) \wedge (y \in B)\\}$
 
 This is the first time we encounter the notion of a tuple. In the
 definition, the term $(x,y)$ is a 2-tuple. A tuple is a container, but
@@ -177,17 +176,17 @@ Now we can also define some set operators that return true or false.
 
 We can start with the "subset of" operator, defined as follows:
 
-$(A \subseteq B) \Leftrightarrow (((A-B) = \{\}) \wedge (A\cap B = A))$
+$(A \subseteq B) \Leftrightarrow (((A-B) = \\{\\}) \wedge (A\cap B = A))$
 
 This means that $A$ is a subset of ($\subseteq$) $B$ if and only if
 there are no elements that are in $A$ but not in $B$. That, in return,
 is saying that everything in $A$ should be in $B$ as well.
 
-You can see how a set is always its own subset because $A-A=\{\}$ for
+You can see how a set is always its own subset because $A-A=\\{\\}$ for
 any set $A$. Sometimes, it is important to express that a set is a
 "proper subset" of another set. This is defined as follows:
 
-$A \subset B \Leftrightarrow (A \subseteq B) \wedge (B-A \neq \{\})$
+$A \subset B \Leftrightarrow (A \subseteq B) \wedge (B-A \neq \\{\\})$
 
 This means that in order for $A$ to be a proper subset of ($\subset$) of
 $B$, $A$ must be a subset of $B$, and there has to be at least one
@@ -196,4 +195,4 @@ element in $B$ that is not in $A$.
 Many times, we are interested in the number of elements in a set $X$.
 The notation $|X|$ is called the cardinality of $X$, which is
 essentially the number of elements in $X$. For example
-$|\{2,4,6,8\}|=4$.
+$|\\{2,4,6,8\\}|=4$.
