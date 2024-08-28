@@ -1,6 +1,7 @@
 * [Module 0279: Boolean Operators](./0279/mdModule.md)
 * [Module 0281: Transistor to logic gate](./0281/mdModule.md)
 * [Module 0282: Values, Numbers and Bases](./0282/mdModule.md)
+* [Module 0394: Installing riverSpider](./0394/mdModule.md)
 * [Module 0408: What's up with GitHub and Open Educational Resources?](./0408/mdModule.md)
 * [Module 0409: Defining a "session"](./0409/mdModule.md)
 * [Module 0410: Start of Semester Check-list for CIS instructors](./0410/mdModule.md)
