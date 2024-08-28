@@ -101,7 +101,7 @@ and only if $x$ is an element of the set of integers and $x$ divided by
 In general, if we consider $P(x)$ as a general predicate $P$ on $x$ as a
 function that returns true or false based on $x$, then
 
-$E=\{x|P(x)\}$
+$E=\\{x|P(x)\\}$
 
 means exactly the same as
 
