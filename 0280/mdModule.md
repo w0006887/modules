@@ -74,8 +74,8 @@ this is how we can determine whether $x=y$ is true or not:
 
 Now that we can compare a set with anything for equality, it is not
 surprising that a set can be an element of another set! For example,
-$X=\{a,b,\{1,2,3\}\}$ is a set that has one of its elements being a set
-itself. As a result, in this case, $\{1,2,3\} \in X$ is true.
+$X=\\{a,b,\\{1,2,3\\}\\}$ is a set that has one of its elements being a set
+itself. As a result, in this case, $\\{1,2,3\\} \in X$ is true.
 
 # Sets with an infinite number of elements
 
