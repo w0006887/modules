@@ -31,7 +31,7 @@ in a set.
 Now let us introduce some symbols. Typically, though not required, a set
 is represented by an uppercase letter. Elements in a set are enclosed by
 braces and separated by commas. For example, the following is a set of a
-few numbers: $T=\{12,5,2.2,7,-1,10\}$.
+few numbers: $T=\\{12,5,2.2,7,-1,10\\}$.
 
 Using this set as an example, we can illustrate the use of the
 "element-of" operator. This operator returns a value that is true or
