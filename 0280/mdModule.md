@@ -215,7 +215,7 @@ $|\\{2,4,6,8\\}|=4$.
 
 <details>
   <summary>2. Element of a Set</summary>
-  Given the set $S = \\{3.1, 5, -7, 9, 12\\}$, determine whether the statement $5 \in S$ is true or false. Explain your reasoning.
+  Given the set $S = \{3.1, 5, -7, 9, 12\}$, determine whether the statement $5 \in S$ is true or false. Explain your reasoning.
   <details>
     <summary>Answer</summary>
     The statement $5 \in S$ is true because the number $5$ is one of the elements in the set $S$.
