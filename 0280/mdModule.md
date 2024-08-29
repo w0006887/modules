@@ -179,12 +179,12 @@ We can start with the "subset of" operator, defined as follows:
 $(A \subseteq B) \Leftrightarrow (((A-B) = \\{\\}) \wedge (A\cap B = A))$
 
 This means that $A$ is a subset of ($\subseteq$) $B$ if and only if
-there are no elements that are in $A$ but not in $B$. That, in return,
+no elements are in $A$ but not in $B$. That, in return,
 is saying that everything in $A$ should be in $B$ as well.
 
 You can see how a set is always its own subset because $A-A=\\{\\}$ for
-any set $A$. Sometimes, it is important to express that a set is a
-"proper subset" of another set. This is defined as follows:
+any set $A$. Sometimes, expressing that a set is a
+"proper subset" of another set is important. This is defined as follows:
 
 $A \subset B \Leftrightarrow (A \subseteq B) \wedge (B-A \neq \\{\\})$
 
