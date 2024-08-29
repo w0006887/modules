@@ -196,3 +196,101 @@ Many times, we are interested in the number of elements in a set $X$.
 The notation $|X|$ is called the cardinality of $X$, which is
 essentially the number of elements in $X$. For example
 $|\\{2,4,6,8\\}|=4$.
+
+# AI Generated questions
+
+# Set Notation Questions
+
+<details>
+  <summary>1. Basic Concepts of Sets</summary>
+  What are the three fundamental properties of a set that distinguish it from other data structures?
+  <details>
+    <summary>Answer</summary>
+    The three fundamental properties of a set are:
+    1. Elements are unique: No duplicates are allowed.
+    2. No inherent order: The elements do not have a specific sequence.
+    3. Membership: The set contains or does not contain a specific element.
+  </details>
+</details>
+
+<details>
+  <summary>2. Element of a Set</summary>
+  Given the set $S = \\{3.1, 5, -7, 9, 12\\}$, determine whether the statement $5 \in S$ is true or false. Explain your reasoning.
+  <details>
+    <summary>Answer</summary>
+    The statement $5 \in S$ is true because the number $5$ is one of the elements in the set $S$.
+  </details>
+</details>
+
+<details>
+  <summary>3. Equivalence of Sets</summary>
+  Explain how to determine whether two sets $A$ and $B$ are equal. Provide an example with two small sets.
+  <details>
+    <summary>Answer</summary>
+    Two sets $A$ and $B$ are equal if every element in $A$ is also in $B$, and every element in $B$ is also in $A$. For example, if $A = \\{1, 2, 3\\}$ and $B = \\{3, 1, 2\\}$, then $A = B$ because both sets contain exactly the same elements.
+  </details>
+</details>
+
+<details>
+  <summary>4. Set as an Element</summary>
+  Consider the set $X = \\{a, b, \\{1, 2, 3\\}\\}$. Is the statement $\\{1, 2, 3\\} \in X$ true or false? Justify your answer.
+  <details>
+    <summary>Answer</summary>
+    The statement $\\{1, 2, 3\\} \in X$ is true because the set $\\{1, 2, 3\\}$ is one of the elements in the set $X$.
+  </details>
+</details>
+
+<details>
+  <summary>5. Infinite Sets</summary>
+  Express the set of all odd integers using the precise set notation discussed in the material.
+  <details>
+    <summary>Answer</summary>
+    The set of all odd integers can be expressed as $O = \\{x \mid x \in \mathbb{Z}, x \mod 2 \neq 0\\}$, where $\mathbb{Z}$ represents the set of all integers.
+  </details>
+</details>
+
+<details>
+  <summary>6. Empty Set</summary>
+  What is the symbol for an empty set, and what is its significance in set theory?
+  <details>
+    <summary>Answer</summary>
+    The symbol for an empty set is $\\{\\}$ or sometimes $\emptyset$. It signifies a set that contains no elements.
+  </details>
+</details>
+
+<details>
+  <summary>7. Intersection of Sets</summary>
+  Given two sets $A = \\{1, 2, 3, 4\\}$ and $B = \\{3, 4, 5, 6\\}$, find $A \cap B$ and explain what the result represents.
+  <details>
+    <summary>Answer</summary>
+    The intersection $A \cap B$ is $\\{3, 4\\}$. This result represents the elements that are common to both sets $A$ and $B$.
+  </details>
+</details>
+
+<details>
+  <summary>8. Union of Sets</summary>
+  Find the union $A \cup B$ of the sets $A = \\{x, y\\}$ and $B = \\{y, z\\}$. What does the result signify?
+  <details>
+    <summary>Answer</summary>
+    The union $A \cup B$ is $\\{x, y, z\\}$. This result signifies all elements that are in either set $A$ or set $B$, or in both.
+  </details>
+</details>
+
+<details>
+  <summary>9. Difference of Sets</summary>
+  Calculate the difference $C - D$ for the sets $C = \\{10, 20, 30\\}$ and $D = \\{20, 40\\}$. What does the difference operator tell us about these two sets?
+  <details>
+    <summary>Answer</summary>
+    The difference $C - D$ is $\\{10, 30\\}$. This result tells us the elements that are in set $C$ but not in set $D$.
+  </details>
+</details>
+
+<details>
+  <summary>10. Subset and Proper Subset</summary>
+  Explain the difference between a subset and a proper subset. Provide an example of a set $E$ and a subset $F$ where $F$ is a proper subset of $E$.
+  <details>
+    <summary>Answer</summary>
+    A subset $F$ of $E$ means that every element in $F$ is also in $E$. A proper subset $F$ of $E$ means that $F$ is a subset of $E$, and there is at least one element in $E$ that is not in $F$. For example, if $E = \\{1, 2, 3\\}$ and $F = \\{1, 2\\}$, then $F$ is a proper subset of $E$.
+  </details>
+</details>
+
