@@ -45,7 +45,7 @@ of time a set is to only contain integer values, how would you implement
 a set? How do you check whether a value is an element of a set? How do
 you place elements into a set?
 
-# Equivalence of sets {#section:setEq}
+# Equivalence of sets
 
 A set can be compared to another set to see if they are the same. At
 this point, we lack the precise mathematical notation for this kind
