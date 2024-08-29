@@ -168,33 +168,63 @@ out the converted number.
 
 ### Easy:
 1. **What is a number?**  
-   - Answer: A number is the name of a value.
+   <details>
+   <summary>Answer</summary>
+   A number is the name of a value.
+   </details>
 
 2. **In the base-10 system, what is the highest single-digit number?**  
-   - Answer: 9.
+   <details>
+   <summary>Answer</summary>
+   9.
+   </details>
 
-3. **What does the subscript "2" signify in the binary number \(01101_2\)?**  
-   - Answer: It signifies that the number is in base-2 (binary).
+3. **What does the subscript "2" signify in the binary number $01101_2$?**  
+   <details>
+   <summary>Answer</summary>
+   It signifies that the number is in base-2 (binary).
+   </details>
 
 4. **Why are binary numbers important in computing?**  
-   - Answer: Binary numbers are important because computers are digital binary systems, meaning they represent and process all values in binary.
+   <details>
+   <summary>Answer</summary>
+   Binary numbers are important because computers are digital binary systems, meaning they represent and process all values in binary.
+   </details>
 
 ### Medium:
-5. **Convert the binary number \(1011_2\) to its decimal equivalent.**  
-   - Answer: \(1011_2 = 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11\).
+5. **Convert the binary number $1011_2$ to its decimal equivalent.**  
+   <details>
+   <summary>Answer</summary>
+   $1011_2 = 1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 8 + 0 + 2 + 1 = 11$.
+   </details>
 
-6. **Explain the role of the modulus operator in converting a value \(v\) to a number in some base \(b\).**  
-   - Answer: The modulus operator helps in determining the digit at a specific position by isolating the value after dividing \(v\) by the base raised to the power of the digit's position.
+6. **Explain the role of the modulus operator in converting a value $v$ to a number in some base $b$.**  
+   <details>
+   <summary>Answer</summary>
+   The modulus operator helps in determining the digit at a specific position by isolating the value after dividing $v$ by the base raised to the power of the digit's position.
+   </details>
 
-7. **What does the equation \( v = \sum\limits_{i=-\infty}^{\infty} d_i \cdot b^{i} \) represent?**  
-   - Answer: It represents the value \(v\) as a sum of digits \(d_i\) multiplied by the base \(b\) raised to the power of their respective positions.
+7. **What does the equation $v = \sum\limits_{i=-\infty}^{\infty} d_i \cdot b^{i}$ represent?**  
+   <details>
+   <summary>Answer</summary>
+   It represents the value $v$ as a sum of digits $d_i$ multiplied by the base $b$ raised to the power of their respective positions.
+   </details>
 
 ### Hard:
 8. **Convert the decimal number 45.75 to its binary equivalent.**  
-   - Answer: 45 in binary is \(101101_2\). For 0.75, the binary equivalent is 0.11. So, 45.75 in binary is \(101101.11_2\).
+   <details>
+   <summary>Answer</summary>
+   45 in binary is $101101_2$. For 0.75, the binary equivalent is 0.11. So, 45.75 in binary is $101101.11_2$.
+   </details>
 
 9. **Why is it important to use a common base, such as base-10, in numbering systems?**  
-   - Answer: Using a common base simplifies the representation and manipulation of numbers, allows for consistent arithmetic operations, and facilitates easier communication and understanding across different systems.
+   <details>
+   <summary>Answer</summary>
+   Using a common base simplifies the representation and manipulation of numbers, allows for consistent arithmetic operations, and facilitates easier communication and understanding across different systems.
+   </details>
 
-10. **Describe the process of converting a base-10 number to a base-\(b\) number.**  
-    - Answer: To convert a base-10 number to base-\(b\), you repeatedly divide the number by \(b\), keeping track of the remainders. These remainders form the digits of the new base-\(b\) number when read in reverse order from the last remainder to the first.
+10. **Describe the process of converting a base-10 number to a base-$b$ number.**  
+   <details>
+   <summary>Answer</summary>
+   To convert a base-10 number to base-$b$, you repeatedly divide the number by $b$, keeping track of the remainders. These remainders form the digits of the new base-$b$ number when read in reverse order from the last remainder to the first.
+   </details>
