@@ -197,8 +197,6 @@ The notation $|X|$ is called the cardinality of $X$, which is
 essentially the number of elements in $X$. For example
 $|\\{2,4,6,8\\}|=4$.
 
-# AI Generated questions
-
 # Set Notation Questions
 
 <details>
@@ -227,16 +225,16 @@ $|\\{2,4,6,8\\}|=4$.
   Explain how to determine whether two sets $A$ and $B$ are equal. Provide an example with two small sets.
   <details>
     <summary>Answer</summary>
-    Two sets $A$ and $B$ are equal if every element in $A$ is also in $B$, and every element in $B$ is also in $A$. For example, if $A = \\{1, 2, 3\\}$ and $B = \\{3, 1, 2\\}$, then $A = B$ because both sets contain exactly the same elements.
+    Two sets $A$ and $B$ are equal if every element in $A$ is also in $B$, and every element in $B$ is also in $A$. For example, if $A = \{1, 2, 3\}$ and $B = \{3, 1, 2\}$, then $A = B$ because both sets contain exactly the same elements.
   </details>
 </details>
 
 <details>
   <summary>4. Set as an Element</summary>
-  Consider the set $X = \\{a, b, \\{1, 2, 3\\}\\}$. Is the statement $\\{1, 2, 3\\} \in X$ true or false? Justify your answer.
+  Consider the set $X = \{a, b, \{1, 2, 3\}\}$. Is the statement $\{1, 2, 3\} \in X$ true or false? Justify your answer.
   <details>
     <summary>Answer</summary>
-    The statement $\\{1, 2, 3\\} \in X$ is true because the set $\\{1, 2, 3\\}$ is one of the elements in the set $X$.
+    The statement $\{1, 2, 3\} \in X$ is true because the set $\{1, 2, 3\}$ is one of the elements in the set $X$.
   </details>
 </details>
 
@@ -245,7 +243,7 @@ $|\\{2,4,6,8\\}|=4$.
   Express the set of all odd integers using the precise set notation discussed in the material.
   <details>
     <summary>Answer</summary>
-    The set of all odd integers can be expressed as $O = \\{x \mid x \in \mathbb{Z}, x \mod 2 \neq 0\\}$, where $\mathbb{Z}$ represents the set of all integers.
+    The set of all odd integers can be expressed as $O = \{x \mid x \in \mathbb{Z}, x \mod 2 \neq 0\}$, where $\mathbb{Z}$ represents the set of all integers.
   </details>
 </details>
 
@@ -254,34 +252,34 @@ $|\\{2,4,6,8\\}|=4$.
   What is the symbol for an empty set, and what is its significance in set theory?
   <details>
     <summary>Answer</summary>
-    The symbol for an empty set is $\\{\\}$ or sometimes $\emptyset$. It signifies a set that contains no elements.
+    The symbol for an empty set is $\{\}$ or sometimes $\emptyset$. It signifies a set that contains no elements.
   </details>
 </details>
 
 <details>
   <summary>7. Intersection of Sets</summary>
-  Given two sets $A = \\{1, 2, 3, 4\\}$ and $B = \\{3, 4, 5, 6\\}$, find $A \cap B$ and explain what the result represents.
+  Given two sets $A = \{1, 2, 3, 4\}$ and $B = \{3, 4, 5, 6\}$, find $A \cap B$ and explain what the result represents.
   <details>
     <summary>Answer</summary>
-    The intersection $A \cap B$ is $\\{3, 4\\}$. This result represents the elements that are common to both sets $A$ and $B$.
+    The intersection $A \cap B$ is $\{3, 4\}$. This result represents the elements that are common to both sets $A$ and $B$.
   </details>
 </details>
 
 <details>
   <summary>8. Union of Sets</summary>
-  Find the union $A \cup B$ of the sets $A = \\{x, y\\}$ and $B = \\{y, z\\}$. What does the result signify?
+  Find the union $A \cup B$ of the sets $A = \{x, y\}$ and $B = \{y, z\}$. What does the result signify?
   <details>
     <summary>Answer</summary>
-    The union $A \cup B$ is $\\{x, y, z\\}$. This result signifies all elements that are in either set $A$ or set $B$, or in both.
+    The union $A \cup B$ is $\{x, y, z\}$. This result signifies all elements that are in either set $A$ or set $B$, or in both.
   </details>
 </details>
 
 <details>
   <summary>9. Difference of Sets</summary>
-  Calculate the difference $C - D$ for the sets $C = \\{10, 20, 30\\}$ and $D = \\{20, 40\\}$. What does the difference operator tell us about these two sets?
+  Calculate the difference $C - D$ for the sets $C = \{10, 20, 30\}$ and $D = \{20, 40\}$. What does the difference operator tell us about these two sets?
   <details>
     <summary>Answer</summary>
-    The difference $C - D$ is $\\{10, 30\\}$. This result tells us the elements that are in set $C$ but not in set $D$.
+    The difference $C - D$ is $\{10, 30\}$. This result tells us the elements that are in set $C$ but not in set $D$.
   </details>
 </details>
 
@@ -290,7 +288,6 @@ $|\\{2,4,6,8\\}|=4$.
   Explain the difference between a subset and a proper subset. Provide an example of a set $E$ and a subset $F$ where $F$ is a proper subset of $E$.
   <details>
     <summary>Answer</summary>
-    A subset $F$ of $E$ means that every element in $F$ is also in $E$. A proper subset $F$ of $E$ means that $F$ is a subset of $E$, and there is at least one element in $E$ that is not in $F$. For example, if $E = \\{1, 2, 3\\}$ and $F = \\{1, 2\\}$, then $F$ is a proper subset of $E$.
+    A subset $F$ of $E$ means that every element in $F$ is also in $E$. A proper subset $F$ of $E$ means that $F$ is a subset of $E$, and there is at least one element in $E$ that is not in $F$. For example, if $E = \{1, 2, 3\}$ and $F = \{1, 2\}$, then $F$ is a proper subset of $E$.
   </details>
 </details>
-
