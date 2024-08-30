@@ -2,6 +2,7 @@
 * [Module 0280: Basic Set Notations](./0280/mdModule.md)
 * [Module 0281: Transistor to logic gate](./0281/mdModule.md)
 * [Module 0282: Values, Numbers and Bases](./0282/mdModule.md)
+* [Module 0285: Quantifiers](./0285/mdModule.md)
 * [Module 0394: Installing riverSpider](./0394/mdModule.md)
 * [Module 0408: What's up with GitHub and Open Educational Resources?](./0408/mdModule.md)
 * [Module 0409: Defining a "session"](./0409/mdModule.md)
