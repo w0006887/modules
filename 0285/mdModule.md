@@ -175,7 +175,7 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 </details>
 
 ## Question 5
-**Statement:** Express the following in symbolic form: "There exists at least one even number in the set \\{1,2,3,4,5\\}."
+**Statement:** Express the following in symbolic form: "There exists at least one even number in the set \{1,2,3,4,5\}."
 
 <details>
   <summary>Answer</summary>
