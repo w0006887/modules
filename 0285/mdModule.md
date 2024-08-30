@@ -28,11 +28,11 @@ use the following expression:
 
 $\exists x(P(x))$
 
-This is literally saying "there exists at least one $x$ in the universe
+This is literally saying "There exists at least one $x$ in the universe
 such that $P(x)$ (is true)."
 
 Note the importance of saying "at least." This means that maybe there
-are more than one things that makes $P(x)$ true. In other words, the
+is more than one thing that makes $P(x)$ true. In other words, the
 symbol $\exists$ does not imply "one and only one" or "exactly one."
 
 # More complex use of quantifiers with negation
@@ -48,7 +48,7 @@ $\neg \exists x(P(x))$
 Literally, this means "it is not the case that there exists something
 $x$ such that $x$ lasts forever." Of course, we know this really just
 means that "nothing lasts forever." There is a more clumsy way to say
-"nothing lasts forever": "everything does not last forever."
+"nothing lasts forever": "Everything does not last forever."
 "Everything" is $\forall$, so we can say the same thing as follows:
 
 $\forall x(\neg P(x))$
@@ -59,7 +59,7 @@ a look at the following statement:
 
 $\neg \forall x(P(x))$
 
-This says "it is not the case that everything $x$ lasts forever." This
+This says "It is not the case that everything $x$ lasts forever." This
 simplifies to "not everything lasts forever."
 
 Ah, "not everything lasts forever" means that "something does not last
@@ -77,7 +77,7 @@ $\neg \forall x (P(x)) \Leftrightarrow \exists x (\neg
 Broad statements like "nothing lasts forever" are not very useful.
 Although "does not last forever" may be useful, we may want to limit
 what it applies to with a filter. Unfortunately, the quantifiers by
-default applies to everything.
+default apply to everything.
 
 What if we want to say no cars last forever? Let's assume a set $X$
 contains all the cars manufactured. This means an element $e$ of $X$ is
@@ -87,8 +87,8 @@ Let us consider the following statement:
 
 $\forall e(e \in X \Rightarrow P(e) )$
 
-This statement says "for each thing $e$ in the universe, if $e$ is a
-car, it lasts forever." Essentially, this is the same as "all cars lasts
+This statement says "For each thing $e$ in the universe, if $e$ is a
+car, it lasts forever." Essentially, this is the same as "all cars last
 forever" (but we don't know, from this statement, whether other things
 last forever or not).
 
@@ -97,17 +97,17 @@ forever." We can now reformulate the statement as follows:
 
 $\forall e(e \in X \Rightarrow \neg P(e))$
 
-Literally, this statement says "for each thing $e$ in the universe, if
+Literally, this statement says "For each thing $e$ in the universe, if
 $e$ is a car, $e$ does not last forever." This is the same as saying
 "every car does not last forever", or "no car lasts forever."
 
-Note that with this statement, it is universally true as long as no car
+Note that this statement is universally true as long as no car
 lasts forever. When $e$ is bound to, say, Tak, then the clause is
 automatically true whether Tak lasts forever or not. This is because in
 the implication, if $e$ is not a car (an element of $X$), then the
 entire implication is true.
 
-In other words, in a implication $P \Rightarrow Q$, $P$ is a filter. If
+In other words, in an implication $P \Rightarrow Q$, $P$ is a filter. If
 $P$ is not true, we don't care about $Q$ and the whole implication is
 true. On the other hand, if $P$ is true, then we need $Q$ to be also
 true for the implication itself to be true.
@@ -128,10 +128,10 @@ set $X$ existentially, we can use the following expression:
 
 $\exists e((e \in X) \wedge P(e))$
 
-Note now we used implication in the universal quantifier, but now we use
+Note how we used implication in the universal quantifier, but now we use
 the conjunction operator in the existential quantifier. This is because
 the \"default\" of the universal quantifier for something not in $X$ is
 true, but the default of the existential quantifier for something not in
-$X$ is false. The above expression is often simplied as follows:
+$X$ is false. The above expression is often simplified as follows:
 
 $\exists e \in X (P(e))$
