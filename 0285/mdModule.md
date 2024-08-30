@@ -139,3 +139,86 @@ $X$ is false. The above expression is often simplified as follows:
 $\exists e \in X (P(e))$
 
 As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally the same as $(1 \mod 2 = 0) \vee (2 \mod 2 = 0) \vee (3 \mod 2 = 0)$.
+
+# Quantifiers Practice Questions
+
+## Question 1
+**Statement:** Express the following in symbolic form: "All cars are fast."
+
+<details>
+  <summary>Answer</summary>
+  $\forall x(x \in \text{{Cars}} \Rightarrow \text{{Fast}}(x))$
+</details>
+
+## Question 2
+**Statement:** Express the following in symbolic form: "Some birds cannot fly."
+
+<details>
+  <summary>Answer</summary>
+  $\exists x(x \in \text{{Birds}} \wedge \neg \text{{Fly}}(x))$
+</details>
+
+## Question 3
+**Statement:** Convert the following to natural language: $\forall x(\neg P(x))$
+
+<details>
+  <summary>Answer</summary>
+  "Nothing in the universe satisfies $P(x)$." or "For all $x$, $P(x)$ is false."
+</details>
+
+## Question 4
+**Statement:** Express the following in symbolic form: "Not every student in the class passed the exam."
+
+<details>
+  <summary>Answer</summary>
+  $\neg \forall x(x \in \text{{Students}} \Rightarrow \text{{Passed}}(x))$ or $\exists x(x \in \text{{Students}} \wedge \neg \text{{Passed}}(x))$
+</details>
+
+## Question 5
+**Statement:** Express the following in symbolic form: "There exists at least one even number in the set \\{1,2,3,4,5\\}."
+
+<details>
+  <summary>Answer</summary>
+  $\exists x(x \in \\{1,2,3,4,5\\} \wedge x \mod 2 = 0)$
+</details>
+
+## Question 6
+**Statement:** Convert the following to natural language: $\exists x(\neg P(x))$
+
+<details>
+  <summary>Answer</summary>
+  "There exists at least one $x$ in the universe such that $P(x)$ is false." or "There is something that does not satisfy $P(x)$."
+</details>
+
+## Question 7
+**Statement:** Express the following in symbolic form: "All humans are mortal."
+
+<details>
+  <summary>Answer</summary>
+  $\forall x(x \in \text{{Humans}} \Rightarrow \text{{Mortal}}(x))$
+</details>
+
+## Question 8
+**Statement:** Convert the following to natural language: $\neg \exists x(P(x))$
+
+<details>
+  <summary>Answer</summary>
+  "There does not exist any $x$ in the universe such that $P(x)$ is true." or "Nothing satisfies $P(x)$."
+</details>
+
+## Question 9
+**Statement:** Express the following in symbolic form: "No prime numbers are even except 2."
+
+<details>
+  <summary>Answer</summary>
+  $\forall x((x \in \text{{Primes}} \wedge x \neq 2) \Rightarrow \neg (x \mod 2 = 0))$
+</details>
+
+## Question 10
+**Statement:** Convert the following to natural language: $\forall x(x \in \text{{Natural Numbers}} \Rightarrow x \geq 0)$
+
+<details>
+  <summary>Answer</summary>
+  "All natural numbers are greater than or equal to 0."
+</details>
+
