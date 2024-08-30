@@ -92,6 +92,8 @@ car, it lasts forever." Essentially, this is the same as "all cars last
 forever" (but we don't know, from this statement, whether other things
 last forever or not).
 
+As a concrete example, $\forall e(e \in \\{1,2,3\\} \Rightarrow (e < 5))$ is functionally the same as $(1 < 5) \wedge (2 < 5) \wedge (3 < 5)$.
+
 "No car lasts forever" is, in a longer way, "each car does not last
 forever." We can now reformulate the statement as follows:
 
@@ -135,3 +137,5 @@ true, but the default of the existential quantifier for something not in
 $X$ is false. The above expression is often simplified as follows:
 
 $\exists e \in X (P(e))$
+
+As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally the same as $(1 \mod 2 = 0) \vee (2 \mod 2 = 0) \vee (3 \mod 2 = 0)$.
