@@ -147,7 +147,7 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 
 <details>
   <summary>Answer</summary>
-  $\forall x(x \in \text{{Cars}} \Rightarrow \text{{Fast}}(x))$
+  $\forall x(x \in \text{Cars} \Rightarrow \text{Fast}(x))$
 </details>
 
 ## Question 2
@@ -155,7 +155,7 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 
 <details>
   <summary>Answer</summary>
-  $\exists x(x \in \text{{Birds}} \wedge \neg \text{{Fly}}(x))$
+  $\exists x(x \in \text{Birds} \wedge \neg \text{Fly}(x))$
 </details>
 
 ## Question 3
@@ -171,7 +171,7 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 
 <details>
   <summary>Answer</summary>
-  $\neg \forall x(x \in \text{{Students}} \Rightarrow \text{{Passed}}(x))$ or $\exists x(x \in \text{{Students}} \wedge \neg \text{{Passed}}(x))$
+  $\neg \forall x(x \in \text{Students} \Rightarrow \text{Passed}(x))$ or $\exists x(x \in \text{Students} \wedge \neg \text{Passed}(x))$
 </details>
 
 ## Question 5
@@ -195,7 +195,7 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 
 <details>
   <summary>Answer</summary>
-  $\forall x(x \in \text{{Humans}} \Rightarrow \text{{Mortal}}(x))$
+  $\forall x(x \in \text{Humans} \Rightarrow \text{Mortal}(x))$
 </details>
 
 ## Question 8
@@ -211,11 +211,11 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 
 <details>
   <summary>Answer</summary>
-  $\forall x((x \in \text{{Primes}} \wedge x \neq 2) \Rightarrow \neg (x \mod 2 = 0))$
+  $\forall x((x \in \text{Primes} \wedge x \neq 2) \Rightarrow \neg (x \mod 2 = 0))$
 </details>
 
 ## Question 10
-**Statement:** Convert the following to natural language: $\forall x(x \in \text{{Natural Numbers}} \Rightarrow x \geq 0)$
+**Statement:** Convert the following to natural language: $\forall x(x \in \text{Natural Numbers} \Rightarrow x \geq 0)$
 
 <details>
   <summary>Answer</summary>
