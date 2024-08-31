@@ -3,6 +3,7 @@
 * [Module 0281: Transistor to logic gate](./0281/mdModule.md)
 * [Module 0282: Values, Numbers and Bases](./0282/mdModule.md)
 * [Module 0285: Quantifiers](./0285/mdModule.md)
+* [Module 0288: Set notations defined using quantifiers](./0288/mdModule.md)
 * [Module 0382: The recursive definition of summation and other "big-operators"](./0382/mdModule.md)
 * [Module 0394: Installing riverSpider](./0394/mdModule.md)
 * [Module 0408: What's up with GitHub and Open Educational Resources?](./0408/mdModule.md)
