@@ -34,6 +34,11 @@ $\\{a,b,c\\}$
 
 is rendered as $\\{a,b,c\\}$.
 
+Using the built-in editor of `github.com`, the following find-and-replace configuration will change `\{` and `\}` to `\\{` and `\\}`:
+
+* Search for `(?:[^\\])(\\[\{\}])`
+* Replace with `\\$1`
+
 ## No Markdown in HTML elements
 
 Markdown content that is nested in HTML content is not rendered. 
