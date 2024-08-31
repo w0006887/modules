@@ -30,7 +30,7 @@ $(x=y) \Leftrightarrow ((\forall e \in x(e \in y)) \wedge (\forall e \in y(e \in
 
 There is a more concise statement that states the same:
 
-$(x=y) \Leftrightarrow (\forall e((e \in x) \Leftrightarrow (e \in y)))$
+<span id="setEquality">$(x=y) \Leftrightarrow (\forall e((e \in x) \Leftrightarrow (e \in y)))$</span>
 
 # Set description
 
