@@ -179,7 +179,7 @@ As a concrete example, $\exists e \in \\{1,2,3\\}(e \mod 2 = 0)$ is functionally
 
 <details>
   <summary>Answer</summary>
-  $\exists x(x \in \\{1,2,3,4,5\\} \wedge x \mod 2 = 0)$
+  $\exists x(x \in \{1,2,3,4,5\} \wedge x \mod 2 = 0)$
 </details>
 
 ## Question 6
