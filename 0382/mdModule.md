@@ -1,16 +1,4 @@
----
-header-includes: <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" type="text/javascript"></script>
-title: "Module 0382: Summation and other \"big-operators\" defined recursively"
-author: Tak Auyeung
-output: 
-	md_document:
-  	variant: markdown_mmd
----
-!include /home/tauyeung/md/pandoc/mermaidInit.md
-
-!include /home/tauyeung/md/pandoc/cc-by.md
-
-[comment]: # this line should be considered as comment
+# _Module 0382: The recursive definition of summation and other "big-operators"_
 
 # Summation
 
@@ -62,7 +50,7 @@ In an interesting twist, the existential quantifier can also be thought of as a 
 
 $\left( \exists e \in X\left(f(e)\right) \right) = \bigvee_{e \in X} f(e)$
 
-From here, the issue is that the iterations through members of $X$ is not well stated. Because elements in a set have no inherent ordering, it is not possible to directly *address* an element in a set. To solve this problem, we need to create a new notation $d(X)$ to "deterministically draw an element from a non-empty set $X$". This means that given $X$ does not change, $d(X)$ draws exactly the same element every time the function is called.
+From here, the issue is that the iterations through members of $X$ are not well stated. Because elements in a set have no inherent ordering, it is not possible to directly *address* an element in a set. To solve this problem, we need to create a new notation $d(X)$ to "deterministically draw an element from a non-empty set $X$". This means that given $X$ does not change, $d(X)$ draws exactly the same element every time the function is called.
 
 With this notation, we can define the following:
 
@@ -80,7 +68,7 @@ Since we have introduced $d(X)$ at this point, we can also define other big oper
 
 $\square_{e \in X} f(e) = (X=\{\}) ? i(\square) : f(d(x)) \square \left( \square_{e \in (X-\{d(x)\}} f(e) \right)$
 
-Let us apply this abstract big operator format to big union. Union ($\cup$) has an identity of empty set ($\{\}$). This means the following:
+Let us apply this abstract big operator format to the big union. Union ($\cup$) has an identity of an empty set ($\{\}$). This means the following:
 
 $\bigcup_{e \in X}f(e) = (X = \{\}) ? \{\} : \left(f\left(d(X)\right) \cup \left(\bigcup_{e \in X-\{d(X)\}}f(e) \right) \right)$
 
