@@ -5,12 +5,12 @@ plugins:
 - jekyll-toc
 - jekyll-mermaid
 
-use_math: true
+# use_math: true
 toc: true
 mermaid: true
 
 markdown: kramdown
-mathjax: true
+# mathjax: true
 kramdown:
   math_engine: mathjax
   input: GFM
