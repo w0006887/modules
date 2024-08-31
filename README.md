@@ -13,3 +13,55 @@ Also, for the GitHub workflow to work, [the GitHub bot should have read/write pe
 # Fork, contribute and pull request
 
 If you see an issue, you can fork the file(s), make your edits, and then submit a pull request to merge your contribution to the main branch.
+
+# Tricks, Tips and Caveats
+
+## Set notations
+
+`{` and `}` in an equation are normally specified as `\{` and `\}` in an equation environment. However, the GitHub equation rendering mechanism requires two backslashes.
+
+```markdown
+$\{a,b,c\}$
+```
+
+is rendered as $\{a,b,c\}$.
+
+However,
+
+```markdown
+$\\{a,b,c\\}$
+```
+
+is rendered as $\\{a,b,c\\}$.
+
+## No Markdown in HTML elements
+
+Markdown content that is nested in HTML content is not rendered. 
+
+```html
+<div>
+Isn't this **bold**?
+</div>
+```
+
+is rendered as
+
+<p>
+Isn't this **bold**?
+</p>
+
+## Set notations inside HTML elements
+
+`{` and `}` are rendered correctly with a single backslash in equations inside HTML elements.
+
+```HTML
+<div>
+$\{a,b,c\}$
+</div>
+```
+
+is rendered as 
+
+<div>
+$\{a,b,c\}$
+</div>
