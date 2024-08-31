@@ -44,6 +44,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>
         anchors.add();
+        anchors.add('h1'); // explicitly because h1 bookmarks do not seem to get visual links
     </script>
     <script type="module">
         var config = { startOnLoad:true, flowchart:{ useMaxWidth:false, htmlLabels:true } }; 
