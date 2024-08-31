@@ -2,14 +2,14 @@
 
 # About this module
 
--   Prerequisites: [0280](../0280), [0285](../0285)
+-   Prerequisites: [0280](../0280/mdModule.html), [0285](../0285/mdModule.html)
 
 -   Objectives: Set theory using quantifiers
 
 # Rationale
 
 Although basic set theory was already discussed in module
-[0280](../0280), that was discussed without the use of quantifiers.
+[0280](../0280/mdModule.html), that was discussed without the use of quantifiers.
 Quantifiers are useful tools for a variety of math topics, set theory is
 a part of those topics. By reexamining basic set theory, we reinforce
 the understanding of both set theory as well as quantifiers.
