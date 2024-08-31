@@ -101,7 +101,7 @@ and only if $x$ is an element of the set of integers and $x$ divided by
 In general, if we consider $P(x)$ as a general predicate $P$ on $x$ as a
 function that returns true or false based on $x$, then
 
-$E=\\{x|P(x)\\}$
+$E=\{x|P(x)\}$
 
 means exactly the same as
 
@@ -131,7 +131,7 @@ The first operator we will define is the intersection operator. Given
 that $A$ and $B$ are both sets, the intersection is $A \cap B$. The
 definition of an intersection is as follows:
 
-$A \cap B = \\{e|(e \in A) \wedge (e \in B)\\}$
+$A \cap B = \{e|(e \in A) \wedge (e \in B)\}$
 
 Recall that this notation means exactly the same as follows:
 
@@ -145,7 +145,7 @@ equivalent to."
 The next operator is the union operator. We will go straight to the
 definition:
 
-$A \cup B = \\{e | (e \in A) \vee (e \in B)\\}$
+$A \cup B = \{e | (e \in A) \vee (e \in B)\}$
 
 In other words, an element is in the union of two sets if it is in at
 least one of the two sets. Note that we are simply using "or", but not
@@ -153,7 +153,7 @@ least one of the two sets. Note that we are simply using "or", but not
 
 A less commonly use but also important operator is difference.
 
-$A-B = \\{e | (e \in A) \wedge \neg(e \in B)\\}$
+$A-B = \{e | (e \in A) \wedge \neg(e \in B)\}$
 
 This means an element is in the difference between two sets if it is in
 the first set and not in the second. This operator, unlike union and
@@ -162,7 +162,7 @@ intersection, is not commutative.
 An apparently not-too-useful operator is the Cartesian product operator.
 This operator is defined as follows (assuming $A$ and $B$ are sets):
 
-$A \times B = \\{(x,y)|(x \in A) \wedge (y \in B)\\}$
+$A \times B = \{(x,y)|(x \in A) \wedge (y \in B)\}$
 
 This is the first time we encounter the notion of a tuple. In the
 definition, the term $(x,y)$ is a 2-tuple. A tuple is a container, but
@@ -176,7 +176,7 @@ Now we can also define some set operators that return true or false.
 
 We can start with the "subset of" operator, defined as follows:
 
-$(A \subseteq B) \Leftrightarrow (((A-B) = \\{\\}) \wedge (A\cap B = A))$
+$(A \subseteq B) \Leftrightarrow (((A-B) = \{\}) \wedge (A\cap B = A))$
 
 This means that $A$ is a subset of ($\subseteq$) $B$ if and only if
 no elements are in $A$ but not in $B$. That, in return,
