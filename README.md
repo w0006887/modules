@@ -21,23 +21,38 @@ If you see an issue, you can fork the file(s), make your edits, and then submit 
 `{` and `}` in an equation are normally specified as `\{` and `\}` in an equation environment. However, the GitHub equation rendering mechanism requires two backslashes.
 
 ```markdown
-$\{a,b,c\}$
+$\{a,b,c\}$ is a set
 ```
 
-is rendered as $\{a,b,c\}$.
+is rendered as "$\{a,b,c\}$ is a set".
 
 However,
 
 ```markdown
-$\\{a,b,c\\}$
+$\\{a,b,c\\}$ is a set
 ```
 
-is rendered as $\\{a,b,c\\}$.
+is rendered as "$\\{a,b,c\\}$ is a set".
 
 Using the built-in editor of `github.com`, the following find-and-replace configuration will change `\{` and `\}` to `\\{` and `\\}`:
 
 * Search for `(?:[^\\])(\\[\{\}])`
 * Replace with `\\$1`
+
+Note that equation blocks that are standalone (using `$$` to start and end the equation) do not need to escape the backslash. 
+
+```markdown
+$$\{a,b,c\}$$
+
+is a set
+```
+is rendered as follows:
+
+---
+$$\{a,b,c\}$$
+
+is a set
+---
 
 ## No Markdown in HTML elements
 
