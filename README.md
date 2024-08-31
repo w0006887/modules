@@ -16,7 +16,7 @@ If you see an issue, you can fork the file(s), make your edits, and then submit 
 
 # Tricks, Tips and Caveats
 
-## Set notations
+## Set element delimiters
 
 `{` and `}` in an equation are normally specified as `\{` and `\}` in an equation environment. However, the GitHub equation rendering mechanism requires two backslashes.
 
@@ -55,7 +55,7 @@ is rendered as
 Isn't this **bold**?
 </p>
 
-## Set notations inside HTML elements
+## Set delimiters inside HTML elements
 
 `{` and `}` are rendered correctly with a single backslash in equations inside HTML elements.
 
