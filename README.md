@@ -18,7 +18,9 @@ If you see an issue, you can fork the file(s), make your edits, and then submit 
 
 # Tricks, Tips and Caveats
 
-## Set element delimiters
+## Jekyll-imposed issues
+
+### Set element delimiters
 
 `{` and `}` in an equation are normally specified as `\{` and `\}` in an equation environment. However, the GitHub equation rendering mechanism requires two backslashes.
 
@@ -58,7 +60,7 @@ is a set
 
 ---
 
-## No Markdown in HTML elements by default
+### No Markdown in HTML elements by default
 
 Markdown content that is nested in HTML content is not rendered. 
 
@@ -89,7 +91,7 @@ Isn't this **bold**?
 </p>
 
 
-## Set delimiters inside HTML elements
+### Set delimiters inside HTML elements
 
 `{` and `}` are rendered correctly with a single backslash in equations inside HTML elements.
 
@@ -104,3 +106,21 @@ is rendered as
 <div>
 $\{a,b,c\}$
 </div>
+
+## ChatGPT prompts
+
+### AI-generated questions
+
+First, select the content of a module. It is best to use the editor to copy and paste the raw Markdown content so that the equations are properly captured.
+
+In ChatGPT, use the following initial prompt: 
+
+> Please read the following content about *the module title or a more detailed description.* I will ask some questions in the following prompts.
+> *Shift-ENTER to enter 2 empty lines.*
+> *Copy and paste content*
+
+To ask for questions and answers, the following prompt generates HTML code that can be viewed in a browser:
+
+> Generate 10 questions with answers so I can check my understanding of this material as well as the application of the concepts. Please format the questions and answers using HTML details and summary elements. Use the dollar sign "$" to begin and end equations.
+
+The ChatGPT web interface does not appear to be able to render HTML `details` and `summary` elements.
