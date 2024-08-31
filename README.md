@@ -56,7 +56,7 @@ is a set
 
 ---
 
-## No Markdown in HTML elements
+## No Markdown in HTML elements by default
 
 Markdown content that is nested in HTML content is not rendered. 
 
@@ -71,6 +71,21 @@ is rendered as
 <p>
 Isn't this **bold**?
 </p>
+
+This limitation can be overcome by specifying the nested text is in Markdown.
+
+```html
+<p markdown="1">
+Isn't this **bold**?
+</p>
+```
+
+is rendered as follows:
+
+<p markdown="1">
+Isn't this **bold**?
+</p>
+
 
 ## Set delimiters inside HTML elements
 
