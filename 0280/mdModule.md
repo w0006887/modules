@@ -135,7 +135,7 @@ $$A \cap B = \{e|(e \in A) \wedge (e \in B)\}$$
 
 Recall that this notation means exactly the same as follows:
 
-$(e \in (A \cap B)) \Leftrightarrow ((e \in A) \wedge (e \in B))$
+$$(e \in (A \cap B)) \Leftrightarrow ((e \in A) \wedge (e \in B))$$
 
 Of course, in English, this is rather simple to explain: an element is
 in the intersection of two sets if and only if the element is found in
