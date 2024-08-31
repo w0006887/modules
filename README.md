@@ -49,9 +49,11 @@ is a set
 is rendered as follows:
 
 ---
+
 $$\{a,b,c\}$$
 
 is a set
+
 ---
 
 ## No Markdown in HTML elements
