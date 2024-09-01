@@ -233,10 +233,10 @@ In order to save enough time for other topics, this module does not discuss the 
 # AI-generated (but fixed by a human!) exercises
 
 
-    <h2>Binary Addition Questions</h2>
+<h2>Binary Addition Questions</h2>
     
-    <details>
-        <summary>Question 1: Add 1011 and 0110.</summary>
+<details>
+<summary>Question 1: Add 1011 and 0110.</summary>
         <pre>
      3 2 1 0 digit
        1 0 1 1 x
@@ -247,9 +247,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 0 0 1 s
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 2: Add 1101 and 1010.</summary>
         <pre>
      3 2 1 0 digit
@@ -261,9 +261,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 1 1 1 s
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 3: Add 1111 and 0001.</summary>
         <pre>
      3 2 1 0 digit
@@ -275,9 +275,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 0 0 0 s
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 4: Add 1001 and 0111.</summary>
         <pre>
      3 2 1 0 digit
@@ -289,9 +289,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 0 0 0 s
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 5: Add 0011 and 1100.</summary>
         <pre>
      3 2 1 0 digit
@@ -303,11 +303,11 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        1 1 1 1 s
         </pre>
-    </details>
+</details>
 
-    <h2>Binary Subtraction Questions</h2>
+<h2>Binary Subtraction Questions</h2>
     
-    <details>
+<details>
         <summary>Question 1: Subtract 0110 from 1011.</summary>
         <pre>
      3 2 1 0 digit
@@ -319,9 +319,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 1 0 1 d
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 2: Subtract 1010 from 1101.</summary>
         <pre>
      3 2 1 0 digit
@@ -333,9 +333,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 0 1 1 d
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 3: Subtract 0001 from 1111.</summary>
         <pre>
      3 2 1 0 digit
@@ -347,9 +347,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        1 1 1 0 d
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 4: Subtract 0111 from 1001.</summary>
         <pre>
      3 2 1 0 digit
@@ -361,9 +361,9 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 0 1 0 d
         </pre>
-    </details>
+</details>
 
-    <details>
+<details>
         <summary>Question 5: Subtract 1100 from 0011.</summary>
         <pre>
      3 2 1 0 digit
@@ -375,7 +375,7 @@ In order to save enough time for other topics, this module does not discuss the 
     ----------
        0 1 1 1 d
         </pre>
-    </details>
+</details>
 
 
 
