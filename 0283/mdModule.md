@@ -24,7 +24,7 @@
        9 9 1 q
     +1 1 1 0 k
     --------
-       0 0 1
+       0 0 1 s
 
 ### Pattern extraction and Generalization
 
@@ -48,7 +48,7 @@ unsigned c(unsigned u, unsigned v)
 
 Based on these functions, we can now relate the digits based on their rows and columns. $q_i = r(x_i,y_i)$, $s_i = r(q_i, k_i)$, and $k_{i+1}=c(x_i,y_i)+c(q_i,k_i)$. 
 
-## Base-2
+## Base-2 Addition
 
 ### r and c, redefined
 
@@ -98,6 +98,126 @@ This is because $u \oplus v = (u \wedge \neg v) \vee (\neg u \wedge v)$. Try to 
 
 Despite being a little more complex, $r(u,v)$ can also be expressed using logical-negation, conjunction and disjunction. Since all three logical operators can be implemented using nand, and nand can be implemented using transistors, $r(u,v)$ can be implemented using transistors.
 
+The last bit of trouble is how $k_{i+1}=c(x_i,y_i)+c(q_i,k_i)$ is computed using a sum. Can we use disjunction instead of addition here? Let's take a look at the operators in a table:
+
+|$u$|$v$|$u \vee v$|$u + v$|
+|-|-|-|-|
+|0|0|0|0|
+|0|1|1|1|
+|1|0|1|1|
+|1|1|1|2|
+
+The only row that makes a difference is when $u=v=1$. *In general*, disjunction and addition are not the same!
+
+However, in this case, we need to ask whether $c(x_i,y_i)$ and $c(q_i,k_i)$ can both be ones. The short answer is "no". If anyone is interested to prove this, here is a clue: $q_i$ is not an independent bit because $q_i = r(x_i,y_i) = x_i \oplus y_i$. As a result, $c(x_i,y_i)=1$ implies $x_i=1$ and $y_i=1$, but then $q_i=0$, ensuring $c(q_i_k_i)=0$. Likewise, $c(q_i,k_i)=1$ implies $q_i=1$, then of $x_i \ne y_i$, ensuring $c(x_i,y_i)=0$. This is the rather informal proof.
+
+As a result, disjunction can be used instead of addition, $k_{i+1}=c(x_i,y_i) \vee c(q_i,k_i)=(x_i \wedge y_i) \vee (q_i \wedge k_i)$.
+
 This concludes that binary addition can be implemented using transistors!
 
 # Subtraction
+
+## Base-10
+
+### Example
+
+| |3|2|1|0|digit position|
+|-|-|-|-|-|--------------|
+| | |5|0|1| $x$ |
+|-| |5|0|4| $y$ |
+|-|-|-|-|-|-|
+| | |0|0|7| $q$ |
+|-|1|1|1|0| $t$ |
+|-|-|-|-|-|-|
+| | |9|9|7| $d$ |
+
+
+     3 2 1 0 digit
+       5 0 1 x
+    -  5 0 4 y
+    --------
+       0 0 7 q
+    -1 1 1 0 t
+    --------
+       9 9 7 d
+
+### r and b for base-10
+
+$x$ is the minuend, and $y$ is the subtrahend.  $d$ is the difference. $q$ is an intermediate row, we call it the "single-digit difference of $x$ and $y$". $t$ is also an intermediate row, it is the *t*ake-away from a specific digit. $d$ turns out to be the single-digit difference of $q$ and $t$.
+
+The concept of a single-digit difference is important when we need to computer multi-digit subtraction. This is because instead of viewing $5-7$ as $-2$, we say that the single-digit difference is $8$ with a borrow of $1$ from the digit to the right. This is because $5-7$ results in a value that cannot be represented by a single non-negative digit in base 10. This causes a borrow of 1 from the next digit (which specifies a power of 10 that is 10 times of current column). Once the $10$ is borrowed, the "difference" amount is $10+5-7=8$.
+
+We define two functions. Assuming $u$ and $v$ are single base-10 digits, then $r(u,v)$ computes the single-digit difference, while $b(u,v)$ computes the borrow. Following the logic of the previous paragraph, we can conclude that $r(u,v)=(10+u-v) \mod 10$, and $c(u,v)=(u<v)?1:0$. Or, in C:
+
+```c
+unsigned r(unsigned u, unsigned v)
+{
+  return ((10+u)-v)%10;
+}
+
+unsigned b(unsigned u, unsigned v)
+{
+  return (u<v) ? 1 : 0;
+}
+```
+
+Based on these functions, we can now relate the digits based on their rows and columns. $q_i = r(x_i,y_i)$, $d_i = r(q_i, t_i)$, and $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$. 
+
+Why are we using $r(u,v)$ both for the single-digit sum and single-digit difference? Read on!
+
+
+## Base-2 Subtraction
+
+### r and b, redefined 
+
+Based on [a previous section](#r-and-b-for-base-10), the functions $r$ and $b$ can easily be redefined for any base $b$. This is because the concept of a single-digit difference and borrow is not base-dependent. Given that $e$ is the base, $r(u,v)=((e+u)-v) \mod b$, and $b(u,v)=(u<v)?1:0$.
+
+To work in base-2, $e=2$, this means $r(u,v)=((2+u)-v) \mod 2$ and $c(u,v)=(u<v)?1:0$. The relationship between the digits remain the same.
+
+Let us first example all the possibilities of $b(u,v)$ in base-2:
+
+|u|v|c(u,v)|
+|-|-|-|
+|0|0|0|
+|0|1|1|
+|1|0|0|
+|1|1|0|
+
+Unlike $c(u,v)$ in base-2, this table does not look very familiar. However, we can still manage to use a boolean expression to perform the operation. In base-2, $b(u,v) = (\neg u) \wedge v$, or in C, 
+
+```c
+unsigned c(unsigned u, unsigned v)
+{
+  return (!u && v) ? 1 : 0;
+}
+```
+
+This is convenient, because we know that conjunction can be implemented by nand, and nand can, in return, be implemented in transistor. In other words, we can use transistors to implement $c(u,v)$ in base-2.
+
+$r(u,v)$ is a little more tricky, but familiar:
+
+|u|v|r(u,v)|
+|-|-|-|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|0|
+
+Hey, that is the same as $r(u,v)$ for binary addition! In a boring fashion, $r(u,v) = u \oplus v$ in base-2 subtraction (the same as addition). If insisted, it is also possible to use the "regular" C logical operators to implement $r(u,v)$:
+
+```c
+unsigned r(unsigned u, unsigned v)
+{
+  return ((u && !v) || (!u && v)) ? 1 : 0;
+}
+```
+
+This is because $u \oplus v = (u \wedge \neg v) \vee (\neg u \wedge v)$. Try to prove this using a truth table as an exercise.
+
+Despite being a little more complex, $r(u,v)$ can also be expressed using logical-negation, conjunction and disjunction. Since all three logical operators can be implemented using nand, and nand can be implemented using transistors, $r(u,v)$ can be implemented using transistors.
+
+The last bit of trouble is how $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$ is computed using a sum. Can we use disjunction instead of addition here? Using a similar argument as in [an earlier section](#r-and-c-redefined), we need to ask whether $b(x_i,y_i)$ and $b(q_i,t_i)$ can both be ones. The short answer is "no". $q_i$ is not an independent bit because $q_i = r(x_i,y_i) = x_i \oplus y_i$. As a result, when $x_i=0$ and $y_i=1$ so that $b(x_i,y_i)=1$, $q_i=1$ and guarantees $b(q_i,t_i)=0$. Likewise, $b(q_i,t_i)=1$ implies $q_0=0$, then of $x_i=y_i$, ensuring $b(x_i,y_i)=0$. This is the rather informal proof.
+
+As a result, disjunction can be used instead of addition, $k_{i+1}=c(x_i,y_i) \vee c(q_i,k_i)=(x_i \wedge y_i) \vee (q_i \wedge k_i)$.
+
+This concludes that binary subtraction can also be implemented using transistors!
