@@ -225,3 +225,7 @@ The last bit of trouble is how $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$ is computed using
 As a result, disjunction can be used instead of addition, $k_{i+1}=c(x_i,y_i) \vee c(q_i,k_i)=(x_i \wedge y_i) \vee (q_i \wedge k_i)$.
 
 This concludes that binary subtraction can also be implemented using transistors!
+
+# Optimized adder and subtractor
+
+In order to save enough time for other topics, this module does not discuss the optimization and actual circuit design of adders and subtractors. The equations in this module naturally leads to carry-ripple and borrwo-ripple adders and subtractors. While these circuits are simple and they work, they are also inefficient. The more efficient ones utilize carry lookahead and borrow lookahead, respectively. The boolean algebra and actual circuit structure are complex and out of the scope of this module.
