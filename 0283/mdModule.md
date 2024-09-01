@@ -230,7 +230,152 @@ This concludes that binary subtraction can also be implemented using transistors
 
 In order to save enough time for other topics, this module does not discuss the optimization and actual circuit design of adders and subtractors. The equations in this module naturally leads to carry-ripple and borrwo-ripple adders and subtractors. While these circuits are simple and they work, they are also inefficient. The more efficient ones utilize carry lookahead and borrow lookahead, respectively. The boolean algebra and actual circuit structure are complex and out of the scope of this module.
 
-# AI-generated exercises
+# AI-generated (but fixed by a human!) exercises
+
+
+    <h2>Binary Addition Questions</h2>
+    
+    <details>
+        <summary>Question 1: Add 1011 and 0110.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 0 1 1 x
+    +  0 1 1 0 y
+    ----------
+       1 1 0 1 q
+    +1 1 1 0 0 k
+    ----------
+       0 0 0 1 s
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 2: Add 1101 and 1010.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 1 0 1 x
+    +  1 0 1 0 y
+    ----------
+       0 1 1 1 q
+    +1 0 0 0 0 k
+    ----------
+       0 1 1 1 s
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 3: Add 1111 and 0001.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 1 1 1 x
+    +  0 0 0 1 y
+    ----------
+       1 1 1 0 q
+    +1 1 1 1 0 k
+    ----------
+       0 0 0 0 s
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 4: Add 1001 and 0111.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 0 0 1 x
+    +  0 1 1 1 y
+    ----------
+       1 1 1 0 q
+    +1 1 1 1 0 k
+    ----------
+       0 0 0 0 s
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 5: Add 0011 and 1100.</summary>
+        <pre>
+     3 2 1 0 digit
+       0 0 1 1 x
+    +  1 1 0 0 y
+    ----------
+       1 1 1 1 q
+    +0 0 0 0 0 k
+    ----------
+       1 1 1 1 s
+        </pre>
+    </details>
+
+    <h2>Binary Subtraction Questions</h2>
+    
+    <details>
+        <summary>Question 1: Subtract 0110 from 1011.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 0 1 1 x
+    -  0 1 1 0 y
+    ----------
+       1 1 0 1 q
+    -0 1 0 0 0 t
+    ----------
+       0 1 0 1 d
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 2: Subtract 1010 from 1101.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 1 0 1 x
+    -  1 0 1 0 y
+    ----------
+       0 1 1 1 q
+    -0 0 1 0 0 t
+    ----------
+       0 0 1 1 d
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 3: Subtract 0001 from 1111.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 1 1 1 x
+    -  0 0 0 1 y
+    --------
+       1 1 1 0 q
+    -0 0 0 0 0 t
+    ----------
+       1 1 1 0 d
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 4: Subtract 0111 from 1001.</summary>
+        <pre>
+     3 2 1 0 digit
+       1 0 0 1 x
+    -  0 1 1 1 y
+    ----------
+       1 1 1 0 q
+    -0 1 1 0 0 t
+    ----------
+       0 0 1 0 d
+        </pre>
+    </details>
+
+    <details>
+        <summary>Question 5: Subtract 1100 from 0011.</summary>
+        <pre>
+     3 2 1 0 digit
+       0 0 1 1 x
+    -  1 1 0 0 y
+    ----------
+       1 1 1 1 q
+    -1 1 0 0 0 t
+    ----------
+       0 1 1 1 d
+        </pre>
+    </details>
 
 
 
