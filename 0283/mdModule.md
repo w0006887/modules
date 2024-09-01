@@ -109,7 +109,7 @@ The last bit of trouble is how $k_{i+1}=c(x_i,y_i)+c(q_i,k_i)$ is computed using
 
 The only row that makes a difference is when $u=v=1$. *In general*, disjunction and addition are not the same!
 
-However, in this case, we need to ask whether $c(x_i,y_i)$ and $c(q_i,k_i)$ can both be ones. The short answer is "no". If anyone is interested to prove this, here is a clue: $q_i$ is not an independent bit because $q_i = r(x_i,y_i) = x_i \oplus y_i$. As a result, $c(x_i,y_i)=1$ implies $x_i=1$ and $y_i=1$, but then $q_i=0$, ensuring $c(q_i_k_i)=0$. Likewise, $c(q_i,k_i)=1$ implies $q_i=1$, then of $x_i \ne y_i$, ensuring $c(x_i,y_i)=0$. This is the rather informal proof.
+However, in this case, we need to ask whether $c(x_i,y_i)$ and $c(q_i,k_i)$ can both be ones. The short answer is "no". If anyone is interested to prove this, here is a clue: $q_i$ is not an independent bit because $q_i = r(x_i,y_i) = x_i \oplus y_i$. As a result, $c(x_i,y_i)=1$ implies $x_i=1$ and $y_i=1$, but then $q_i=0$, ensuring $c(q_i,k_i)=0$. Likewise, $c(q_i,k_i)=1$ implies $q_i=1$, then of $x_i \ne y_i$, ensuring $c(x_i,y_i)=0$. This is the rather informal proof.
 
 As a result, disjunction can be used instead of addition, $k_{i+1}=c(x_i,y_i) \vee c(q_i,k_i)=(x_i \wedge y_i) \vee (q_i \wedge k_i)$.
 
