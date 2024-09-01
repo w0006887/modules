@@ -2,6 +2,7 @@
 ./0280/mdModule.md:# _Module 0280: Basic Set Notations_
 ./0281/mdModule.md:# _Module 0281: Transistor to logic gate_
 ./0282/mdModule.md:# _Module 0282: Values, Numbers and Bases_
+./0283/mdModule.md:# _Module 0283: Binary Adition and Subtraction_
 ./0285/mdModule.md:# _Module 0285: Quantifiers_
 ./0288/mdModule.md:# _Module 0288: Set notations defined using quantifiers_
 ./0351/mdModule.md:# _Module 0351: Signed vs unsigned integer representation_
