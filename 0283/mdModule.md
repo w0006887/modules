@@ -48,7 +48,7 @@ unsigned c(unsigned u, unsigned v)
 }
 ```
 
-Based on these functions, we can now relate the digits based on their rows and columns. $q_i = r(x_i,y_i)$, $s_i = r(q_i, k_i)$, and $k_{i+1}=c(x_i,y_i)+c(q_i,k_i)$. 
+Based on these functions, we can now relate the digits based on their rows and columns. $q_i = r(x_i,y_i)$, $s_i = r(q_i, k_i)$, and $k_{i+1}=c(x_i,y_i)+c(q_i,k_i)$. $k_0$ is assumed zero in a standalone addition. In a stacked addition (breaking the addition of long numbers into parts, from least significant to most significant chunks), $k_0$ has the value of the overall carry from a prior addition.
 
 ## Base-2 Addition
 
@@ -165,7 +165,7 @@ unsigned b(unsigned u, unsigned v)
 }
 ```
 
-Based on these functions, we can now relate the digits based on their rows and columns. $q_i = r(x_i,y_i)$, $d_i = r(q_i, t_i)$, and $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$. 
+Based on these functions, we can now relate the digits based on their rows and columns. $q_i = r(x_i,y_i)$, $d_i = r(q_i, t_i)$, and $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$. $t_0$ is assumed zero in a standalone subtraction. In a stacked subtraction (breaking the subtraction of long numbers into parts, from least significant to most significant chunks), $t_0$ has the value of the overall borrow from a prior addition.
 
 Why are we using $r(u,v)$ both for the single-digit sum and single-digit difference? Read on!
 
@@ -232,167 +232,5 @@ In order to save enough time for other topics, this module does not discuss the 
 
 # AI-generated exercises
 
-<!-- Binary Addition Questions -->
 
-<!-- Question 1 -->
-<details>
-  <summary>Question 1: Add the binary numbers 1011 and 1101</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|0|1|1| x |
-  |+| |1|1|0|1| y |
-  |-|-|-|-|-|-|
-  | | |0|1|1|0| q |
-  |+|1|1|1|0|1| k |
-  |-|-|-|-|-|-|
-  | | |1|1|0|0| s |
-  </pre>
-</details>
-
-<!-- Question 2 -->
-<details>
-  <summary>Question 2: Add the binary numbers 1110 and 0011</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|1|1|0| x |
-  |+| |0|0|1|1| y |
-  |-|-|-|-|-|-|
-  | | |1|0|0|1| q |
-  |+|1|0|0|0|0| k |
-  |-|-|-|-|-|-|
-  | | |1|0|1|1| s |
-  </pre>
-</details>
-
-<!-- Question 3 -->
-<details>
-  <summary>Question 3: Add the binary numbers 1001 and 0110</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|0|0|1| x |
-  |+| |0|1|1|0| y |
-  |-|-|-|-|-|-|
-  | | |1|1|1|1| q |
-  |+|0|0|0|0|1| k |
-  |-|-|-|-|-|-|
-  | | |1|0|0|0| s |
-  </pre>
-</details>
-
-<!-- Question 4 -->
-<details>
-  <summary>Question 4: Add the binary numbers 0101 and 1100</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |0|1|0|1| x |
-  |+| |1|1|0|0| y |
-  |-|-|-|-|-|-|
-  | | |1|0|0|1| q |
-  |+|0|1|0|0|0| k |
-  |-|-|-|-|-|-|
-  | | |1|1|0|1| s |
-  </pre>
-</details>
-
-<!-- Question 5 -->
-<details>
-  <summary>Question 5: Add the binary numbers 1111 and 1111</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|1|1|1| x |
-  |+| |1|1|1|1| y |
-  |-|-|-|-|-|-|
-  | | |1|1|1|0| q |
-  |+|1|1|1|1|1| k |
-  |-|-|-|-|-|-|
-  | | |1|1|1|0| s |
-  </pre>
-</details>
-
-<!-- Binary Subtraction Questions -->
-
-<!-- Question 1 -->
-<details>
-  <summary>Question 1: Subtract the binary numbers 1101 and 0110</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|1|0|1| x |
-  |-| |0|1|1|0| y |
-  |-|-|-|-|-|-|
-  | | |0|0|1|1| q |
-  |-|1|0|0|0|1| t |
-  |-|-|-|-|-|-|
-  | | |0|1|1|1| d |
-  </pre>
-</details>
-
-<!-- Question 2 -->
-<details>
-  <summary>Question 2: Subtract the binary numbers 1010 and 1001</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|0|1|0| x |
-  |-| |1|0|0|1| y |
-  |-|-|-|-|-|-|
-  | | |0|0|0|1| q |
-  |-|1|0|0|0|0| t |
-  |-|-|-|-|-|-|
-  | | |0|1|0|1| d |
-  </pre>
-</details>
-
-<!-- Question 3 -->
-<details>
-  <summary>Question 3: Subtract the binary numbers 1110 and 0111</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|1|1|0| x |
-  |-| |0|1|1|1| y |
-  |-|-|-|-|-|-|
-  | | |0|0|1|1| q |
-  |-|1|0|0|0|1| t |
-  |-|-|-|-|-|-|
-  | | |0|1|0|1| d |
-  </pre>
-</details>
-
-<!-- Question 4 -->
-<details>
-  <summary>Question 4: Subtract the binary numbers 1000 and 0011</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|0|0|0| x |
-  |-| |0|0|1|1| y |
-  |-|-|-|-|-|-|
-  | | |0|1|0|1| q |
-  |-|1|0|0|0|0| t |
-  |-|-|-|-|-|-|
-  | | |0|1|1|1| d |
-  </pre>
-</details>
-
-<!-- Question 5 -->
-<details>
-  <summary>Question 5: Subtract the binary numbers 1100 and 1100</summary>
-  <pre>
-  | |3|2|1|0|digit position|
-  |-|-|-|-|-|--------------|
-  | | |1|1|0|0| x |
-  |-| |1|1|0|0| y |
-  |-|-|-|-|-|-|
-  | | |0|0|0|0| q |
-  |-|0|0|0|0|0| t |
-  |-|-|-|-|-|-|
-  | | |0|0|0|0| d |
-  </pre>
-</details>
 
