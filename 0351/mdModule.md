@@ -4,7 +4,7 @@
 
 Although the set of integers (math symbol $\mathbb{Z}$) has an infinite number of elements, the way an integer value is store in a computer has a finite bit-width. And with that, a finite range of values to be represented.
 
-Based on the discussion of how values are represented by numbers in [module 0282](https://power.arc.losrios.edu/~auyeunt/teaches/modules/0282/module.html), a base-2 number with digits 0 to ${w-1}$ (therefore a total of $w$ digits, $w$ is an integer that is at least 1) can represent values from 0 to $2^{w}-1$
+Based on the discussion of how values are represented by numbers in [module 0282](../0282/mdModule.html), a base-2 number with digits 0 to ${w-1}$ (therefore a total of $w$ digits, $w$ is an integer that is at least 1) can represent values from 0 to $2^{w}-1$
 
 For example, given only a width of 4 bits, integer values from 0 to $2^4-1=15$ can be represented.
 
@@ -80,7 +80,7 @@ But why is this significant? Well, it is significant *specifically* in the case 
 
 It helps to use an example. Let $w=4$, and $v=3$. Then $-3 \equiv_{16} ((16-1)-3)+1$. The trick is how we look at $((16-1)-3)$. Obviously, it is the same as $15-3$. Let's example the base-2 representations: $15=1111_2$, and $3=0011_2$.
 
-In fact, it is true that for all $w>1$, the binary representation of $2^w-1$ consists of $w$ contiguous 1's! In the [binary subtraction module](https://power.arc.losrios.edu/~auyeunt/teaches/modules/0284/module.html), we learn that $t_{i+1}=b(x_i,y_i)+b(q_i,k_i)=!x_iy_i + !(x_i \oplus y_i)t_i$. If $x_i$ is guaranteed a 1, and the initial $t_0=0$, then we can prove (using proof by induction) that $t_i=0$ for the entire $t$ row.
+In fact, it is true that for all $w>1$, the binary representation of $2^w-1$ consists of $w$ contiguous 1's! In the [binary subtraction module](../0284/mdModule.html), we learn that $t_{i+1}=b(x_i,y_i)+b(q_i,k_i)=!x_iy_i + !(x_i \oplus y_i)t_i$. If $x_i$ is guaranteed a 1, and the initial $t_0=0$, then we can prove (using proof by induction) that $t_i=0$ for the entire $t$ row.
 
 In fact, for each digit in this specific case (when $x_i=1$), $q_i = x_i \oplus y_i= 1\oplus y_i= !y_i$, and since $t_i=0$, $d_i = q_i \oplus t_i = q_i \oplus 0 = q_i = !y_i$. You can proof that for any boolean value $k$, $k \oplus 0=k$, and $k \oplus 1=!k$
 
