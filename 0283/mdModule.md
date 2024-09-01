@@ -2,7 +2,7 @@
 
 # Addition
 
-## Base-10
+## Base-10 Addition
 
 ### Example
 
@@ -25,6 +25,8 @@
     +1 1 1 0 k
     --------
        0 0 1 s
+
+Note that the rows $x$, $y$ and $s$ have the same number of digits because these rows correspond to fixed-width storage in a computer. Does $752+249=1$ make sense? The answer is yes once we take into consideration that $k_3=1$. $k_3=1$ means there is a carry to the digit that represents the quantity of 1000. The *actual* sum is, therefore, $1000+1=1001$.
 
 ### Pattern extraction and Generalization
 
@@ -117,7 +119,7 @@ This concludes that binary addition can be implemented using transistors!
 
 # Subtraction
 
-## Base-10
+## Base-10 Subtraction
 
 ### Example
 
@@ -140,6 +142,8 @@ This concludes that binary addition can be implemented using transistors!
     -1 1 1 0 t
     --------
        9 9 7 d
+
+Note that the rows $x$, $y$ and $d$ have the same number of digits because these rows correspond to fixed-width storage in a computer. Does $501-504=997$ make sense? The answer is yes once we take into consideration that $t_3=1$. $t_3=1$ means there is a borrow from the digit that represents the quantity of 1000. The *actual* difference is, therefore, $997-1000=-3$.
 
 ### r and b for base-10
 
