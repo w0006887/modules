@@ -229,3 +229,170 @@ This concludes that binary subtraction can also be implemented using transistors
 # Optimized adder and subtractor
 
 In order to save enough time for other topics, this module does not discuss the optimization and actual circuit design of adders and subtractors. The equations in this module naturally leads to carry-ripple and borrwo-ripple adders and subtractors. While these circuits are simple and they work, they are also inefficient. The more efficient ones utilize carry lookahead and borrow lookahead, respectively. The boolean algebra and actual circuit structure are complex and out of the scope of this module.
+
+# AI-generated exercises
+
+<!-- Binary Addition Questions -->
+
+<!-- Question 1 -->
+<details>
+  <summary>Question 1: Add the binary numbers 1011 and 1101</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|0|1|1| x |
+  |+| |1|1|0|1| y |
+  |-|-|-|-|-|-|
+  | | |0|1|1|0| q |
+  |+|1|1|1|0|1| k |
+  |-|-|-|-|-|-|
+  | | |1|1|0|0| s |
+  </pre>
+</details>
+
+<!-- Question 2 -->
+<details>
+  <summary>Question 2: Add the binary numbers 1110 and 0011</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|1|1|0| x |
+  |+| |0|0|1|1| y |
+  |-|-|-|-|-|-|
+  | | |1|0|0|1| q |
+  |+|1|0|0|0|0| k |
+  |-|-|-|-|-|-|
+  | | |1|0|1|1| s |
+  </pre>
+</details>
+
+<!-- Question 3 -->
+<details>
+  <summary>Question 3: Add the binary numbers 1001 and 0110</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|0|0|1| x |
+  |+| |0|1|1|0| y |
+  |-|-|-|-|-|-|
+  | | |1|1|1|1| q |
+  |+|0|0|0|0|1| k |
+  |-|-|-|-|-|-|
+  | | |1|0|0|0| s |
+  </pre>
+</details>
+
+<!-- Question 4 -->
+<details>
+  <summary>Question 4: Add the binary numbers 0101 and 1100</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |0|1|0|1| x |
+  |+| |1|1|0|0| y |
+  |-|-|-|-|-|-|
+  | | |1|0|0|1| q |
+  |+|0|1|0|0|0| k |
+  |-|-|-|-|-|-|
+  | | |1|1|0|1| s |
+  </pre>
+</details>
+
+<!-- Question 5 -->
+<details>
+  <summary>Question 5: Add the binary numbers 1111 and 1111</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|1|1|1| x |
+  |+| |1|1|1|1| y |
+  |-|-|-|-|-|-|
+  | | |1|1|1|0| q |
+  |+|1|1|1|1|1| k |
+  |-|-|-|-|-|-|
+  | | |1|1|1|0| s |
+  </pre>
+</details>
+
+<!-- Binary Subtraction Questions -->
+
+<!-- Question 1 -->
+<details>
+  <summary>Question 1: Subtract the binary numbers 1101 and 0110</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|1|0|1| x |
+  |-| |0|1|1|0| y |
+  |-|-|-|-|-|-|
+  | | |0|0|1|1| q |
+  |-|1|0|0|0|1| t |
+  |-|-|-|-|-|-|
+  | | |0|1|1|1| d |
+  </pre>
+</details>
+
+<!-- Question 2 -->
+<details>
+  <summary>Question 2: Subtract the binary numbers 1010 and 1001</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|0|1|0| x |
+  |-| |1|0|0|1| y |
+  |-|-|-|-|-|-|
+  | | |0|0|0|1| q |
+  |-|1|0|0|0|0| t |
+  |-|-|-|-|-|-|
+  | | |0|1|0|1| d |
+  </pre>
+</details>
+
+<!-- Question 3 -->
+<details>
+  <summary>Question 3: Subtract the binary numbers 1110 and 0111</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|1|1|0| x |
+  |-| |0|1|1|1| y |
+  |-|-|-|-|-|-|
+  | | |0|0|1|1| q |
+  |-|1|0|0|0|1| t |
+  |-|-|-|-|-|-|
+  | | |0|1|0|1| d |
+  </pre>
+</details>
+
+<!-- Question 4 -->
+<details>
+  <summary>Question 4: Subtract the binary numbers 1000 and 0011</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|0|0|0| x |
+  |-| |0|0|1|1| y |
+  |-|-|-|-|-|-|
+  | | |0|1|0|1| q |
+  |-|1|0|0|0|0| t |
+  |-|-|-|-|-|-|
+  | | |0|1|1|1| d |
+  </pre>
+</details>
+
+<!-- Question 5 -->
+<details>
+  <summary>Question 5: Subtract the binary numbers 1100 and 1100</summary>
+  <pre>
+  | |3|2|1|0|digit position|
+  |-|-|-|-|-|--------------|
+  | | |1|1|0|0| x |
+  |-| |1|1|0|0| y |
+  |-|-|-|-|-|-|
+  | | |0|0|0|0| q |
+  |-|0|0|0|0|0| t |
+  |-|-|-|-|-|-|
+  | | |0|0|0|0| d |
+  </pre>
+</details>
+
