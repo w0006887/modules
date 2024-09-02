@@ -97,4 +97,4 @@ Starting with the verbal-only passing of knowledge before there was writing, tec
 
 Specifically, LLM Gen-AI (large language model generative artificial intelligence) empowers students to be self-sufficient learners who practice rigor, and learning how to use LLM Gen-AI becomes a crucial component in STEM education. Can LLM Gen-AI replace human professors? Perhaps not yet for some time.
 
-
+At this point (2024), LLM Gen-AI can take on the role of a *personal* teaching assistant who meets students where they are. LLM Gen-AI is not without its limitations, and as a result a professor still needs to guide students on how to make the most of the LLM Gen-AI, and address questions and doubts when the needs arise. 
