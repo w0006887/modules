@@ -90,3 +90,11 @@ Rigor can refer to the education process leading to the application of rigor, an
 The latter can be an equity issue because some students have been practicing and applying rigor for years, while others have little or no exposure to rigor. To equitize, some students may benefit from additional support to develop rigor. This leads back to the former kind of rigor in the previous paragraph.
 
 [UMich publishes a paper on rigor and equity](https://crlt.umich.edu/blog/reframing-rigor-promote-equity-teaching-and-learning). All the points are agreeable and valid in this paper. 
+
+If we consider student rigor as the y-value in a graph, the UMich article provides ways to change the first derivative, $\frac{dy}{dx}$. However, there is still a lot of reliance on the instructor/professor. A self-sufficient approach is like improving the second derivative, $\frac{d^2y}{dx^2}$. Even a small amount of non-negative second derivative eventually leads to an accelerating increase of the y-value, the ability to apply rigor.
+
+Starting with the verbal-only passing of knowledge before there was writing, technology (and inventions) has been gradually empowering individuals to be self-sufficient learners. Paper, the press, digital medium, the Internet, and now (in 2024) generative AI have all contributed, in extreme acceleration, to the self-sufficiency of learning.
+
+Specifically, LLM Gen-AI (large language model generative artificial intelligence) empowers students to be self-sufficient learners who practice rigor, and learning how to use LLM Gen-AI becomes a crucial component in STEM education. Can LLM Gen-AI replace human professors? Perhaps not yet for some time.
+
+
