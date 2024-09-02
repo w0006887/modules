@@ -51,3 +51,20 @@ The converse is someone who did not read ahead before a lecture. The sensation o
 Yes. Depending on the individual, it can be a *significant* amount of time. 
 
 [Time budgeting, management, and prioritization](../0417/mdModule.html) are all crucial in the learning process. This module focuses on *how* to use the resource (time), read the linked module on how to plan to make sure the resource is available and used efficiently.
+
+# Rigor and Precision
+
+## A career necessity
+
+In the context of understanding complex STEM topics, "rigor" means:
+
+* The ability to self-assess and realize whether a concept is understood.
+* The modesty and openness to doubt one's own understanding, "Am I *really* getting this?"
+* The determination to study, contemplate, discuss, etc. until a concept is understood. Always "get to the bottom" of concepts.
+* *Not* being flexible: "I sort of understand this, enough to proceed." Yoda would have said, "Understand or not, 'sort of' not there is!"
+
+In the context of STEM, rigor correlates with precision. By practicing rigor in the learning process, precision in communication is almost automatic. Precision means "expressing to and understanding from an external source without ambiguation." This is the ability to explain a concept to another person without the other person needing clarification. This is the ability to listen to someone and notice "but there are multiple ways to interpret your sentence."
+
+The nature of STEM careers requires rigor and precision. [Not noticing the ambiguity of units can crash a Mars Orbiter](https://science.nasa.gov/mission/mars-climate-orbiter/). The lack of rigor makes learning new concepts harder. [Many STEM careers involve continuous self-supported lifelong learning](https://careers.freddiemac.com/us/en/blogarticle/4-ways-to-advance-your-stem-career), rigor makes this possible. 
+
+Rigor and precision in studying STEM subjects do not need to spill over to "life." One can continue to be easygoing, chill, and tolerant in all other aspects of life.
