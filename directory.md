@@ -20,3 +20,4 @@
 * [Module 0417: Time Budgeting and Management for College Students](./0417/mdModule.md)
 * [Module 0418: A Student's Guide to Gen-AI](./0418/mdModule.md)
 * [Module 0419: Student Support at American River College](./0419/mdModule.md)
+* [Module 0420: Symbols, Definitions, Rigor, and Precision](./0420/mdModule.md)
