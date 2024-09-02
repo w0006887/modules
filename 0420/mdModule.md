@@ -54,17 +54,39 @@ Yes. Depending on the individual, it can be a *significant* amount of time.
 
 # Rigor and Precision
 
-## A career necessity
-
 In the context of understanding complex STEM topics, "rigor" means:
 
 * The ability to self-assess and realize whether a concept is understood.
 * The modesty and openness to doubt one's own understanding, "Am I *really* getting this?"
 * The determination to study, contemplate, discuss, etc. until a concept is understood. Always "get to the bottom" of concepts.
-* *Not* being flexible: "I sort of understand this, enough to proceed." Yoda would have said, "Understand or not, 'sort of' not there is!"
+* *Not* being flexible: "I sort of understand this, enough to proceed." Yoda would have said, "Understand or understand not, 'sort of' not there is!"
 
 In the context of STEM, rigor correlates with precision. By practicing rigor in the learning process, precision in communication is almost automatic. Precision means "expressing to and understanding from an external source without ambiguation." This is the ability to explain a concept to another person without the other person needing clarification. This is the ability to listen to someone and notice "but there are multiple ways to interpret your sentence."
+
+## A STEM career necessity
 
 The nature of STEM careers requires rigor and precision. [Not noticing the ambiguity of units can crash a Mars Orbiter](https://science.nasa.gov/mission/mars-climate-orbiter/). The lack of rigor makes learning new concepts harder. [Many STEM careers involve continuous self-supported lifelong learning](https://careers.freddiemac.com/us/en/blogarticle/4-ways-to-advance-your-stem-career), rigor makes this possible. 
 
 Rigor and precision in studying STEM subjects do not need to spill over to "life." One can continue to be easygoing, chill, and tolerant in all other aspects of life.
+
+## Rigor, curiosity and fun
+
+When people think of rigor, it is usually thought of as the opposite of being curious and having fun.
+
+Scientific rigor often leads to evidence that shows existing theories may not be entirely correct. For example, the phenomenon of starlight bending around the sun is evidence that Newtonian physics is not entirely correct. This would not have been discovered without rigor. 
+
+Curios scientists would get energized because they would have thought, "Fascinating, the current theories do not explain this, what can possibly cause this?" The ensuing journey can be gratifying. This example is fictional because *looking* for light bending was an experiment to confirm Einstein's theory of relativity.
+
+Another example, this time non-fictional, involves debugging computer program code. A rigorous developer would test code more methodically and extensively than one who uses a few test cases and declares "It works!" Upon the discovery of the computer program failing at least one test case, what are the possible reactions?
+
+The irony is that the rigorous developer is more likely to think, "I was very careful and rigorous when I wrote the code and the test cases, what could I have missed?" This is a curious response. The process of discovering and correcting the "bug" (defect in code) is enjoyable. The reward here is the *understanding* of why the program does not work. With an understanding of how this program does not work, the developer is likely to be more effective in the future.
+
+The developer who was in a hurry to declare, "It works!", on the other hand, is more likely to be frustrated and feel negatively about the discovery of at least one defect. This is because the reward is likely to be associated with "getting it done." There is also a chance that the ego is involved, the initial pride of "look what I accomplished" is partially crushed by knowing the program does not work 100%.
+
+## Rigor and Equity
+
+Rigor can refer to the education process leading to the application of rigor, and it can also refer to just the application of rigor. 
+
+The latter can be an equity issue because some students have been practicing and applying rigor for years, while others have little or no exposure to rigor. To equitize, some students may benefit from additional support to develop rigor. This leads back to the former kind of rigor in the previous paragraph.
+
+[UMich publishes a paper on rigor and equity](https://crlt.umich.edu/blog/reframing-rigor-promote-equity-teaching-and-learning). All the points are agreeable and valid in this paper. 
