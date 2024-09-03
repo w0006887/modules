@@ -129,7 +129,7 @@ $x$ is the minuend, and $y$ is the subtrahend.  $d$ is the difference. $q$ is an
 
 The concept of a single-digit difference is important when we need to compute multi-digit subtraction. This is because instead of viewing $5-7$ as $-2$, we say that the single-digit difference is $8$ with a borrow of $1$ from the digit to the right. This is because $5-7$ results in a value that cannot be represented by a single non-negative digit in base 10. This causes a borrow of 1 from the next digit (which specifies a power of 10 that is 10 times of current column). Once the $10$ is borrowed, the "difference" amount is $10+5-7=8$.
 
-We define two functions. Assuming $u$ and $v$ are single base-10 digits, then $r(u,v)$ computes the single-digit difference, while $b(u,v)$ computes the borrow. Following the logic of the previous paragraph, we can conclude that $r(u,v)=(10+u-v) \mod 10$, and $c(u,v)=(u<v)?1:0$. Or, in C:
+We define two functions. Assuming $u$ and $v$ are single base-10 digits, then $r(u,v)$ computes the single-digit difference, while $b(u,v)$ computes the borrow. Following the logic of the previous paragraph, we can conclude that $r(u,v)=(10+u-v) \mod 10$, and $b(u,v)=(u<v)?1:0$. Or, in C:
 
 ```c
 unsigned r(unsigned u, unsigned v)
@@ -154,11 +154,11 @@ Why are we using $r(u,v)$ both for the single-digit sum and single-digit differe
 
 Based on [a previous section](#r-and-b-for-base-10), the functions $r$ and $b$ can easily be redefined for any base $b$. This is because the concept of a single-digit difference and borrow is not base-dependent. Given that $e$ is the base, $r(u,v)=((e+u)-v) \mod b$, and $b(u,v)=(u<v)?1:0$.
 
-To work in base-2, $e=2$, this means $r(u,v)=((2+u)-v) \mod 2$ and $c(u,v)=(u<v)?1:0$. The relationship between the digits remain the same.
+To work in base-2, $e=2$, this means $r(u,v)=((2+u)-v) \mod 2$ and $b(u,v)=(u<v)?1:0$. The relationship between the digits remain the same.
 
 Let us first example all the possibilities of $b(u,v)$ in base-2:
 
-|u|v|c(u,v)|
+|u|v|b(u,v)|
 |-|-|-|
 |0|0|0|
 |0|1|1|
@@ -174,7 +174,7 @@ unsigned b(unsigned u, unsigned v)
 }
 ```
 
-This is convenient because we know that conjunction can be implemented by nand, and nand can, in return, be implemented in transistors. In other words, we can use transistors to implement $c(u,v)$ in base-2.
+This is convenient because we know that conjunction can be implemented by nand, and nand can, in return, be implemented in transistors. In other words, we can use transistors to implement $b(u,v)$ in base-2.
 
 $r(u,v)$ is a little more tricky but familiar:
 
@@ -200,7 +200,7 @@ Despite being a little more complex, $r(u,v)$ can also be expressed using logica
 
 The last bit of trouble is how $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$ is computed using a sum. Can we use disjunction instead of addition here? Using a similar argument as in [an earlier section](#r-and-c-redefined), we need to ask whether $b(x_i,y_i)$ and $b(q_i,t_i)$ can both be ones. The short answer is "no". $q_i$ is not an independent bit because $q_i = r(x_i,y_i) = x_i \oplus y_i$. As a result, when $x_i=0$ and $y_i=1$ so that $b(x_i,y_i)=1$, $q_i=1$ and guarantees $b(q_i,t_i)=0$. Likewise, $b(q_i,t_i)=1$ implies $q_0=0$, then of $x_i=y_i$, ensuring $b(x_i,y_i)=0$. This is the rather informal proof.
 
-As a result, disjunction can be used instead of addition, $k_{i+1}=c(x_i,y_i) \vee c(q_i,k_i)=(x_i \wedge y_i) \vee (q_i \wedge k_i)$.
+As a result, disjunction can be used instead of addition, $t_{i+1}=b(x_i,y_i) \vee b(q_i,k_i)=(\neg x_i \wedge y_i) \vee (\neg q_i \wedge t_i)$.
 
 This concludes that binary subtraction can also be implemented using transistors!
 
