@@ -1,4 +1,5 @@
-Title: Module 0351: Signed vs unsigned integer representation 
+---
+title: Module 0351: Signed vs unsigned integer representation 
 ---
 
 # _Module 0351: Signed vs unsigned integer representation_
