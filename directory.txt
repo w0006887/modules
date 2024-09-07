@@ -5,6 +5,7 @@
 ./0283/mdModule.md:# _Module 0283: Binary Adition and Subtraction_
 ./0285/mdModule.md:# _Module 0285: Quantifiers_
 ./0288/mdModule.md:# _Module 0288: Set notations defined using quantifiers_
+./0289/mdModule.md:# _{{ page.title}}_
 ./0351/mdModule.md:# _{{ page.title }}_
 ./0382/mdModule.md:# _Module 0382: The recursive definition of summation and other "big-operators"_
 ./0394/mdModule.md:# _Module 0394: Installing riverSpider_
