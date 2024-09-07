@@ -121,7 +121,7 @@ This implies some kind of counting is needed. The cardinality operator
 is great for this purpose. We can now make our statement a little more
 concrete:
 
-$\forall e \in X(|\dots| = 1)$
+$$\forall e \in X(|\dots| = 1)$$
 
 In other words, we are now shifting our attention to constructing a set
 where its cardinality counts the number of things that the element $e$
