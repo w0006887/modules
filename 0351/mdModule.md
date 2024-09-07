@@ -126,6 +126,7 @@ A quick exercise is to use these two functions to evaluate the 4-bit pattern rep
 
 You can view [the actual ChatGPT prompt](https://chatgpt.com/share/aff5ff21-a637-4cd9-93ff-f0c1463aea47).
 
+<div>
     <h1>Signed and Unsigned Integers Quiz</h1>
 
     <details>
@@ -177,6 +178,5 @@ You can view [the actual ChatGPT prompt](https://chatgpt.com/share/aff5ff21-a637
         <summary>10. Perform the operation 0011<sub>2</sub> + 1101<sub>2</sub> and explain the result when the numbers are interpreted as signed 4-bit integers.</summary>
         <p><strong>Answer:</strong> 0011<sub>2</sub> + 1101<sub>2</sub> = 0000<sub>2</sub> (with carry out). Interpreted as signed integers: 3 + (-3) = 0. Therefore, the result is 0000<sub>2</sub>, representing 0.</p>
     </details>
-
-
+</div>
 
