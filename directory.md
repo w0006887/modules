@@ -1,25 +1,25 @@
-* [{{ page.title }}](./0279/mdModule.md)
-* [Module 0280: Basic Set Notations](./0280/mdModule.md)
-* [Module 0281: Transistor to logic gate](./0281/mdModule.md)
-* [Module 0282: Values, Numbers and Bases](./0282/mdModule.md)
-* [Module 0283: Binary Adition and Subtraction](./0283/mdModule.md)
-* [Module 0285: Quantifiers](./0285/mdModule.md)
-* [Module 0288: Set notations defined using quantifiers](./0288/mdModule.md)
-* [{{ page.title}}](./0289/mdModule.md)
-* [{{ page.title }}](./0290/mdModule.md)
-* [{{ page.title }}](./0351/mdModule.md)
-* [Module 0382: The recursive definition of summation and other "big-operators"](./0382/mdModule.md)
-* [Module 0394: Installing riverSpider](./0394/mdModule.md)
-* [Module 0408: What's up with GitHub and Open Educational Resources?](./0408/mdModule.md)
-* [Module 0409: Defining a "session"](./0409/mdModule.md)
-* [Module 0410: Start of Semester Check-list for CIS instructors](./0410/mdModule.md)
-* [Module 0411: Starting Fall 2024 Semester](./0411/mdModule.md)
-* [Module 0412: Student-centric generative AI](./0412/mdModule.md)
-* [Module 0413: Roster Management](./0413/mdModule.md)
-* [Module 0414: GitHub Markdown OER for students](./0414/mdModule.md)
-* [Module 0415: Basic Guide to Audio/Video use in STEM Classrooms](./0415/mdModule.md)
-* [Module 0416: Computer Information Science (CIS) as a prospect career choice](./0416/mdModule.md)
-* [Module 0417: Time Budgeting and Management for College Students](./0417/mdModule.md)
-* [Module 0418: A Student's Guide to Gen-AI](./0418/mdModule.md)
-* [Module 0419: Student Support at American River College](./0419/mdModule.md)
-* [Module 0420: Symbols, Definitions, Rigor, and Precision](./0420/mdModule.md)
+./0279/mdModule.md:title: "Module 0279: Boolean Operator"
+./0280/mdModule.md:# _Module 0280: Basic Set Notations_
+./0281/mdModule.md:# _Module 0281: Transistor to logic gate_
+./0282/mdModule.md:# _Module 0282: Values, Numbers and Bases_
+./0283/mdModule.md:# _Module 0283: Binary Adition and Subtraction_
+./0285/mdModule.md:# _Module 0285: Quantifiers_
+./0288/mdModule.md:# _Module 0288: Set notations defined using quantifiers_
+./0289/mdModule.md:title: "Module 0289: Functions as Sets"
+./0290/mdModule.md:title: "Module 0290: Injection, Surjection and Bijection"
+./0351/mdModule.md:title: "Module 0351: Signed vs unsigned integer representation"
+./0382/mdModule.md:# _Module 0382: The recursive definition of summation and other "big-operators"_
+./0394/mdModule.md:# _Module 0394: Installing riverSpider_
+./0408/mdModule.md:# _Module 0408: What's up with GitHub and Open Educational Resources?_
+./0409/mdModule.md:# _Module 0409: Defining a "session"_
+./0410/mdModule.md:# _Module 0410: Start of Semester Check-list for CIS instructors_
+./0411/mdModule.md:# _Module 0411: Starting Fall 2024 Semester_
+./0412/mdModule.md:# _Module 0412: Student-centric generative AI_
+./0413/mdModule.md:# _Module 0413: Roster Management_
+./0414/mdModule.md:# _Module 0414: GitHub Markdown OER for students_
+./0415/mdModule.md:# _Module 0415: Basic Guide to Audio/Video use in STEM Classrooms_
+./0416/mdModule.md:# _Module 0416: Computer Information Science (CIS) as a prospect career choice_
+./0417/mdModule.md:# _Module 0417: Time Budgeting and Management for College Students_
+./0418/mdModule.md:# _Module 0418: A Student's Guide to Gen-AI_
+./0419/mdModule.md:# _Module 0419: Student Support at American River College_
+./0420/mdModule.md:# _Module 0420: Symbols, Definitions, Rigor, and Precision_
