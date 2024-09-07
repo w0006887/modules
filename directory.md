@@ -5,7 +5,7 @@
 * [Module 0283: Binary Adition and Subtraction](./0283/mdModule.md)
 * [Module 0285: Quantifiers](./0285/mdModule.md)
 * [Module 0288: Set notations defined using quantifiers](./0288/mdModule.md)
-* [Module 0351: Signed vs unsigned integer representation](./0351/mdModule.md)
+* [{{ page.title }}](./0351/mdModule.md)
 * [Module 0382: The recursive definition of summation and other "big-operators"](./0382/mdModule.md)
 * [Module 0394: Installing riverSpider](./0394/mdModule.md)
 * [Module 0408: What's up with GitHub and Open Educational Resources?](./0408/mdModule.md)
