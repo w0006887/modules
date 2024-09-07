@@ -193,3 +193,58 @@ However, this criterion by itself is not sufficient because the function
 can map everything to a single index, like 0! In order for this second
 criterion to work, we need to specify the function $f$ to be
 "one-to-one". This topic will be discussed in detail in another module.
+
+# AI-generated questions and answers
+
+You can [view the actual ChatGPT prompt](https://chatgpt.com/share/46091f1e-6132-4a2b-88eb-ec23106dd619).
+
+<details>
+  <summary>Question 1: What is the definition of a tuple?</summary>
+  <p>A tuple is an ordered container where its components are ordered, and the ordering is significant. A tuple can contain duplicate items. For example, (1,1,2) is distinct from (1,2,1) even though they share the same components.</p>
+</details>
+
+<details>
+  <summary>Question 2: Given a function f: ℕ → ℕ defined by f(x) = x + 3, list the first five elements of f as a set of tuples.</summary>
+  <p>The function f maps natural numbers to natural numbers. The first five elements of the function as a set of tuples are:<br> f = {(0, 3), (1, 4), (2, 5), (3, 6), (4, 7)}.</p>
+</details>
+
+<details>
+  <summary>Question 3: Consider the following set of tuples: {(1, 2), (2, 4), (3, 6)}. Is this set a function?</summary>
+  <p>Yes, this set is a function. Each element of the domain {1, 2, 3} is mapped to exactly one element in the codomain {2, 4, 6}, satisfying the definition of a function.</p>
+</details>
+
+<details>
+  <summary>Question 4: Given the set of tuples {(1, 2), (1, 3), (2, 4)}, explain why this is not a function.</summary>
+  <p>This is not a function because the element 1 in the domain is mapped to two different elements in the codomain (2 and 3). A function must map each element of the domain to exactly one element in the codomain.</p>
+</details>
+
+<details>
+  <summary>Question 5: Let f: ℤ → ℤ be defined as f(x) = -x. Represent f as a set of tuples for x ∈ {-2, -1, 0, 1, 2}.</summary>
+  <p>The function f maps integers to integers by negating each value. As a set of tuples:<br> f = {(-2, 2), (-1, 1), (0, 0), (1, -1), (2, -2)}.</p>
+</details>
+
+<details>
+  <summary>Question 6: If f is a function and f ⊆ X × Y, what are the two key conditions that must hold for f to be considered a valid function?</summary>
+  <p>Two key conditions for f to be a valid function are: <br>1. f must be a subset of the Cartesian product X × Y.<br>2. Each element of the domain X must map to exactly one element in the codomain Y.</p>
+</details>
+
+<details>
+  <summary>Question 7: Consider the function f: ℝ → ℝ defined by f(x) = x². Does this function satisfy the criteria for being a valid function? Why or why not?</summary>
+  <p>Yes, this function is valid. Each real number x in the domain ℝ is mapped to exactly one real number in the codomain ℝ (its square), satisfying the definition of a function.</p>
+</details>
+
+<details>
+  <summary>Question 8: Let X = {1, 2, 3} and Y = {a, b, c}. Is the set of tuples f = {(1, a), (2, b), (3, c)} a function?</summary>
+  <p>Yes, this is a valid function. Each element in the domain {1, 2, 3} is mapped to exactly one element in the codomain {a, b, c}.</p>
+</details>
+
+<details>
+  <summary>Question 9: Given f = {(2, 5), (2, 6), (3, 7)}, explain why f is not a valid function.</summary>
+  <p>f is not a valid function because the element 2 in the domain is mapped to two different elements in the codomain (5 and 6). A function must map each domain element to exactly one codomain element.</p>
+</details>
+
+<details>
+  <summary>Question 10: Define a function g: ℕ → ℕ where g(x) = 3x + 1. List the first four elements of g as a set of tuples.</summary>
+  <p>The function g maps natural numbers to natural numbers as g(x) = 3x + 1. The first four elements of the function as a set of tuples are:<br> g = {(0, 1), (1, 4), (2, 7), (3, 10)}.</p>
+</details>
+
