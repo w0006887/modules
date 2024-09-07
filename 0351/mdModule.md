@@ -2,7 +2,7 @@
 title: "Module 0351: Signed vs unsigned integer representation"
 ---
 
-# _Module 0351: Signed vs unsigned integer representation_
+# _{{ page.title }}_
 
 # Finite bit-width
 
@@ -28,7 +28,7 @@ In this context, however, we are only interested in the basic definition. The fo
 
 In all these definitions, $n$ is an integer that is at least 2.
 
-Let us reconsider our example, $3 \equiv_{16} 19$. This is because $v=3$, then $3=3+0\cdot 16$ and $19=3+1\cdot 16$. In English, you can say "3 and 19 are congruent modulo 16."
+Consider our example, $3 \equiv_{16} 19$. This is because $v=3$, then $3=3+0\cdot 16$ and $19=3+1\cdot 16$. In English, you can say "3 and 19 are congruent modulo 16."
 
 ## But why is congruent modulo important?
 
@@ -37,7 +37,7 @@ Sure, trying to interpret $0011_2$ as 3 or 19 *is* silly. However, congruent mod
 # Negative integers
 
 Recall that $a \equiv_n b$ is the same as saying 
-$(a = v + k_a \cdot n) \wedge (b = v + k_b \cdot n)$ for some integers $k_a$ and $k_b$, and some integer $v$ such that $0 \le v < n$. There is no restriction whether $k_a$ and $k_b$ can be negative! 
+$(a = v + k_a \cdot n) \wedge (b = v + k_b \cdot n)$ for some integers $k_a$ and $k_b$, and some integer $v$ such that $0 \le v < n$. There is no restriction on whether $k_a$ and $k_b$ can be negative! 
 
 This means that in general, for any base, a negative and a non-negative value can be congruent modulo $n$. For exmaple, using $n=16$,  3 and -29 are congruent modulo 16. This is because $3=3+0\cdot 16$, and $-29=3+-2\cdot 16$. 
 
@@ -70,7 +70,7 @@ The "balance" is that for an `int`, half the values are non-negative, and the ot
 
 Generally speaking, given a $w$-bit integer, the range of `unsigned` values is $0$ to $2^{w}-1$, the range of `int` (signed integer) values is $-2^{w-1}$ to $2^{w-1}-1$.
 
-Assume $w=4$, resulting in $n=2^w=16$, and convert all the $a$ values in range of `int` (signed integer) to 4-bit binary numbers. Also observe the pattern for binary numbers representing negative values (as $b$) that are in `int` range as described in the previous paragraph? Furthermore, what is a good name for bit 3 in this specific case?
+Assume $w=4$, resulting in $n=2^w=16$, and convert all the $a$ values in the range of `int` (signed integer) to 4-bit binary numbers. Also, observe the pattern for binary numbers representing negative values (as $b$) that are in `int` range as described in the previous paragraph. Furthermore, what is a good name for bit 3 in this specific case?
 
 # Arithmetic negation in base-2
 
@@ -96,13 +96,13 @@ Now we can plug this into the original congruent modulo $n$ statement: $-v \equi
 
 Two's complement is important because it is a way to perform arithmetic negation using bitwise-not and addition of 1. Let's check out two examples:
 
-How is -3 represented as a signed 4-bit integer? $3=0011_2$, $-3=\mathrm{C2}(0011_2)=\mathrm{C1}(0011_2)+1=1100_2+1=1101_2$. This is consistent the table that we have!
+How is -3 represented as a signed 4-bit integer? $3=0011_2$, $-3=\mathrm{C2}(0011_2)=\mathrm{C1}(0011_2)+1=1100_2+1=1101_2$. This is consistent with the table that we have!
 
 Then what is -(-3)? $-(-3) \equiv_{16} \mathrm{C2}(1101_2)=\mathrm{C1}(1101_2)+1=0010_2+1=0011_2$. Indeed, $-(-3)=3$!
 
 # But wait, is `1101(2)` 13 or -3?
 
-From a [previous module discussion how a value is represented by a number](../0282/mdModule.html), we know that $1101_2$ represents the value of 13. But now we claim that the same bit-pattern (binary number) also represents -3. So which one is it?
+From a [previous module discussion how a value is represented by a number](../0282/mdModule.html), we know that $1101_2$ represents the value of 13. But now we claim that the same bit pattern (binary number) also represents -3. So which one is it?
 
 The answer is "it depends."
 
@@ -113,3 +113,11 @@ What $1101_2$ represents depends on how the bit pattern is used. For example, if
 This means that the bit pattern $1101_2$ represents -3 only when the bit pattern is supposed to represent a signed 4-bit integer. The same bit pattern represents 13 only when the bit pattern is supposed to represent an unsigned 4-bit integer.
 
 Note that even binary addition and subtraction do not care about sign interpretation. $1101_2+0001_2=1110_2$ works for $-3+1=-2$ as well as $13+1=14$.
+
+Let us define two functions. $v_u(x,w)$ is a function that returns the unsigned interpreted integer value of a bit pattern $x$ up to $w$ digits, and $v_s(x,w)$ is a function that returns the **signed** interpreted integer value of a bit pattern $x$ up to $w$ digits. 
+
+$$v_u(x,w)=\sum_{i=0}^{w-1} x_i 2^i$$
+
+$$v_s(x,w)=\sum_{i=0}^{w-2} x_i2^i - x_{w-1} 2^{w-1}$$
+
+A quick exercise is to use these two functions to evaluate the 4-bit pattern representation of $x=1100_2$. In other words, what are $v_u(1100_2,4)$ and $v_s(1100_2,4)$? Are your answers consistent with the table in the ["Negative integer"](#negative-integer) section?
