@@ -152,7 +152,7 @@ Why are we using $r(u,v)$ both for the single-digit sum and single-digit differe
 
 ### r and b, redefined 
 
-Based on [a previous section](#r-and-b-for-base-10), the functions $r$ and $b$ can easily be redefined for any base $b$. This is because the concept of a single-digit difference and borrow is not base-dependent. Given that $e$ is the base, $r(u,v)=((e+u)-v) \mod b$, and $b(u,v)=(u<v)?1:0$.
+Based on [a previous section](#r-and-b-for-base-10), the functions $r$ and $b$ can easily be redefined for any base $b$. This is because the concept of a single-digit difference and borrow is not base-dependent. Given that $e$ is the base, $r(u,v)=((e+u)-v) \mod e$, and $b(u,v)=(u<v)?1:0$.
 
 To work in base-2, $e=2$, this means $r(u,v)=((2+u)-v) \mod 2$ and $b(u,v)=(u<v)?1:0$. The relationship between the digits remain the same.
 
