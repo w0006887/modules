@@ -200,7 +200,7 @@ Despite being a little more complex, $r(u,v)$ can also be expressed using logica
 
 The last bit of trouble is how $t_{i+1}=b(x_i,y_i)+b(q_i,t_i)$ is computed using a sum. Can we use disjunction instead of addition here? Using a similar argument as in [an earlier section](#r-and-c-redefined), we need to ask whether $b(x_i,y_i)$ and $b(q_i,t_i)$ can both be ones. The short answer is "no". $q_i$ is not an independent bit because $q_i = r(x_i,y_i) = x_i \oplus y_i$. As a result, when $x_i=0$ and $y_i=1$ so that $b(x_i,y_i)=1$, $q_i=1$ and guarantees $b(q_i,t_i)=0$. Likewise, $b(q_i,t_i)=1$ implies $q_0=0$, then of $x_i=y_i$, ensuring $b(x_i,y_i)=0$. This is the rather informal proof.
 
-As a result, disjunction can be used instead of addition, $t_{i+1}=b(x_i,y_i) \vee b(q_i,k_i)=(\neg x_i \wedge y_i) \vee (\neg q_i \wedge t_i)$.
+As a result, disjunction can be used instead of addition, $t_{i+1}=b(x_i,y_i) \vee b(q_i,t_i)=(\neg x_i \wedge y_i) \vee (\neg q_i \wedge t_i)$.
 
 This concludes that binary subtraction can also be implemented using transistors!
 
