@@ -42,7 +42,7 @@ If $x_k=0 \wedge y_k=1$, then $t_{k+1}=b(0,1)+b(1,t_k)=1$, this also means that 
 
 Conversely, 
 
-$\begin{align}t_{k+1} &=1 \\ & \Leftrightarrow \\ (b(x_k,y_k)=1 & \vee b(x_k \oplus y_k, t_k)=1\end{align}$ 
+$$\begin{aligned}t_{k+1} &=1 \\ & \Leftrightarrow \\ (b(x_k,y_k)=1 & \vee b(x_k \oplus y_k, t_k)=1\end{aligned}$$
 
 $b(x_k,y_k)=!x_ky_k=1$ if and only if $(x_k=0 \wedge y_k=1)$. This means $v_u(x,k+1) < v_u(y,k+1)$. 
 
