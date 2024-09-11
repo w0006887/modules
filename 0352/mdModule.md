@@ -86,6 +86,8 @@ Note that the range of signed values given a width of 3 bits is from -4 to 3,and
 
 # AI-generated questions and answers
 
+## Overall concepts
+
 <details>
   <summary>1. How is an unsigned value interpreted from an m-bit binary pattern?</summary>
   <p>The unsigned interpretation of an m-bit binary pattern $x$ is calculated as:</p>
@@ -137,5 +139,127 @@ Note that the range of signed values given a width of 3 bits is from -4 to 3,and
 <details>
   <summary>10. How is the less-than condition represented in signed binary comparison?</summary>
   <p>The less-than condition in signed binary comparison is determined by the expression $L = S \oplus O$, where $L = 1$ if $v_s(x, m) < v_s(y, m)$. This condition checks whether the signed difference between two numbers is negative.</p>
+</details>
+
+## Practice questions with concrete values
+
+<details>
+  <summary>1. Subtract 011 from 010 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>010 - 011</code> = <code>-1</code> (unsigned: 7, signed: -1) <br>
+    <strong>Borrow Bit (B):</strong> 1 <br>
+    <strong>Sign Bit (S):</strong> 1 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 1 <br>
+    Result: Since <code>010 < 011</code>, the less-than condition holds.
+  </p>
+</details>
+
+<details>
+  <summary>2. Subtract 110 from 001 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>001 - 110</code> = <code>111</code> (signed: -1) <br>
+    <strong>Borrow Bit (B):</strong> 1 <br>
+    <strong>Sign Bit (S):</strong> 1 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 1 <br>
+    Result: <code>001</code> is less than <code>110</code> in signed interpretation.
+  </p>
+</details>
+
+<details>
+  <summary>3. Subtract 011 from 011 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>011 - 011</code> = <code>000</code> (unsigned: 0) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 0 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: The numbers are equal, so less-than is not true.
+  </p>
+</details>
+
+<details>
+  <summary>4. Subtract 001 from 100 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>100 - 001</code> = <code>011</code> (signed: 3) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 0 <br>
+    <strong>Overflow Bit (O):</strong> 1 <br>
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: <code>100</code> is less than <code>001</code> in signed form, but the overflow occurred.
+  </p>
+</details>
+
+<details>
+  <summary>5. Subtract 101 from 011 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>011 - 101</code> = <code>-2</code> (unsigned: 6, signed: -2) <br>
+    <strong>Borrow Bit (B):</strong> 1 <br>
+    <strong>Sign Bit (S):</strong> 1 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 1 <br>
+    Result: <code>011</code> is less than <code>101</code>, the less-than condition is true.
+  </p>
+</details>
+
+<details>
+  <summary>6. Subtract 010 from 110 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>110 - 010</code> = <code>100</code> (signed: -4) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 1 <br>
+    <strong>Overflow Bit (O):</strong> 1 <br>
+    <strong>L Flag (Less-than):</strong> 1 <br>
+    Result: There is an overflow, but <code>110</code> is still less than <code>010</code>.
+  </p>
+</details>
+
+<details>
+  <summary>7. Subtract 011 from 100 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>100 - 011</code> = <code>001</code> (unsigned: 1) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 0 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: <code>100</code> is greater than <code>011</code>, so less-than is not true.
+  </p>
+</details>
+
+<details>
+  <summary>8. Subtract 111 from 000 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>000 - 111</code> = <code>001</code> (signed: 1) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 0 <br>
+    <strong>Overflow Bit (O):</strong> 1 <br>
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: Due to overflow, <code>000</code> is greater than <code>111</code>.
+  </p>
+</details>
+
+<details>
+  <summary>9. Subtract 010 from 111 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>111 - 010</code> = <code>101</code> (unsigned: 5) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 1 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: <code>111</code> is greater than <code>010</code>, so less-than is not true.
+  </p>
+</details>
+
+<details>
+  <summary>10. Subtract 101 from 110 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
+  <p>
+    <strong>Subtraction:</strong> <code>110 - 101</code> = <code>001</code> (signed: 1) <br>
+    <strong>Borrow Bit (B):</strong> 0 <br>
+    <strong>Sign Bit (S):</strong> 0 <br>
+    <strong>Overflow Bit (O):</strong> 0 <br>
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: <code>110</code> is greater than <code>101</code> in signed interpretation.
+  </p>
 </details>
 
