@@ -60,7 +60,7 @@ This works fine as long as the actual difference is within the range of an $m$-b
 
 Instead, $-9 \equiv_{2^4} -9+16=7$. $7$ has a binary representation of $0111_2$.
 
-This "out of range" problem can also happen in the opposite direction. Consider $x=0111_2$, $y=1110_2$. In this example, $v_s(x,4)=1+2+4=7$, whereas $v_s(y,4)=2+4-8=-2$. The actual difference of $v_s(x)-v_s(y)$ is $7-(-2)=9$. However, 9 is out of the range of a 4-bit pattern interpreted signed. However, we know that $9 \equiv_{2^4} 9-16 = -7$. $-7 = -8+1$, and as a result, $v_s(1001_2,4)=1-8=-7$, meaning that $-7$ is represented as $1001_2$.
+This "out of range" problem can also happen in the opposite direction. Consider $x=0111_{2}$, $y=1110_{2}$. In this example, $v_s(x,4)=1+2+4=7$, whereas $v_s(y,4)=2+4-8=-2$. The actual difference of $v_s(x)-v_s(y)$ is $7-(-2)=9$. However, 9 is out of the range of a 4-bit pattern interpreted signed. However, we know that $9 \equiv_{2^4} 9-16 = -7$. $-7 = -8+1$, and as a result, $v_s(1001_2,4)=1-8=-7$, meaning that $-7$ is represented as $1001_2$.
 
 How "over the range" can the difference be? If we use the $m=4$ example, then in one direction, the most negative value of a difference is $-8-7=-15 \equiv_{2^4} -15+16 = 1$, and in the other direction, $7-(-8)=15 \equiv_{2^4} 15-16 = -1$. 
 
