@@ -16,11 +16,11 @@ However, the `int` interpretation is a little more tricky. Congruent modulo $2^m
 
 Two's complement is an operator that performs the same operation as arithmatic negation. However, it is not helpful to indicate the value represented by a bit pattern.
 
-It is the decision that the range of values using signed interpretation of a bit pattern that is helpful. An $m$-bit pattern represents values from $-2^{m-1}$ to $2^{m-1}-1$. This range, combined with congruent modulo $2^m$, helps to determine that the signed (`int`) intepreted value of an $m$-bit pattern $x$ is as follows:
+It is the decision that the range of values using the signed interpretation of a bit pattern is helpful. An $m$-bit pattern represents values from $-2^{m-1}$ to $2^{m-1}-1$. This range, combined with congruent modulo $2^m$, helps to determine that the signed (`int`) interpreted value of an $m$-bit pattern $x$ is as follows:
 
 $v_s(x,m) = (\sum_{i=0}^{m-2} x_i 2^i) - x_{m-1}2^{m-1}$
 
-As an exmaple consider the 4-bit pattern $1011_2$. $v_u(1011_2,4)=1+2+0+8=11$, whereas $v_s(1011_2,4)=1+2-8=-5$.
+As an example consider the 4-bit pattern $1011_2$. $v_u(1011_2,4)=1+2+0+8=11$, whereas $v_s(1011_2,4)=1+2-8=-5$.
 
 # `unsigned` less-than
 
@@ -28,7 +28,7 @@ In a binary subtraction of two $m$-bit patterns $x-y$, $t_m=1$ if and only if $v
 
 This can be proven as follows using proof by induction.
 
-The base-case is when $m=1$. By definition $t_1 = b(x_0,y_0)+b(q_0,t_0)$. Since $t_0$ is part of the assumption, $b(q_0,t_0)$ has to be 0. This means $t_1 = b(x_0,y_0) = !x_0y_0$. This means $t_1 = 1$ if and only if $x_0=0 \wedge y_0=1$. This proves the base case.
+The base case is when $m=1$. By definition $t_1 = b(x_0,y_0)+b(q_0,t_0)$. Since $t_0$ is part of the assumption, $b(q_0,t_0)$ has to be 0. This means $t_1 = b(x_0,y_0) = !x_0y_0$. This means $t_1 = 1$ if and only if $x_0=0 \wedge y_0=1$. This proves the base case.
 
 The induction step assumes the theorem is true up to $m=k$. In other words, the assumption is $t_k=1$ if and only if $v_u(x,k) < v_u(y,k)$.
 
@@ -60,7 +60,9 @@ This works fine as long as the actual difference is within the range of an $m$-b
 
 Instead, $-9 \equiv_{2^4} -9+16=7$. $7$ has a binary representation of $0111_2$.
 
-This "out of range" problem can also happen in the opposite direction. Consider $x=0111_{2}$, $y=1110_{2}$. In this example, $v_s(x,4)=1+2+4=7$, whereas $v_s(y,4)=2+4-8=-2$. The actual difference of $v_s(x)-v_s(y)$ is $7-(-2)=9$. However, 9 is out of the range of a 4-bit pattern interpreted signed. However, we know that $9 \equiv_{2^4} 9-16 = -7$. $-7 = -8+1$, and as a result, $v_s(1001_2,4)=1-8=-7$, meaning that $-7$ is represented as $1001_2$.
+This "out of range" problem can also happen in the opposite direction. Consider $x=0111_{2}$, 
+$y=1110_{2}$. 
+In this example, $v_s(x,4)=1+2+4=7$, whereas $v_s(y,4)=2+4-8=-2$. The actual difference of $v_s(x)-v_s(y)$ is $7-(-2)=9$. However, 9 is out of the range of a 4-bit pattern interpreted signed. However, we know that $9 \equiv_{2^4} 9-16 = -7$. $-7 = -8+1$, and as a result, $v_s(1001_2,4)=1-8=-7$, meaning that $-7$ is represented as $1001_2$.
 
 How "over the range" can the difference be? If we use the $m=4$ example, then in one direction, the most negative value of a difference is $-8-7=-15 \equiv_{2^4} -15+16 = 1$, and in the other direction, $7-(-8)=15 \equiv_{2^4} 15-16 = -1$. 
 
