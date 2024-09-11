@@ -83,3 +83,59 @@ Note that the range of signed values given a width of 3 bits is from -4 to 3,and
 * 3-2
 * -2-3
 * 2-(-3)
+
+# AI-generated questions and answers
+
+<details>
+  <summary>1. How is an unsigned value interpreted from an m-bit binary pattern?</summary>
+  <p>The unsigned interpretation of an m-bit binary pattern x is calculated as:</p>
+  <p><code>v_u(x, m) = ∑(x_i * 2^i)</code> for <code>i</code> from 0 to m-1.</p>
+</details>
+
+<details>
+  <summary>2. How is a signed value interpreted using two's complement in an m-bit binary pattern?</summary>
+  <p>The signed interpretation of an m-bit binary pattern x is given by:</p>
+  <p><code>v_s(x, m) = (∑(x_i * 2^i)) - x_(m-1) * 2^(m-1)</code>, where the most significant bit (x_(m-1)) is treated as the sign bit.</p>
+</details>
+
+<details>
+  <summary>3. What is the difference between signed and unsigned binary subtraction?</summary>
+  <p>In unsigned subtraction, the result cannot represent a negative value, while in signed subtraction, the result can represent a negative value because of two's complement. Signed binary subtraction uses the sign bit (the most significant bit) to determine if the result is negative.</p>
+</details>
+
+<details>
+  <summary>4. How can the less-than comparison for unsigned values be derived?</summary>
+  <p>The less-than comparison for unsigned values can be derived by binary subtraction. Specifically, <code>t_m = 1</code> if and only if <code>v_u(x, m) &lt; v_u(y, m)</code> for an m-bit binary subtraction.</p>
+</details>
+
+<details>
+  <summary>5. What does the overflow flag indicate in signed binary subtraction?</summary>
+  <p>The overflow flag indicates whether the difference between two signed numbers is out of range, meaning that the sign of the result is opposite to what it should be. The overflow flag is calculated as:</p>
+  <p><code>O = x_(m-1) !y_(m-1) !d_(m-1) + !x_(m-1) y_(m-1) d_(m-1)</code></p>
+</details>
+
+<details>
+  <summary>6. What is the relationship between the overflow flag and the correct sign of a signed subtraction result?</summary>
+  <p>The correct sign of a signed subtraction result can be determined by the expression <code>S ⊕ O</code>, where <code>S</code> is the sign bit of the difference, and <code>O</code> is the overflow flag. This expression provides the correct sign of the result.</p>
+</details>
+
+<details>
+  <summary>7. What are the possible ranges for m-bit signed and unsigned values?</summary>
+  <p>For an m-bit signed value, the range is from <code>-2^(m-1)</code> to <code>2^(m-1) - 1</code>. For an m-bit unsigned value, the range is from 0 to <code>2^m - 1</code>.</p>
+</details>
+
+<details>
+  <summary>8. How does the two's complement operation help in representing negative numbers?</summary>
+  <p>The two's complement operation effectively negates a binary number by flipping all the bits and adding 1. It allows negative numbers to be represented in binary, and in the context of signed numbers, it ensures that arithmetic operations like addition and subtraction work as expected.</p>
+</details>
+
+<details>
+  <summary>9. What is the significance of the most significant bit (MSB) in signed numbers?</summary>
+  <p>The most significant bit (MSB) in signed numbers is used as the sign bit. If the MSB is 1, the number is negative; if it is 0, the number is positive. This bit plays a crucial role in determining the value of the number in two's complement representation.</p>
+</details>
+
+<details>
+  <summary>10. How is the less-than condition represented in signed binary comparison?</summary>
+  <p>The less-than condition in signed binary comparison is determined by the expression <code>L = S ⊕ O</code>, where <code>L</code> is 1 if <code>v_s(x, m) &lt; v_s(y, m)</code>. This condition checks whether the signed difference between two numbers is negative.</p>
+</details>
+
