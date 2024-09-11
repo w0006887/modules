@@ -26,6 +26,8 @@ As an example consider the 4-bit pattern $1011_2$. $v_u(1011_2,4)=1+2+0+8=11$, w
 
 In a binary subtraction of two $m$-bit patterns $x-y$, $t_m=1$ if and only if $v_u(x,m) < v_u(y,m)$ assuming $t_0=0$.
 
+## The proof (by induction)
+
 This can be proven as follows using proof by induction.
 
 The base case is when $m=1$. By definition $t_1 = b(x_0,y_0)+b(q_0,t_0)$. Since $t_0$ is part of the assumption, $b(q_0,t_0)$ has to be 0. This means $t_1 = b(x_0,y_0) = !x_0y_0$. This means $t_1 = 1$ if and only if $x_0=0 \wedge y_0=1$. This proves the base case.
