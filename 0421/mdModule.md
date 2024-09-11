@@ -20,7 +20,7 @@ Is this focus on the student as an individual, or is this focus on the categorie
 
 Do we limit the student learning outcomes (SLOs) as stated in the curricula, or are there outcomes that are implicit and optional?
 
-# Arigato Mr. Roboto (どうもありがと Mr. Roboto)
+# Domo Arigato Mr. Roboto (どうもありがと Mr. Roboto)
 
 Each instructor is an individual with a specific style of communication. Some communication styles work better with certain students in certain situations. A robotic communication style has the following attributes.
 
@@ -28,7 +28,7 @@ Each instructor is an individual with a specific style of communication. Some co
 * Detached as opposed to connected.
 * All-factual as opposed to emotional or value-based.
 
-Some equate communication style with intention. This assumption is often incorrect. As a reliable source, the lyrics of Mr. Roboto say the following.
+Some equate communication style with intention. This assumption is often incorrect. As a reliable source, [Mr. Roboto (the song by Styx)](https://youtu.be/uc6f_2nPSX8?si=r0Du-WodxAiX77y4) say the following.
 
 > I've got a secret, I've been hiding under my skin. My heart is human, my blood is boiling,...
 
