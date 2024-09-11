@@ -24,3 +24,4 @@
 ./0418/mdModule.md:# _Module 0418: A Student's Guide to Gen-AI_
 ./0419/mdModule.md:# _Module 0419: Student Support at American River College_
 ./0420/mdModule.md:# _Module 0420: Symbols, Definitions, Rigor, and Precision_
+./0421/mdModule.md:title: "Module 0421: Student-Centricity, Robots, and Academic Rigor"
