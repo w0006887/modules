@@ -38,3 +38,18 @@ Just as convincing, some personality traits exhibit robot-like behavior. The Mye
 
 The ultimate question is whether Mr. Roboto is an effective instructor.
 
+## Distant or a well-defined role?
+
+Some instructors choose a well-defined relationship with students, "I am here to help you learn." However, an instructor is not a friend, not a parent, not a guardian, not a cheerleader, not a therapist, not a counselor, not a life coach, etc.
+
+Does this mean these instructors dehumanize students? Not quite. Deciding not to play the role of a parent when a student is not studying sufficiently does not mean not caring about the student. The difference is the reaction. A distant response may include pointing out the connection between not studying sufficiently and the resulting academic performance. There is no disappointment and no frustration. There can be many reasons why a student does not study sufficiently.
+
+## Detached or a well-defined boundary?
+
+This is a corollary of the previous section. An instructor may get involved only in subject matter related or general learning. In the previous example, an instructor may choose not to question or assume reasons why a student is not studying sufficiently. However, the same instructor may suggest the student to think about ways to divert more time and effort to study. 
+
+## Objectivity or simply not reacting to feelings?
+
+Feelings such as fear, anger, disgust, etc. are automatic survival shortcuts. In actual life-threatening situations, feelings help with survival. Feelings such as being rejected or the sense of belonging are also survival mechanisms. 
+
+
