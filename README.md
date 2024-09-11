@@ -7,7 +7,10 @@ This is a `GitHub` repository that hosts Prof. Tak's instructional content. The 
 The [directory](directory.md) is automatically regenerated whenever there is an update to the module files. For the [GitHub workflow to work](https://docs.github.com/en/actions/using-workflows), the heading of a module should follow this template:
 
 ```markdown
-# _Module 1234: title_
+---
+title: "Module 0000: Whatever"
+---
+# _{{ page.title }}
 ```
 
 Also, for the GitHub workflow to work, [the GitHub bot should have read/write permissions](https://github.com/marketplace/actions/github-push).
