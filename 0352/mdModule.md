@@ -143,27 +143,29 @@ Note that the range of signed values given a width of 3 bits is from -4 to 3,and
 
 ## Practice questions with concrete values
 
+Note that the AI-generated answers are quite wrong for these questions. The answers are corrected by hand.
+
 <details>
   <summary>1. Subtract 011 from 010 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
   <p>
-    <strong>Subtraction:</strong> <code>010 - 011</code> = <code>-1</code> (unsigned: 7, signed: -1) <br>
+    <strong>Subtraction:</strong> <code>010 - 011</code> = <code>111</code> (unsigned: 7, signed: -1) <br>
     <strong>Borrow Bit (B):</strong> 1 <br>
     <strong>Sign Bit (S):</strong> 1 <br>
     <strong>Overflow Bit (O):</strong> 0 <br>
     <strong>L Flag (Less-than):</strong> 1 <br>
-    Result: Since <code>010 < 011</code>, the less-than condition holds.
+    Result: Since <code>010 < 011</code>, the less-than condition holds in both signed and unsigned comparisons.
   </p>
 </details>
 
 <details>
   <summary>2. Subtract 110 from 001 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
   <p>
-    <strong>Subtraction:</strong> <code>001 - 110</code> = <code>111</code> (signed: -1) <br>
+    <strong>Subtraction:</strong> <code>001 - 110</code> = <code>011</code> (unsigned: 3, signed: 3) <br>
     <strong>Borrow Bit (B):</strong> 1 <br>
-    <strong>Sign Bit (S):</strong> 1 <br>
+    <strong>Sign Bit (S):</strong> 0 <br>
     <strong>Overflow Bit (O):</strong> 0 <br>
-    <strong>L Flag (Less-than):</strong> 1 <br>
-    Result: <code>001</code> is less than <code>110</code> in signed interpretation.
+    <strong>L Flag (Less-than):</strong> 0 <br>
+    Result: <code>001</code> is not less than <code>110</code> in signed interpretation, but <code>001</code> is less than <code>110</code> in unsigned interpretation.
   </p>
 </details>
 
@@ -182,84 +184,13 @@ Note that the range of signed values given a width of 3 bits is from -4 to 3,and
 <details>
   <summary>4. Subtract 001 from 100 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
   <p>
-    <strong>Subtraction:</strong> <code>100 - 001</code> = <code>011</code> (signed: 3) <br>
+    <strong>Subtraction:</strong> <code>100 - 001</code> = <code>011</code> (signed and unsigned: 3) <br>
     <strong>Borrow Bit (B):</strong> 0 <br>
     <strong>Sign Bit (S):</strong> 0 <br>
-    <strong>Overflow Bit (O):</strong> 1 <br>
-    <strong>L Flag (Less-than):</strong> 0 <br>
-    Result: <code>100</code> is less than <code>001</code> in signed form, but the overflow occurred.
-  </p>
-</details>
-
-<details>
-  <summary>5. Subtract 101 from 011 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
-  <p>
-    <strong>Subtraction:</strong> <code>011 - 101</code> = <code>-2</code> (unsigned: 6, signed: -2) <br>
-    <strong>Borrow Bit (B):</strong> 1 <br>
-    <strong>Sign Bit (S):</strong> 1 <br>
-    <strong>Overflow Bit (O):</strong> 0 <br>
-    <strong>L Flag (Less-than):</strong> 1 <br>
-    Result: <code>011</code> is less than <code>101</code>, the less-than condition is true.
-  </p>
-</details>
-
-<details>
-  <summary>6. Subtract 010 from 110 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
-  <p>
-    <strong>Subtraction:</strong> <code>110 - 010</code> = <code>100</code> (signed: -4) <br>
-    <strong>Borrow Bit (B):</strong> 0 <br>
-    <strong>Sign Bit (S):</strong> 1 <br>
     <strong>Overflow Bit (O):</strong> 1 <br>
     <strong>L Flag (Less-than):</strong> 1 <br>
-    Result: There is an overflow, but <code>110</code> is still less than <code>010</code>.
+    Result: <code>100</code> is less than <code>001</code> in signed form, <code>100</code> is not less than <code>001</code> in unsigned form.
   </p>
 </details>
 
-<details>
-  <summary>7. Subtract 011 from 100 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
-  <p>
-    <strong>Subtraction:</strong> <code>100 - 011</code> = <code>001</code> (unsigned: 1) <br>
-    <strong>Borrow Bit (B):</strong> 0 <br>
-    <strong>Sign Bit (S):</strong> 0 <br>
-    <strong>Overflow Bit (O):</strong> 0 <br>
-    <strong>L Flag (Less-than):</strong> 0 <br>
-    Result: <code>100</code> is greater than <code>011</code>, so less-than is not true.
-  </p>
-</details>
-
-<details>
-  <summary>8. Subtract 111 from 000 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
-  <p>
-    <strong>Subtraction:</strong> <code>000 - 111</code> = <code>001</code> (signed: 1) <br>
-    <strong>Borrow Bit (B):</strong> 0 <br>
-    <strong>Sign Bit (S):</strong> 0 <br>
-    <strong>Overflow Bit (O):</strong> 1 <br>
-    <strong>L Flag (Less-than):</strong> 0 <br>
-    Result: Due to overflow, <code>000</code> is greater than <code>111</code>.
-  </p>
-</details>
-
-<details>
-  <summary>9. Subtract 010 from 111 in 3-bit unsigned binary. What are the borrow, sign, overflow, and L flags?</summary>
-  <p>
-    <strong>Subtraction:</strong> <code>111 - 010</code> = <code>101</code> (unsigned: 5) <br>
-    <strong>Borrow Bit (B):</strong> 0 <br>
-    <strong>Sign Bit (S):</strong> 1 <br>
-    <strong>Overflow Bit (O):</strong> 0 <br>
-    <strong>L Flag (Less-than):</strong> 0 <br>
-    Result: <code>111</code> is greater than <code>010</code>, so less-than is not true.
-  </p>
-</details>
-
-<details>
-  <summary>10. Subtract 101 from 110 in 3-bit signed binary. What are the borrow, sign, overflow, and L flags?</summary>
-  <p>
-    <strong>Subtraction:</strong> <code>110 - 101</code> = <code>001</code> (signed: 1) <br>
-    <strong>Borrow Bit (B):</strong> 0 <br>
-    <strong>Sign Bit (S):</strong> 0 <br>
-    <strong>Overflow Bit (O):</strong> 0 <br>
-    <strong>L Flag (Less-than):</strong> 0 <br>
-    Result: <code>110</code> is greater than <code>101</code> in signed interpretation.
-  </p>
-</details>
 
