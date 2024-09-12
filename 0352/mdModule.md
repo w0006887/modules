@@ -85,7 +85,7 @@ The overflow flag is really indicating whether the actual sign of the difference
 ## The L-flag
 
 <div style="border: 2px solid green" markdown="true">
-If we define $L=S \oplus O$, then $L=1$ iff $v_s(x,m) < v_s(y,m)$.
+If we define <span style="border: 2px solid green" markdown="1">$L=S \oplus O$</span>, then $L=1$ iff $v_s(x,m) < v_s(y,m)$.
 </div>
 
 # Exercise
