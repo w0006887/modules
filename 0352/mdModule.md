@@ -10,7 +10,7 @@ Because all other comparisons can be translated to less-than, possibly with the 
 
 Given a bit pattern $x$ with $m$ bits, a C++ program can interpret the value as `int` (signed) or `unsigned`. The `unsigned` interpretation is simple because it is the default method of interpreting the value of a number (of any base):
 
-<div style="border: 2px solid green" markdown="true">
+<div style="border: 2px solid green" markdown="1">
 $$v_u(x,m) = \sum_{i=0}^{m-1} x_i2^i$$
 </div>
 
@@ -20,14 +20,18 @@ Two's complement is an operator that performs the same operation as arithmatic n
 
 It is the decision that the range of values using the signed interpretation of a bit pattern is helpful. An $m$-bit pattern represents values from $-2^{m-1}$ to $2^{m-1}-1$. This range, combined with congruent modulo $2^m$, helps to determine that the signed (`int`) interpreted value of an $m$-bit pattern $x$ is as follows:
 
+<div style="border: 2px solid green" markdown="1">
 $v_s(x,m) = (\sum_{i=0}^{m-2} x_i 2^i) - x_{m-1}2^{m-1}$
+</div>
 
 As an example consider the 4-bit pattern $1011_2$. $v_u(1011_2,4)=1+2+0+8=11$, whereas $v_s(1011_2,4)=1+2-8=-5$.
 
 # `unsigned` less-than
 
+<div style="border: 2px solid green" markdown="1">
 In a binary subtraction of two $m$-bit patterns $x-y$, $t_m=1$ if and only if $v_u(x,m) < v_u(y,m)$ assuming $t_0=0$.
-
+</div>
+  
 ## The proof (by induction)
 
 This can be proven as follows using proof by induction.
@@ -72,13 +76,17 @@ How "over the range" can the difference be? If we use the $m=4$ example, then in
 
 Whenever the difference of the signed interpreted values $v_s(x,m)-v_s(y,m)$ is out of range, the sign of the difference, $d_{m-1}$, is opposite of what it should be. Furthermore, to determine whether the difference of the signed interpreted values is out of range, we only need to check whether the sign of the minuend is opposite to *both* the signs of the subtrahend and the difference.
 
+<div style="border: 2px solid green" markdown="true">
 This is why the overflow flag is defined as $O=x_{m-1}!y_{m-1}!d_{m-1}+!x_{m-1}y_{m-1}d_{m-1}$. The overflow flag is 1 iff $v_s(x,m)-v_s(y,m)$ is out of range.
+</div>
 
 The overflow flag is really indicating whether the actual sign of the difference should be opposite to the one computed using binary subtraction. If we define $S=d_{m-1}$ (as a shorthand), then $S \oplus O$ is the correct sign of $v_s(x,m)-v_s(y,m)$.
 
 ## The L-flag
 
+<div style="border: 2px solid green" markdown="true">
 If we define $L=S \oplus O$, then $L=1$ iff $v_s(x,m) < v_s(y,m)$.
+</div>
 
 # Exercise
 
