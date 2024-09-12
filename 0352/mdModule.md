@@ -80,12 +80,12 @@ Whenever the difference of the signed interpreted values $v_s(x,m)-v_s(y,m)$ is 
 This is why the overflow flag is defined as $O=x_{m-1}!y_{m-1}!d_{m-1}+!x_{m-1}y_{m-1}d_{m-1}$. The overflow flag is 1 iff $v_s(x,m)-v_s(y,m)$ is out of range.
 </div>
 
-The overflow flag is really indicating whether the actual sign of the difference should be opposite to the one computed using binary subtraction. If we define $S=d_{m-1}$ (as a shorthand), then $S \oplus O$ is the correct sign of $v_s(x,m)-v_s(y,m)$.
+The overflow flag is really indicating whether the actual sign of the difference should be opposite to the one computed using binary subtraction. <span style="border: 2px solid green" markdown="1">If we define $S=d_{m-1}$ (as a shorthand), then $S \oplus O$ is the correct sign of $v_s(x,m)-v_s(y,m)$</span>.
 
 ## The L-flag
 
 <div style="border: 2px solid green" markdown="true">
-If we define <span style="border: 2px solid green" markdown="1">$L=S \oplus O$</span>, then $L=1$ iff $v_s(x,m) < v_s(y,m)$.
+If we define $L=S \oplus O$, then $L=1$ iff $v_s(x,m) < v_s(y,m)$.
 </div>
 
 # Exercise
