@@ -10,7 +10,9 @@ Because all other comparisons can be translated to less-than, possibly with the 
 
 Given a bit pattern $x$ with $m$ bits, a C++ program can interpret the value as `int` (signed) or `unsigned`. The `unsigned` interpretation is simple because it is the default method of interpreting the value of a number (of any base):
 
-$v_u(x,m) = \sum_{i=0}^{m-1} x_i2^i$
+<div style="border: 2px solid green" markdown="true">
+$$v_u(x,m) = \sum_{i=0}^{m-1} x_i2^i$$
+</div>
 
 However, the `int` interpretation is a little more tricky. Congruent modulo $2^m$ helps to understand how a bit pattern can represent different values. However, it does not help determine exactly what value a bit pattern represents.
 
