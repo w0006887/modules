@@ -44,9 +44,16 @@ A `pull` queries the remote repository and analyzes all the modifications to the
 
 A `pull` allows the user of a local repository to bring in all the released (pushed) updates from other teammates.
 
-## Branch
+## Branch and Merge
 
-Every repository starts with a default `MAIN` branch. A single branch is a chain of `push` operations.
+Every repository starts with a default `MAIN` branch. A single branch is a chain of `push` operations. The latest `push` is also called the `HEAD` of a branch.
 
 `branch` is also an action. A remote repository can be branched to create additional parallel chains of push operations.
 
+The most common situation to create a branch is for debugging purposes. Let's say a user reports a bug while using version 3.1.2 of a program. If the program is under active development, the `HEAD` of the `MAIN` branch may be in version 3.2.2. 
+
+In order to address the issue reported based on version 3.1.2, a developer needs to `clone` the 3.1.2 version. At this point, the developer also creates a new branch, let's call it 3.1.2.1. Internal to the team, the development team can use `push` and `pull` to extend the new branch (3.1.2.1) until the reported issue is resolved. The entire 3.1.2.1 branch is independent of the `MAIN` branch. When the issue/bug is resolved, the `HEAD` of the new branch 3.1.2.1 can be released as a bug-fixed version of 3.1.2 to customers who have been using version 3.1.2.
+
+If the addressed issue should also be applied to the `MAIN` branch (version 3.2.2), `git` can `merge` the 3.1.2.1 branch to the `MAIN` branch. This `merge` operation consists of analyzing all the changes in the entire 3.1.2.1 branch, and applying those changes to the `HEAD` of the `MAIN` 3.2.2 branch. In other words, the bug fix is also now applied to the latest version of the program.
+
+A `merge` operation may encounter conflicting changes. In this example, the modifications of the entire 3.1.2.1 branch may conflict with modifications from the version 3.1.2 release of the `MAIN` branch to the current `HEAD`. In such a situation, the `merge` attemp reports the conflict, and the conflict must be resolved by a modification of the `HEAD` of the `MAIN` branch or the 3.1.2.1 branch. 
