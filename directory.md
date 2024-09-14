@@ -25,3 +25,4 @@
 * [Module 0419: Student Support at American River College](./0419/mdModule.md)
 * [Module 0420: Symbols, Definitions, Rigor, and Precision](./0420/mdModule.md)
 * [Module 0421: Student-Centricity, Robots, and Academic Rigor](./0421/mdModule.md)
+* [Module 0422: Introduction to `git`](./0422/mdModule.md)
