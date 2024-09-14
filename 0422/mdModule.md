@@ -76,6 +76,23 @@ An SSH key enables convenient communication between a local repository and the r
 
 To use SSH, use `ssh-keygen` on the computer that is hosting a local repository if an SSH is not already generated. Then copy the content of the file `id_rsa.pub` to the "key". 
 
+The key should be generated using the email account associated with the GitHub account. This means the command to generate the key should look like `ssh-keygen -t ed25519 -C "abc@def.com" -f ~/.ssh/id_blah` where `abc@def.com` is the email address associated with the GitHub account. `id_blah` should be replaced by the desired file name of the key.
+
+If there are multiple SSH keys on the local system, then `~/ssh/config` should include an entry like the following:
+
+```text
+Host github.com
+  HostName github.com
+  IdentityFile ~/.ssh/id_blah
+```
+
+Replace `id_blah` with the actual *private key* file name. Then the file permission should changed (other `ssh` refuses to use it) using the following command: `chmod 600 ~/.ssh/config`.
+
+Last, but not least, make sure the SSH agent is running and knows the key using the following command:
+
+```text
+ssh-add ~/.ssh/id_blah
+```
 ## Create a local repository
 
 Create a new folder for the project. In a command line interface, change directory using `cd` to the folder, and execute the following command:
