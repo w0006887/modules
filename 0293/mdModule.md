@@ -284,3 +284,82 @@ Besides illustrating the concept of $\aleph_0$ and infinite but
 countable sets, this 2D to 1D folding mechanism can potentially be
 useful for the transmission of data. This mechanism essentially
 illustrates any number of integers can be encoded as a single integer.
+
+# AI-generated questions and answers
+
+[This](https://chatgpt.com/share/66e8989e-5aec-8013-b76b-ca7b8c689a61) is how these questions and answers are generated.
+
+<details>
+<summary>1. What is the significance of the symbol $\aleph_0$ in relation to the set of natural numbers $\mathbb{N}$?</summary>
+<p>
+$\aleph_0$ represents the cardinality of the set of natural numbers $\mathbb{N}$. It signifies the smallest level of infinity and is used to denote the size of any set that is countably infinite, including $\mathbb{N}$.
+</p>
+</details>
+
+<details>
+<summary>2. How is it possible that $|\mathbb{Z}| = |\mathbb{N}| = \aleph_0$, even though $\mathbb{Z}$ includes all negative integers in addition to $\mathbb{N}$?</summary>
+<p>
+The sets $\mathbb{Z}$ and $\mathbb{N}$ have the same cardinality because a bijective function can be established between them. The function $f(x) = (x \geq 0) ? (2x) : (-2x-1)$ maps integers to natural numbers, proving that the number of elements in both sets is the same, despite $\mathbb{Z}$ seeming larger.
+</p>
+</details>
+
+<details>
+<summary>3. What does it mean for a set to be countably infinite, and can you give an example of a set that is not countably infinite?</summary>
+<p>
+A set is countably infinite if its elements can be mapped to the natural numbers $\mathbb{N}$ in a one-to-one correspondence. An example of a set that is not countably infinite is the set of real numbers $\mathbb{R}$, which has a higher cardinality than $\aleph_0$.
+</p>
+</details>
+
+<details>
+<summary>4. Explain how the function $g: \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}$ maps a 2D coordinate space to natural numbers. What does this tell us about the cardinality of $\mathbb{N} \times \mathbb{N}$?</summary>
+<p>
+The function $g((x, y)) = \frac{(x + y)(x + y + 1)}{2} + y$ maps a pair of natural numbers to a single natural number by filling a 2D grid in diagonal lines. This mapping shows that $\mathbb{N} \times \mathbb{N}$ is countably infinite, meaning its cardinality is also $\aleph_0$.
+</p>
+</details>
+
+<details>
+<summary>5. Prove that the function $f(x) = (x \geq 0) ? (2x) : (-2x-1)$ is injective.</summary>
+<p>
+To prove injectivity, we must show that for any $p, q \in \mathbb{Z}$, if $f(p) = f(q)$, then $p = q$. There are four cases: 
+1. $p = q$, which is trivially true. 
+2. If one is negative and the other is non-negative, one will map to an odd number and the other to an even number, so $f(p) \neq f(q)$. 
+3. For two non-negative values, $f(p) = 2p$ and $f(q) = 2q$, so $p \neq q \Rightarrow 2p \neq 2q$. 
+4. For two negative values, $f(p) = -2p - 1$ and $f(q) = -2q - 1$, so $p \neq q \Rightarrow -2p - 1 \neq -2q - 1$.
+</p>
+</details>
+
+<details>
+<summary>6. How do we prove that the function $g: \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}$ is surjective?</summary>
+<p>
+To prove surjectiveness, we need to show that for every natural number $n \in \mathbb{N}$, there exists a pair $(x, y) \in \mathbb{N} \times \mathbb{N}$ such that $g((x, y)) = n$. The function $g^{-1}$ provides a way to find the inverse, and by finding $x$ and $y$ based on $n$, we show that every natural number corresponds to some point in the 2D grid.
+</p>
+</details>
+
+<details>
+<summary>7. What is the closed form for computing $g((x, 0))$, and why is this important for mapping the 2D grid to natural numbers?</summary>
+<p>
+The closed form is $g((x, 0)) = \frac{x(x + 1)}{2}$. This formula is important because it allows us to compute the base value of each diagonal line in the grid. From this base, we can then compute the values of other points on the diagonal by adding the appropriate offset $y$.
+</p>
+</details>
+
+<details>
+<summary>8. How can the function $g((x, y)) = \frac{(x + y)(x + y + 1)}{2} + y$ be practically useful outside of illustrating countable sets?</summary>
+<p>
+This function shows how a 2D space can be encoded into a single dimension, which has practical applications in data transmission and compression. It can be used to encode multiple integers as a single integer, which is valuable for representing multidimensional data efficiently.
+</p>
+</details>
+
+<details>
+<summary>9. Explain why the set of rational numbers $\mathbb{Q}$ is also countably infinite, despite $\mathbb{Q}$ seeming much larger than $\mathbb{N}$.</summary>
+<p>
+The set of rational numbers $\mathbb{Q}$ can be mapped to the natural numbers $\mathbb{N}$ using a diagonalization argument similar to the one used for 2D coordinates. Each rational number can be represented as a pair of integers (numerator and denominator), and since pairs of integers are countably infinite, $\mathbb{Q}$ is also countably infinite.
+</p>
+</details>
+
+<details>
+<summary>10. How does the quadratic formula $w = \frac{-(1) \pm \sqrt{(1)^2 - 4(1)(-2n)} }{2\cdot 1}$ help in finding the inverse function $g^{-1}(n)$?</summary>
+<p>
+The quadratic formula helps us find the diagonal line on which a given natural number $n$ resides. By solving for $w = x + y$, we determine the sum of the coordinates on the diagonal line. Once we have $w$, we can compute the exact values of $x$ and $y$, allowing us to find the inverse of the function $g$.
+</p>
+</details>
+
