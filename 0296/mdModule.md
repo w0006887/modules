@@ -66,61 +66,61 @@ The problem is that people do not use base-2 scientific notation. People
 use base-10 scientific notation. The syntax of a base-10 scientific
 notation can be summarized in the following regular expression:
 
-``` {.perl language="perl"}
+```perl
 [+-]\=[1-9]\(\.\d*\)\=\(e[+-]\=\d\+\)\=
 ```
 
 Of course, this needs .
 
--   `[+-]`{.perl}: Characters enclosed in brackets are alternative
+-   `[+-]`: Characters enclosed in brackets are alternative
     accepted characters. In this case, the "+" and "-" symbols are
     accepted as alternatives.
 
--   `\=`{.perl}: this escaped sequence means we can have 0 or 1 of
+-   `\=`: this escaped sequence means we can have 0 or 1 of
     whatever is specified earlier. In this context, the explicit sign of
     a number is optional. If it is missing, the default sign is
     non-negative $s=0$.
 
--   `[1-9]`{.perl}: this escaped sequence means a character from the
+-   `[1-9]`: this escaped sequence means a character from the
     character of 1 to the character of 9.
 
--   `\( \)`{.perl}: this pair of escaped sequence is a grouping.
+-   `\( \)`: this pair of escaped sequence is a grouping.
     Whatever is enclosed is considered a single unit by the quantifier
     after it
 
--   `\.`{.perl}: this escaped sequence means the decimal point. The
+-   `\.`: this escaped sequence means the decimal point. The
     decimal point is escaped because it means match any character when
     unescaped by the backslash character.
 
--   `\d`{.perl}: this specifies base-10 digits following the decimal
+-   `\d`: this specifies base-10 digits following the decimal
     point.
 
--   `*`{.perl}: this means any number of the thing before. Since this
+-   `*`: this means any number of the thing before. Since this
     quantifier applies to the decimal digit, it means we can have any
     number of base-10 digits (including zero) after the decimal point.
 
--   `\=`{.perl}: again, this means optional (0 or 1 occurrence). Since
+-   `\=`: again, this means optional (0 or 1 occurrence). Since
     this quantifier is right after the grouping of the decimal point and
     any number of digits, it means the decimal point followed by any
     number of digits is optional.
 
--   `\( \)`{.perl}: we have another grouping, this it is for the
+-   `\( \)`: we have another grouping, this it is for the
     exponent (in base-10).
 
--   `e`{.perl}: this means the exponent portion must start with the
+-   `e`: this means the exponent portion must start with the
     letter "e", in lower case.
 
--   `[+-]`{.perl}: the exponent can have an explicit sign. If this sign
+-   `[+-]`: the exponent can have an explicit sign. If this sign
     is missing, the implicit sign is non-negative.
 
--   `\=`{.perl}: this means the sign of the exponent is optional.
+-   `\=`: this means the sign of the exponent is optional.
 
--   `\d\+`{.perl}: we know the first escape sequence means any one
+-   `\d\+`: we know the first escape sequence means any one
     base-10 digit. The second escape sequence means at least one of
     whatever is before it. Together, this means the base-10 number that
     specifies the exponent must have at least one base-10 digit.
 
--   `\=`{.perl}: this applies to the exponent grouping, meaning the
+-   `\=`: this applies to the exponent grouping, meaning the
     exponent in base-10 is optional. If the exponent is missing, the
     implicit exponent is 0.
 
