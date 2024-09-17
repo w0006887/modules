@@ -8,6 +8,7 @@
 * [Module 0289: Functions as Sets](./0289/mdModule.md)
 * [Module 0290: Injection, Surjection and Bijection](./0290/mdModule.md)
 * [Module 0293: Aleph null](./0293/mdModule.md)
+* [Module 0296: Floating point numbers](./0296/mdModule.md)
 * [Module 0351: Signed vs unsigned integer representation](./0351/mdModule.md)
 * [Module 0352: Binary comparison](./0352/mdModule.md)
 * [Module 0382: The recursive definition of summation and other "big-operators"](./0382/mdModule.md)
