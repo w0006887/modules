@@ -29,15 +29,15 @@ as follows:
 
 -   bit 52 to 62: these 11 bits are the 2's exponent. Let us define
     $e = \sum_{i=0}^{10} (f_{52+i}2^i)$. $e$ is not the actual exponent
-    of 2, however, as it is an offset amount. The offset amount is 1023.
+    of 2, however, as it is an offset/biased amount. The offset amount/bias is 1023.
     As a result, the actual exponent of 2 is $e_2 = e-1023$. $e_2$
-    denotes the exponent of 2.
+    denotes the exponent of 2. Note how this calculation is similar to the definition of the $v_u$ function in [module 0351](../0351/mdModule.html). 
 
 -   bit 0 to 51: these 52 bits are the fractional base-2 mantissa. The
     actual mantissa is $c_2 = 1+\sum_{i=-52}^{-1}(f_{i+52}2^i)$. Note
     that the mantissa is a special case of a coefficient where the value
     of the coefficient is $\ge 1$ and less than the base. $c_2$ denotes
-    the mantissa in base-2.
+    the mantissa in base-2. Note how this calculation is related to, but not exactly the same as the computation of $v$ in [module 0282](../0282/mdModule.html#common-base-multiple-digit-numbers).
 
 With these definitions, the value of a double $v_d(f)$ is:
 
