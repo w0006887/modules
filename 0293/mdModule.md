@@ -136,7 +136,7 @@ has two pixels, (1,0) and (0,1), the third has three pixels, (2,0),
 Here is some observations. The length of diagonal lines increase by 1 as
 we draw more lines to the upper right direction. The base of each
 diagonal line is always in the form of $x,0$ where $x$ denotes the $x$th
-diagonal line from the left margin, $x$ is zero indexed.
+diagonal line from the left margin, $x$ is zero-indexed.
 
 This gives us some clues to make a closed form of the function $g$.
 First of all, we can figure out that:
@@ -182,10 +182,10 @@ upper left direction. Assuming the coordinate of the pixel is (x,y), the
 base of this pixel is at (x+y,0). This is because the y coordinate is
 the same as the x-offset from the base pixel of a diagonal line.
 
-We can name define an notaion,
+We can define a notation,
 $D(n)=\{(x,y)|(x \in \mathbb{N}) \wedge (y \in \mathbb{N}) \wedge (n=x+y)\}$.
 Diagonal line $D(n)$ is a set of two tuples where the individual
-components of each two tuple add up to the value of $n$.
+components of each two-tuple add up to the value of $n$.
 
 This means the base number of the pixel at (x,y) is
 $\frac{(x+y)(x+y+1)}{2}$. But this is just the $g$ value of the base of
@@ -278,11 +278,13 @@ There is no doubt that this is a rather long derivation, but the result
 is rather interesting. After all, we show that
 $|\mathbb{N} \times \mathbb{N}| = | \mathbb{N} | = \aleph_0$!
 
+This function $g$ is known as a Cantor pairing function, first discovered by Georg Cantor.
+
 Does this pair of functions, $g$ and $g^{-1}$ have any practical use?
 
 Besides illustrating the concept of $\aleph_0$ and infinite but
 countable sets, this 2D to 1D folding mechanism can potentially be
-useful for the transmission of data. This mechanism essentially
+useful for data transmission. This mechanism essentially
 illustrates any number of integers can be encoded as a single integer.
 
 # AI-generated questions and answers
