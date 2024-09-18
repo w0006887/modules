@@ -93,7 +93,7 @@ and $\mathbb{Z}$ have the same cardinality.
 
 The cardinality of $\mathbb{N}$ is infinite, however, it is also called
 "countable". There are sets where the cardinality is not countable. For
-example, the set of real numbers, $\mathtt{R}$, is not countable.
+example, the set of real numbers, $\mathbb{R}$, is not countable.
 
 # What else is countable?
 
