@@ -41,7 +41,7 @@ as follows:
 
 With these definitions, the value of a double $v_d(f)$ is:
 
-$v_d(f) = (s?-1:1) c_2 2^{e_2} = (-1)^{f_63}\cdot (1+\sum_{i=-52}^{-1}f_{52+i}2^{i}) \cdot 2^{(\sum_{i=0}^{10}f_{i+52}2^{i})-1023}$
+$v_d(f) = (s?-1:1) c_2 2^{e_2} = (-1)^{f_{63}}\cdot (1+\sum_{i=-52}^{-1}f_{52+i}2^{i}) \cdot 2^{(\sum_{i=0}^{10}f_{i+52}2^{i})-1023}$
 
 # Value range of a double
 
