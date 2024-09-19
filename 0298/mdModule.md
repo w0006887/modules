@@ -1,12 +1,12 @@
 ---
-title: "D-ﬂipﬂop and other basic memory devices"
+title: "Module 0298: D-ﬂipﬂop and other basic memory devices"
 ---
 
 # _{{ page.title }}_
 
 # About this module
 
--   Prerequisites:
+-   Prerequisites: [Module 0281](../0281/mdModule.html)
 
 -   Objectives: This module explores the most basic memory devices
     implemented in logic gates, including the flexible D-flipflop.
@@ -51,16 +51,15 @@ description, "n1" and "n2" are nand2 gates. "s" and "r" are input pins,
 Our first exercise is to draw a diagram of this circuit.
 
 Once the diagram is drawn, you may notice that this circuit is different
-from most of the other circuits like adders and subtractors. A carry
-lookahead adder may be complex, but it has no "loops"!
+from most of the other circuits like adders and subtractors. A carry-lookahead adder may be complex, but it has no "loops"!
 
 The loop nature of an SR latch is exactly the reason why it is a basic
-memory device. The output states feeds back to the input state to
+memory device. The output states feed back to the input state to
 reinforce/maintain the state of the device. This allows the circuit to
 ignore certain input states while maintaining the output states.
 
 Let us start our analysis of this circuit with input states that
-guarantees some output states:
+guarantee some output states:
 
 -   `s.state = 0`{.c} makes `s.pin == 0`{.c}. Since `s.pin` connects to
     `n1.in[0]` , `n1.out` becomes 1.
@@ -88,9 +87,9 @@ Now compare to this sequence of input pin state changes:
 
 By reversing the ordering of letting the input pins return to 1, the
 output of the device is different! This is despite in both sequences we
-end up with `s.state == r.state == 1`. The ability of an SR latch being
+end up with `s.state == r.state == 1`. The ability of an SR latch to be
 able to latch to different output states despite the same input states
-has to do with the feedback mechanism so that the output states forms an
+has to do with the feedback mechanism so that the output states form an
 internal feedback to the input to maintain certain output states.
 
 This means the truth table of an SR latch is a bit trickier than other
@@ -166,6 +165,7 @@ serves as the enabler to change the state of the SR-latch.
 
 The following is the text description of a D-flipflop:
 
+```c
         Not n;
         Nand2 n1, n2;
         SRLatch sr;
@@ -178,6 +178,7 @@ The following is the text description of a D-flipflop:
         circuit.addNode(new Node(n2.out, sr.r));
         circuit.addNode(new Node(sr.q, q.pin));
         circuit.addNode(new Node(sr.nq, nq.pin));
+```
 
 Because "en" connects to both "n1" and "n2" (the NAND2 gates), when "en"
 is a 0 (not enabled), the outputs of "n1" and "n2" guarantee to be 1's.
