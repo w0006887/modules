@@ -96,22 +96,22 @@ internal feedback to the input to maintain certain output states.
 This means the truth table of an SR latch is a bit trickier than other
 circuits:
 
-   s   r   q    nq
-  --- --- ---- ----
-   0   0   1    1
-   0   1   1    0
-   1   0   0    1
-   1   1   NC   NC
+| s |  r |  q |   nq|
+|---|---|----|----|
+|0  |0  |1   |1|
+|0  |1  |1   |0|
+|1  |0  |0   |1|
+|1  |1  |NC  |NC|
 
-The last row of the truth table says "q and nq maintains their original
+The last row of the truth table says "q and nq maintain their original
 states, no change (NC)".
 
-The names of the devices are actually significant. "s" means "set", "r"
+The names of the devices are significant. "s" means "set", "r"
 means "reset". "q" is the main output of an SR latch, "nq" is basically
 "not q", the negated output.
 
 You may also notice that "s" is an "active low" signal. This means that
-when the signal is low (0), it sets "q". This is why often times "s" as
+when the signal is low (0), it sets "q". This is why oftentimes "s" as
 a pin is also written as "/s" where the slash symbol represents
 negation. The same applies to "r".
 
@@ -119,7 +119,7 @@ While being crude, an SR latch is a memory device because of its ability
 to remember its state when both inputs are 1. As a result, SR latches
 form the foundation of more complex and flexible memory devices.
 
-Let us conclude this section defining the ports of a SR-Latch:
+Let us conclude this section by defining the ports of a SR-Latch:
 
 -   `SRLatch.s`: the active low input to set the latch.
 
@@ -193,7 +193,7 @@ means exactly one of the NAND2 gates outputs a 1 and other one outputs a
 state of the SR-latch accordingly.
 
 The key feature of a D-flipflop is that an input port is dedicated to
-specify the new state of the memory unit, whereas the other input port
+specifying the new state of the memory unit, whereas the other input port
 is dedicated to enable/disable the update. This means a bank of
 D-flipflops can be used to store multiple bits sharing the same enable.
 
@@ -347,7 +347,7 @@ The 3rd input is handled internally inside the SR latch.
 
 The gated and clocked D-flipflop is different only in the sense that
 `SR1.R` is further gated by `en.pin`. This means that when
-`en.pin == 0`, `A1.out == 0` reguardless of the other input of `A1`. As
+`en.pin == 0`, `A1.out == 0` regardless of the other input of `A1`. As
 a result, `SR1.nq` is guaranteed a 1. However, this one is connected to
 `SRC.S`, recall that `SRC.S == 1` means we are not setting because this
 input is active low.
@@ -370,7 +370,7 @@ result, it is helpful to have a global reset signal to reset everything
 to a known state.
 
 By gating the inputs of `SRC` with an active low `reset.pin`, the
-content of a D-flipflop can be reset to 0 during the start up phase of a
+content of a D-flipflop can be reset to 0 during the start-up phase of a
 computer. The resulting circuit is as follows:
 
 ![image](gcdwr.png)
