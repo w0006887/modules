@@ -30,3 +30,4 @@
 ./0420/mdModule.md:# _Module 0420: Symbols, Definitions, Rigor, and Precision_
 ./0421/mdModule.md:title: "Module 0421: Student-Centricity, Robots, and Academic Rigor"
 ./0422/mdModule.md:title: "Module 0422: Introduction to `git`"
+./0423/mdModule.md:title: "Module 0423: Markdown, GitHub and OER"
