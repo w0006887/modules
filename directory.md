@@ -1,4 +1,3 @@
-* [Module 0279: Boolean Operator](./0279/mdModule.md)
 * [Module 0280: Basic Set Notations](./0280/mdModule.md)
 * [Module 0281: Transistor to logic gate](./0281/mdModule.md)
 * [Module 0282: Values, Numbers and Bases](./0282/mdModule.md)
